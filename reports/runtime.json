@@ -1,0 +1,85 @@
+{
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "architecture": "arm64",
+  "python": "3.9.6",
+  "measurement": "Flask test client end-to-end server request; excludes browser encoding, network and 180 ms scheduling delay",
+  "warmup_per_case": 2,
+  "iterations_per_case": 10,
+  "cases": [
+    {
+      "input": "blank",
+      "median_ms": 11.683583499999983,
+      "p95_ms": 12.518674850000043,
+      "response": {
+        "confidence": null,
+        "label": null,
+        "status": "no_hand"
+      }
+    },
+    {
+      "input": "A",
+      "median_ms": 22.18093700000001,
+      "p95_ms": 23.2889189,
+      "response": {
+        "candidate": "A",
+        "confidence": 0.9015533166711309,
+        "label": "A",
+        "processing_ms": 21.6,
+        "status": "ok",
+        "threshold": 0.7
+      }
+    },
+    {
+      "input": "B",
+      "median_ms": 22.30522899999987,
+      "p95_ms": 22.758889400000072,
+      "response": {
+        "candidate": "B",
+        "confidence": 0.8100266982812288,
+        "label": "B",
+        "processing_ms": 22.1,
+        "status": "ok",
+        "threshold": 0.7
+      }
+    },
+    {
+      "input": "C",
+      "median_ms": 21.61410399999997,
+      "p95_ms": 22.041579050000237,
+      "response": {
+        "candidate": "O",
+        "confidence": 0.5072497026963037,
+        "label": null,
+        "processing_ms": 21.3,
+        "status": "uncertain",
+        "threshold": 0.7
+      }
+    },
+    {
+      "input": "L",
+      "median_ms": 22.038771000000068,
+      "p95_ms": 22.321685050000006,
+      "response": {
+        "candidate": "L",
+        "confidence": 0.3870689440071006,
+        "label": null,
+        "processing_ms": 21.5,
+        "status": "uncertain",
+        "threshold": 0.7
+      }
+    },
+    {
+      "input": "Y",
+      "median_ms": 22.08104199999994,
+      "p95_ms": 23.331312650000037,
+      "response": {
+        "candidate": "Y",
+        "confidence": 0.7904427734340914,
+        "label": "Y",
+        "processing_ms": 23.1,
+        "status": "ok",
+        "threshold": 0.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "Generated eight-second clip from ten ASLYset User4/B images; public static-sign smoke test only",
+  "frames": 80,
+  "statuses": {
+    "ok": 68,
+    "uncertain": 6,
+    "multiple_hands": 6
+  },
+  "accepted_labels": {
+    "B": 68
+  },
+  "stable_labels": {
+    "B": 49
+  },
+  "mean_server_ms": 41.710516649999995,
+  "note": "Decoded MP4 frames sent as PNG through the real video endpoint with isolated tracking. Not an independent accuracy or real webcam reliability study. Historical tracking experiment; tracking was subsequently disabled after saved-photo drift. This is not final live reliability evidence."
+}

@@ -1,0 +1,158 @@
+{
+  "input": 4800,
+  "extracted": 4785,
+  "success_by_group": {
+    "ASLYset_User1": 1194,
+    "ASLYset_User2": 1198,
+    "ASLYset_User3": 1195,
+    "ASLYset_User4": 1198
+  },
+  "success_by_class": {
+    "A": 200,
+    "B": 198,
+    "C": 200,
+    "D": 200,
+    "E": 198,
+    "F": 200,
+    "G": 200,
+    "H": 200,
+    "I": 200,
+    "K": 200,
+    "L": 200,
+    "M": 196,
+    "N": 197,
+    "O": 199,
+    "P": 200,
+    "Q": 200,
+    "R": 200,
+    "S": 200,
+    "T": 200,
+    "U": 198,
+    "V": 199,
+    "W": 200,
+    "X": 200,
+    "Y": 200
+  },
+  "failures": [
+    {
+      "path": "raw/ASLYset/images/User1/b/User1_B_47.png",
+      "status": "multiple_hands",
+      "label": "B",
+      "group": "ASLYset_User1",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User1/b/User1_B_50.png",
+      "status": "multiple_hands",
+      "label": "B",
+      "group": "ASLYset_User1",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User1/e/User1_E_1.png",
+      "status": "multiple_hands",
+      "label": "E",
+      "group": "ASLYset_User1",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User1/e/User1_E_3.png",
+      "status": "multiple_hands",
+      "label": "E",
+      "group": "ASLYset_User1",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User1/u/User1_U_45.png",
+      "status": "no_hand",
+      "label": "U",
+      "group": "ASLYset_User1",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User1/u/User1_U_46.png",
+      "status": "no_hand",
+      "label": "U",
+      "group": "ASLYset_User1",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User2/o/User2_O_4.png",
+      "status": "no_hand",
+      "label": "O",
+      "group": "ASLYset_User2",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User2/v/User2_V_17.png",
+      "status": "no_hand",
+      "label": "V",
+      "group": "ASLYset_User2",
+      "split": "train"
+    },
+    {
+      "path": "raw/ASLYset/images/User3/m/User3_M_13.png",
+      "status": "multiple_hands",
+      "label": "M",
+      "group": "ASLYset_User3",
+      "split": "validation"
+    },
+    {
+      "path": "raw/ASLYset/images/User3/m/User3_M_14.png",
+      "status": "multiple_hands",
+      "label": "M",
+      "group": "ASLYset_User3",
+      "split": "validation"
+    },
+    {
+      "path": "raw/ASLYset/images/User3/m/User3_M_7.png",
+      "status": "multiple_hands",
+      "label": "M",
+      "group": "ASLYset_User3",
+      "split": "validation"
+    },
+    {
+      "path": "raw/ASLYset/images/User3/m/User3_M_8.png",
+      "status": "multiple_hands",
+      "label": "M",
+      "group": "ASLYset_User3",
+      "split": "validation"
+    },
+    {
+      "path": "raw/ASLYset/images/User3/n/User3_N_40.png",
+      "status": "multiple_hands",
+      "label": "N",
+      "group": "ASLYset_User3",
+      "split": "validation"
+    },
+    {
+      "path": "raw/ASLYset/images/User4/n/User4_N_12.png",
+      "status": "multiple_hands",
+      "label": "N",
+      "group": "ASLYset_User4",
+      "split": "test"
+    },
+    {
+      "path": "raw/ASLYset/images/User4/n/User4_N_30.png",
+      "status": "multiple_hands",
+      "label": "N",
+      "group": "ASLYset_User4",
+      "split": "test"
+    }
+  ],
+  "failures_by_group": {
+    "ASLYset_User1": 6,
+    "ASLYset_User2": 2,
+    "ASLYset_User3": 5,
+    "ASLYset_User4": 2
+  },
+  "failures_by_class": {
+    "B": 2,
+    "E": 2,
+    "U": 2,
+    "O": 1,
+    "V": 1,
+    "M": 4,
+    "N": 3
+  }
+}

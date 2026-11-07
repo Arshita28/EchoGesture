@@ -1,0 +1,82 @@
+{
+  "source": "Public ASLYset User4/B_1 image centered without resizing in wider black canvases",
+  "purpose": "Controlled preprocessing check: compare old and corrected normalization of the same detected landmarks; not a webcam accuracy study",
+  "cases": [
+    {
+      "width": 416,
+      "height": 416,
+      "status": "ok",
+      "old_uncorrected": {
+        "status": "ok",
+        "label": "B",
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.8100266982812288
+      },
+      "aspect_corrected": {
+        "status": "ok",
+        "label": "B",
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.8100266982812288
+      }
+    },
+    {
+      "width": 555,
+      "height": 416,
+      "status": "ok",
+      "old_uncorrected": {
+        "status": "uncertain",
+        "label": null,
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.6726280018629822
+      },
+      "aspect_corrected": {
+        "status": "ok",
+        "label": "B",
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.7211801180084229
+      }
+    },
+    {
+      "width": 740,
+      "height": 416,
+      "status": "ok",
+      "old_uncorrected": {
+        "status": "uncertain",
+        "label": null,
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.5884094958638377
+      },
+      "aspect_corrected": {
+        "status": "ok",
+        "label": "B",
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.7369464093307617
+      }
+    },
+    {
+      "width": 832,
+      "height": 416,
+      "status": "ok",
+      "old_uncorrected": {
+        "status": "uncertain",
+        "label": null,
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.5109915044687336
+      },
+      "aspect_corrected": {
+        "status": "uncertain",
+        "label": null,
+        "candidate": "B",
+        "threshold": 0.7,
+        "confidence": 0.6940877173736717
+      }
+    }
+  ]
+}
