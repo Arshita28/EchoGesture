@@ -1,5 +1,7 @@
 # ASL Landmark Lab
 
+**Continuing this project? Read [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) first** for the saved workflow, current state, diagnostic findings and next upgrade steps.
+
 Local ML lab for **24 static ASL fingerspelling letters** (A–Y excluding J; Z also excluded). Webcam, uploaded images and browser-playable videos share the same normalized-landmark classifier. Video processing recognizes isolated static signs in sampled frames, not motion signs, words, or sentences.
 
 ## Run
