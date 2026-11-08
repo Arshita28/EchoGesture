@@ -2,6 +2,14 @@ const $ = id => document.getElementById(id);
 let stream = null, objectURL = null, generation = 0, running = false;
 let history = [], current = null, lastCapture = 0;
 let activeImageFile = null;
+const letterVoice = new LetterVoice(window.speechSynthesis, window.SpeechSynthesisUtterance, text => { $('voiceStatus').textContent = text; });
+if (!letterVoice.supported) { $('voiceToggle').disabled = true; $('voiceStatus').textContent = 'Voice output is unavailable in this browser'; }
+$('voiceToggle').onclick = () => {
+  letterVoice.enable(!letterVoice.enabled);
+  $('voiceToggle').textContent = letterVoice.enabled ? 'Disable voice' : 'Enable voice';
+  $('voiceToggle').setAttribute('aria-pressed', String(letterVoice.enabled));
+  if (current) letterVoice.observe(current, 'ok');
+};
 const messages = {
   ok: 'Letter recognized', uncertain: 'Uncertain — adjust your hand',
   no_hand: 'No hand detected', multiple_hands: 'Show one hand only',
@@ -19,7 +27,7 @@ function reset() {
   history = []; current = null; $('letter').textContent = '—'; clearOverlay();
 }
 function stop() {
-  generation++; running = false;
+  generation++; running = false; letterVoice.reset();
   activeImageFile = null;
   if (stream) stream.getTracks().forEach(track => track.stop());
   stream = null;
@@ -84,6 +92,7 @@ async function predict(token, staticImage = false, originalFile = null) {
     } else reset();
     drawLandmarks(result.landmarks);
     $('letter').textContent = current || '—';
+    letterVoice.observe(current, result.status);
     $('state').textContent = result.status === 'ok' && !current
       ? 'Hold steady — confirming sign' : messages[result.status] || result.status;
     if (result.confidence != null) {
@@ -102,7 +111,7 @@ async function predict(token, staticImage = false, originalFile = null) {
   }
   if (token === generation && running && !staticImage) {
     if ($('video').ended) {
-      running = false; reset(); $('state').textContent = 'Video finished'; return;
+      running = false; letterVoice.reset(); reset(); $('state').textContent = 'Video finished'; return;
     }
     setTimeout(() => predict(token), 180);
   }
@@ -143,6 +152,7 @@ $('upload').onchange = async event => {
 };
 $('append').onclick = () => { if (current) $('text').value += current; };
 $('cutoff').oninput = () => {
+  letterVoice.reset();
   $('cutoffValue').textContent = `${$('cutoff').value}%`;
   reset();
 };

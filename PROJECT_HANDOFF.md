@@ -110,3 +110,27 @@ These commands write local features/model/report outputs. Preserve the existing 
 5. Once the alphabet is repeatable, extend to temporal J/Z and then selected moving signs/words using frame sequences and an appropriate temporal model. Do not describe sampled static video frames as motion-sign or sentence translation.
 
 **Suggested next-session request:** “Read PROJECT_HANDOFF.md and continue the next upgrade, prioritizing repeatable webcam recognition and independent evaluation. Preserve the baseline, local photos and current work.”
+
+## Latest continuation — geometry upgrade
+
+The project is active again following reported V/C and B/I/F/M/S/U confusions. Read `docs/UPGRADE_LOG.md` and `reports/upgrades/geometry-validation.json` before continuing. A validation-selected geometry SVM is now active locally; original model weights and original test reports are preserved. Validation macro F1 rose to 0.9430, with a U recall regression explicitly recorded. More labeled webcam examples are being collected; none were used in fitting. No new independent test accuracy is claimed.
+
+### Local personalization follow-up
+
+A/M/S adaptation was subsequently authorized and is now active locally. Nine selected webcam frames were reassigned to training; detailed roles/results stay under ignored data/processed/local-adaptation.json. Public validation macro F1 is 0.9452, but two errors remain among eight same-session reserved frames. No independent webcam accuracy claim is warranted. Prior geometry weights are saved at models/geometry-pre-adaptation.joblib. Collect a fresh A/M/S recording and check C before calling the fix reliable. See docs/UPGRADE_LOG.md.
+
+### Complete alphabet test and D/P follow-up
+
+Read docs/ALPHABET_TEST_LOG.md for the user's full working/failing list. Local adaptation now also includes selected D/P training frames. Active model: geometry_local_adaptation_dp; previous weights preserved at models/pre-dp-adaptation.joblib. Reserved D frames improved; P still has below-cutoff cases. Public validation macro F1 is 0.9460, not fresh webcam accuracy. The user is collecting remaining E/Q/U/X/G and uncertain C examples. Do not restart earlier experiments or claim these failures are resolved. Local details are recorded in docs/UPGRADE_LOG.md and ignored data/processed/local-adaptation.json.
+
+### Latest active model — full local adaptation
+
+User supplied the remaining capture batch. Active local model is geometry_local_adaptation_full; rollback is models/pre-full-adaptation.joblib. Read the latest docs/UPGRADE_LOG.md entry: public validation macro F1 0.9491; reserved E/Q/U/X/C/G examples improved, but P abstentions and M/S errors remain. Captures were partly reassigned to training with reserved correlated diagnostics; exact roles stay local in data/processed/local-adaptation.json. Next: fresh-session alphabet regression, not more claims from these same frames. Local photos remain private; original baseline reports remain intact.
+
+### Voice output added
+
+Optional browser speech output is implemented in static/voice.js and integrated into recognition. Refresh and click Enable voice. Accepted stable letters speak once; no-hand for one second rearms the same letter. Stop, source changes, cutoff changes and disabling voice cancel/reset speech. Uncertain/no-hand/multiple-hand states never speak a guessed letter. Node behavior checks and JavaScript syntax checks passed alongside the nine Python checks; actual audible output depends on the live browser/system voice and requires a manual check. No model, cutoff or training-data changes were made for voice output.
+
+### Female voice correction
+
+Browser voice preference still fell back to male speech. Generated 27 local WAV clips (A–Z plus “Voice enabled”) with installed macOS Samantha and changed production playback to these fixed clips. No browser default substitution in the normal Audio path. Cache-versioned script URLs require page refresh. Audio files validated, local audio endpoint returned 200, mocked clip playback/dedup/mute checks passed. User still needs to confirm audible playback. This is Samantha, not Siri's exact voice.

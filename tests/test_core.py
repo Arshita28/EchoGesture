@@ -112,3 +112,14 @@ def test_cutoff_changes_acceptance_without_changing_score():
     assert baseline['status'] == 'uncertain' and baseline['label'] is None
     assert live['status'] == 'ok' and live['label'] == 'B'
     assert baseline['confidence'] == live['confidence'] == .55
+
+
+def test_geometry_features_are_finite_and_capture_spread():
+    from asl_lab.geometry import geometry_features
+    points = np.random.default_rng(3).normal(size=(2, 63))
+    result = geometry_features(points)
+    assert result.shape == (2, 288)
+    assert np.isfinite(result).all()
+    changed = points.copy().reshape(2,21,3)
+    changed[0,8] += [1,0,0]
+    assert not np.allclose(geometry_features(changed.reshape(2,63))[0,63:],result[0,63:])

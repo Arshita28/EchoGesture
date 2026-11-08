@@ -1,0 +1,21 @@
+{
+  "activated": false,
+  "reason": "Reduced validation macro F1 and did not resolve local M failures. Existing live model retained. Diagnostic photos were not fitted.",
+  "validation_results": [
+    {
+      "C": 1,
+      "validation_macro_f1": 0.9263295219019921,
+      "validation_M_recall": 0.9782608695652174
+    },
+    {
+      "C": 10,
+      "validation_macro_f1": 0.9298967067235598,
+      "validation_M_recall": 0.9782608695652174
+    },
+    {
+      "C": 100,
+      "validation_macro_f1": 0.9298967067235598,
+      "validation_M_recall": 0.9782608695652174
+    }
+  ]
+}
