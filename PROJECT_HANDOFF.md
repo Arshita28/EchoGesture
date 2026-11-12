@@ -134,3 +134,123 @@ Optional browser speech output is implemented in static/voice.js and integrated 
 ### Female voice correction
 
 Browser voice preference still fell back to male speech. Generated 27 local WAV clips (A–Z plus “Voice enabled”) with installed macOS Samantha and changed production playback to these fixed clips. No browser default substitution in the normal Audio path. Cache-versioned script URLs require page refresh. Audio files validated, local audio endpoint returned 200, mocked clip playback/dedup/mute checks passed. User still needs to confirm audible playback. This is Samantha, not Siri's exact voice.
+
+### Latest local I adaptation
+
+Active model is now geometry_local_adaptation_I. Three of four new I captures were trained; one reserved frame scored I at 0.8393. Public validation macro F1 remains 0.9491 and public I/Y recalls stayed unchanged. No Y webcam captures were saved, so fresh local Y regression is still needed. Rollback: models/pre-I-adaptation.joblib. See latest upgrade log. This local change has not been pushed since the earlier GitHub publication.
+
+### Latest voice repeat behavior
+
+At the user's request, speech re-arms immediately whenever the displayed recognition clears. I → blank → I speaks again; uninterrupted I speaks once. No other letter or one-second hand-removal interval is required. Both normal recognition gaps and error/reset paths clear the speech latch. Existing stability rules still apply. Voice regression and JS syntax checks passed; refresh loads versioned scripts.
+
+### Next project stage implemented — evaluation mode
+
+Added browser-only trial evaluation (static/evaluation.js and docs/EVALUATION_MODE.md). Refresh, start webcam, select expected letter, record a three-second trial, then download a JSON report before refreshing. One trial counts as one example; frames are correlated. Includes abstention/coverage/per-letter errors and rejection probes; no images are saved or fitted. No automatic model improvements are claimed. Next action is fresh multi-letter testing using this mode and reviewing its report before motion J/Z work. Evaluation metric/cancellation tests, voice tests, JS syntax and Python checks passed; complete interactive workflow still needs a live user check.
+
+### Guided evaluation and simplified reporting
+
+Detailed JSON export was removed at the user's request. The app now tracks coverage across 24 static letters, advances to the next untested letter after a completed trial (without auto-recording), and lists letters needing retests. The HTML report includes coverage/untested letters. User should complete fresh trials and repeat weak/working letters before motion J/Z work. See docs/EVALUATION_MODE.md. Guided progress, report and existing Python tests passed; a live guided session still needs verification. No classifier or cutoff changes were made for this stage.
+
+### Motion-stage foundation added
+
+Separate J/Z/NONE temporal capture, features, training and clip inference are implemented. Read docs/MOTION_STAGE.md. The static model is unchanged. Real motion training data is still pending: there is no production motion.joblib and no J/Z accuracy claim. UI records 2.5 seconds of landmarks locally; interrupted/missing-hand sequences are rejected. Train/validation/test groups and duplicate checks are enforced. Next user action is collect correctly labeled real motion/background sequences across separated signers/sessions, then run scripts/train_motion.py and validate before calling motion recognition complete. Synthetic tests are infrastructure-only. Changes remain local until another publication.
+
+### Public motion-data search
+
+Found SignAlphaSet v3 as a candidate for ASL alphabet motion training. Publisher API verified CC BY 4.0 and ASL_dynamic.zip (~1.25 GB); metadata saved in docs/signalphaset-metadata.json. Actual J/Z videos and signer IDs have not yet been inspected, and no motion model has been trained. Read docs/MOTION_DATA_CANDIDATES.md before downloading/importing; do not infer independent signer splits or reproduce publisher accuracy claims from metadata alone. The user asked about online data to reduce manual training collection.
+
+### Motion bootstrap training completed
+
+User authorized public-data J/Z training while preserving existing features. Selected SignAlphaSet v3 clips were integrity-checked and 76 real sequences extracted (10 J, 10 Z, 56 background); four background failures were logged. Because signer/session metadata is absent, trained a fixed-C bootstrap SVM without claiming held-out accuracy or inventing partitions. models/motion.joblib is now active separately from the unchanged static model; source candidate is models/motion-public-bootstrap.joblib. Read latest docs/MOTION_STAGE.md and reports/upgrades/motion-bootstrap.json. Static classifier, static app script, voice code and A audio preservation checks passed. All 13 Python tests and voice/evaluation checks pass. Next user action: refresh, select Recognize motion and test fresh J/Z/background recordings before fitting them; motion remains experimental. Changes are local, not yet pushed.
+
+### Latest J diagnosis — candidate not activated
+
+Mirroring the saved J clips did not correct the J→Z confusion. User approved two J clips for adaptation; separate models/motion-J-candidate.joblib ranks reserved J examples correctly, but reduces the single working Z clip below the unchanged 70% motion threshold. Active models/motion.joblib was deliberately NOT replaced. Read latest docs/MOTION_STAGE.md and ignored data/processed/motion-J-adaptation.json for exact roles/results. Need more varied Z/background data and fresh reserved recordings before promotion. Do not assume the candidate is active or the J issue is solved. Existing static/voice features are unchanged.
+
+### Latest recorder fix
+
+User could not collect clips because one missed detection immediately cancelled recording. Fixed static/motion.js: tolerate brief missed frames, show valid/missed counts, validate completeness only at recording end. Backend requirements remain eight frames, 0.7-second span, max 750 ms gap. Long loss rejects rather than inventing coordinates; Stop/source/request failure still cancels. Added tests/test_motion_ui.cjs; its gap/Stop checks and 13 Python tests pass. No classifier changes. Refresh before recording more Z/background clips.
+
+### Latest motion model — balanced local adaptation
+
+Active motion.joblib now contains the balanced local J/Z/background candidate. Eight approved selected user clips were added to training; the other eight stayed outside fitting for development comparison (2/2 J, 3/3 Z accepted; 3/3 backgrounds rejected). This is not independently measured accuracy. Read latest docs/MOTION_STAGE.md and ignored data/processed/motion-balanced-adaptation.json. Previous motion weights remain at models/motion-pre-balanced.joblib. Static classifier and voice are unchanged. Fresh later-session J/Z/background evaluation is the next action; do not refit those new evaluation clips before scoring. Local updates not yet pushed.
+
+### Latest live-motion issue and recorder changes
+
+User reports J always uncertain and Z distance/height sensitivity, with too-few usable frames. Improved recorder readiness (wait for first detected hand, then 2.5-second capture), faster scheduling only while motion active, and explicit candidate/score/frame-count diagnostics for abstentions. No new motion-model fitting or cutoff lowering. Refresh needed; backend restarted to expose candidate/threshold fields. Ready-hand, timeout, gap tests and 13 Python checks pass. Ask for fresh clip results including top candidate/score after this recorder update before attributing failures solely to model, pose or distance.
+
+### Latest motion investigation after user frustration
+
+User still reports live J failure despite earlier small development gains. Stopped asking for more recordings. Found timing sensitivity with offline pause stresses; augmented SVM regressed originals and was rejected. Dynamic-time-aligned nearest-template classifier is now active, using unchanged approved training roles. Same development originals 8/8, start holds 8/8 (prior 5/8), end/both holds 7/8. These are NOT independent/live accuracy. No new user data fitted, no threshold lowering, no static/voice changes. Rollback models/motion-pre-aligned.joblib. Read latest docs/MOTION_STAGE.md; live reliability still unresolved until normal use verifies improvement. Fourteen Python checks pass; endpoints smoke-tested with old development clips. Local changes not yet pushed.
+
+### Latest user result — J still rarely works live
+
+User reports Z mostly works but J rarely recognized. Do not claim the aligned model resolved live J. Added an explicit Save last attempt for review button to persist the most recent recognition sequence with the user-selected correct label, validation-only under motion_review. No training/model/voice changes. User can save one failed attempt without re-recording a batch; then inspect that fresh sequence. Existing 14 Python tests and recorder/review JS tests pass. Current task remains diagnosing real live J failures; old development scores are insufficient evidence.
+
+### Latest interface integration — Auto J/Z
+
+User wants J/Z without visiting Motion lab. Added optional Auto J/Z toggle to main webcam, default off. Rolling landmark windows + generic movement gate + two agreeing motion classifications at 70% can overlay J/Z on the main result and reuse voice clips. No weights/voice assets changed. Auto mode pauses during static evaluation/manual motion recording and is webcam-only. Logic/voice/recorder/evaluation tests and 14 Python checks pass; actual rolling detection is experimental and still needs live validation. Read latest docs/MOTION_STAGE.md. Refresh then enable Auto J/Z to use it; manual lab remains for diagnosis.
+
+### Latest Auto Z/P display distinction
+
+User says Auto J now recognizes J but Z appears as P. Motion model cannot emit P; static branch was displaying/announcing P before temporal confirmation. Added a temporary static pause during detected movement and explicit motion candidate/score feedback; normal static resumes after settling. No model weights/cutoff changes or hard-coded P→Z mapping. Refresh loads auto-motion v2 / motion-display v11 scripts. Gate/voice tests and 14 Python checks pass; actual Z reliability remains to be checked in live use.
+
+### Latest E audio and J/Z ending-pose feedback
+
+User reports E sounding like E/I blend and delayed J/Z with static P shown for Z. Regenerated E audio from “e.” and cache-busted voice files; audible confirmation pending. Fixed confirmed motion expiry: J/Z stays while its ending shape is held, releasing after a changed shape/no hand/source reset. No forcing P→Z and no weight/cutoff changes. DTW still requires whole gesture and repeated rolling agreement, so latency remains. New latch/audio mapping tests plus 14 Python checks pass; live recognition accuracy is not proven fixed.
+
+
+### Completed-gesture Auto J/Z update
+
+Supersedes rolling-window repeated agreement above. Auto J/Z now segments movement and waits for a 450 ms ending hold before classifying one completed sequence. Uncertain/background/error outcomes stay visible while the ending pose is held, preventing static P from replacing unresolved motion. A changed handshape or removing the hand resets the outcome. Incomplete recordings are rejected; motion threshold remains 70%, and model weights/static recognition are unchanged. E uses regenerated Samantha audio (e.) with cache refresh. Fourteen Python tests and completed-gesture/voice JavaScript checks pass. Actual pronunciation and live J/Z reliability still require user verification. Refresh the app, enable Auto J/Z, complete the gesture, and briefly hold still. Changes remain local.
+
+
+### Simplified main screen
+Main screen now keeps camera/media, recognition, text composition and speech. Evaluation, Motion lab and dataset collection are available through Development tools (/?tools=1); their DOM controls remain hidden on the main view to preserve existing initialization. No datasets removed. Full visual redesign awaits user reference choice.
+
+
+### Main controls refined
+Replaced internal model badge with Ready to recognize. Removed motion toggle and acceptance slider from DOM and JavaScript handlers. Webcam motion now runs automatically (still pauses during evaluation/manual collection); static acceptance stays at the requested 30%, motion at 70%. Internal model name remains available to evaluation reports. Recognition reliability remains unresolved. Local-only changes, do not publish without a fresh user request.
+
+
+### Refero / Dala inspired local frontend
+User supplied https://styles.refero.design/style/e5f5f8cf-e68d-4ed1-bbf5-6b67569af648 and style tokens. Replaced stylesheet with black/violet typography-led responsive layout, original decorative hand constellation SVG, and new hero copy. Camera remains primary action; recognition/text/voice and secondary development view preserved. No remote font dependency or proprietary font bundled; Helvetica/Inter fallback stack. Removed technical model/toggle/cutoff controls remain removed. Both template routes, unique IDs, SVG delivery, voice and motion checks pass. Browser visual QA not performed in this session. Local only; do not publish until user explicitly requests. Recognition reliability remains unresolved.
+
+
+Hand constellation now animates with a nine-second gentle float and four staggered shimmering particle groups. Animation is contained in the decorative SVG, cache-busted, and disabled for prefers-reduced-motion. No recognition changes.
+
+
+### Browser-verified landing correction and separate signing page
+Browser screenshots confirmed prior brain was two ellipses and L/V/Y were sparse polygon outlines. Replaced with denser filled rounded silhouettes and a side-profile brain particle form; original adaptation, not the proprietary reference animation. Landing now at / with only hero.js; Start signing navigates to /sign, which preserves camera, recognition, text, speech and development tools. Legacy /?tools=1 still works. Inspected desktop 1440px and mobile 390px screenshots in headless Chrome. Verified navigation, visible workspace controls, pause holds canvas unchanged, reduced-motion load, no mobile horizontal overflow, no JS errors. Webcam accuracy not validated by these UI checks. Local server restarted; no publication authorized.
+
+
+### Final reference reproduction and token consolidation
+Revisited actual Refero screenshot AND live dala.craftedbygc.com in Chrome. Rejected custom sign morphs removed. Actual reference brain point/color data converted for local canvas animation; provenance and local-only redistribution caveat documented in docs/FRONTEND_REFERENCE.md. All supplied JSON token values read and consolidated into static/tokens.css; malformed verdant hex and CSS range values normalized. Visible yellow eyebrow/links/steps and brain particles, violet CTA, white display typography. Proprietary font not bundled. / landing and /sign workspace retained. Desktop/mobile browser checks pass for navigation, animation pause, reduced-motion load, no JS errors or horizontal overflow; screenshots inspected and desktop heading wrap/mobile particle density corrected. No publication authorized.
+
+
+### Static recognition regression fixed
+Removing the Auto J/Z toggle had enabled motion arbitration for every webcam session. Generic movement could latch uncertain/incomplete motion and suppress static results indefinitely. Main camera now restores static-only recognition, same 30% cutoff and four-frame stabilization; experimental motion remains in Development tools. AUTO_MOTION_ENABLED=false is intentional until motion arbitration is validated. No weights changed.
+
+
+### Project next stage: measured static evaluation
+Frontend polish deferred by user. Existing evaluation start crashed because it referenced removed cutoff DOM control; fixed. Acceptance stays 30%. Next user action is a small A–E trial session at /sign?tools=1 and readable HTML report, followed by 24-letter repeated trials/rejection checks. Evaluation is separate from fitting. Recognition accuracy is not established by browser mocks.
+
+
+### Message composition stage
+User reports J/Z still failing and asks to move forward. Motion remains unresolved and disabled on main webcam. Added Space, Delete last, Clear, Copy text, Speak message and Stop speech to manual composer. Full messages use an available local named female English browser voice; no cloud speech and no male fallback. Live letter speech pauses while a message plays; editing/reset stops message playback. Existing letter WAV playback preserved. This is manual fingerspelling composition, not sign-language sentence translation.
+
+
+### Report and demonstration milestone
+User completed message workflow and requested progress. Added docs/PROJECT_REPORT.md and docs/DEMO_CHECKLIST.md, grounding baseline metrics in saved reports and distinguishing later personalization/current live uncertainty. J/Z explicitly unfinished. README updated for separate landing/signing pages and fixed 30% setting. No new live accuracy claim, no training or publishing. Next: collect quantitative fresh static trials, insert actual results, then prepare presentation if requested.
+
+
+### Limited phrase stage started
+User approved expansion beyond fingerspelling. Added proposed ten-meaning vocabulary, separate phrase data audit script and docs/PHRASE_STAGE.md. Researched official How2Sign (continuous) and ASL Citizen (isolated) sources; target phrase coverage unverified. No phrase model trained, no video download, no existing model changes. Need fluent-reviewed complete phrase data before training.
+
+
+### Dataset organization audit — 9 November 2026
+Moved physical data directory to datasets; preserved data -> datasets and datasets/processed -> preprocessed aliases. No records/images/weights deleted or retrained. New datasets README and DATASET_REPORT document raw sources, preprocessing, exclusions, source licenses, counts, adaptation overrides and unused phrase sources. Audit: 5,200 public static PNG / 4,800 selected / 4,785 features; 71 local static (34 fit,23 diagnostic,14 outside latest ledger);80 public motion /76 extracted;26 local motion (8 fit,8 development,10 later outside ledger). Private inventory hashes 10,701 physical raw/preprocessed files,1,877,738,002 bytes. New paths protected in .gitignore. Run scripts/verify_dataset_inventory.py; docs metadata/baseline reports are snapshots. Model weights remain models/.
+
+
+### GitHub sync preparation — 12 November 2026
+User renewed request to sync. Prior automatic review blocked unlicensed reference-derived brain geometry. Safer publication now excludes static/brain-particles.json (preserved locally, Git ignored). hero.js has an independently authored mathematical particle-orb fallback; no reference geometry embedded. Private recordings, landmarks, inventories and weights remain excluded. Publish reviewed source/docs/tests/assets to MTJ19/Ml-Project-sign-Language- main using a non-force, expected-head update. No claim that J/Z or phrase training is complete.

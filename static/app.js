@@ -2,6 +2,11 @@ const $ = id => document.getElementById(id);
 let stream = null, objectURL = null, generation = 0, running = false;
 let history = [], current = null, lastCapture = 0;
 let activeImageFile = null;
+let modelReady = false;
+// Keep static recognition independent of experimental motion arbitration.
+const LIVE_CUTOFF = 30;
+const AUTO_MOTION_ENABLED = false;
+let modelName = "Unavailable";
 const letterVoice = new LetterVoice(window.speechSynthesis, window.SpeechSynthesisUtterance, text => { $('voiceStatus').textContent = text; });
 if (!letterVoice.supported) { $('voiceToggle').disabled = true; $('voiceStatus').textContent = 'Voice output is unavailable in this browser'; }
 $('voiceToggle').onclick = () => {
@@ -10,6 +15,12 @@ $('voiceToggle').onclick = () => {
   $('voiceToggle').setAttribute('aria-pressed', String(letterVoice.enabled));
   if (current) letterVoice.observe(current, 'ok');
 };
+const evaluation = mountEvaluation({ready:()=>Boolean(stream && running && modelReady && !motion.active), cutoff:()=>LIVE_CUTOFF, model:()=>modelName});
+const motion = mountMotion({ready:()=>Boolean(stream && running && !evaluation.active),speak:letter=>letterVoice.observe(letter,'ok')});
+const autoMotion = new AutoMotion(async frames => {
+  const response=await fetch('/api/motion',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'predict',frames})});
+  const result=await response.json();if(!response.ok)throw Error(result.error||'Motion request failed');return result;
+});
 const messages = {
   ok: 'Letter recognized', uncertain: 'Uncertain — adjust your hand',
   no_hand: 'No hand detected', multiple_hands: 'Show one hand only',
@@ -23,11 +34,11 @@ function clearOverlay() {
   const canvas = $('overlay');
   canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
 }
-function reset() {
-  history = []; current = null; $('letter').textContent = '—'; clearOverlay();
+function reset(clearSpeech = true) {
+  history = []; current = null; if(clearSpeech) letterVoice.observe(null, 'cleared'); $('letter').textContent = '—'; clearOverlay();
 }
 function stop() {
-  generation++; running = false; letterVoice.reset();
+  generation++; running = false; autoMotion.reset(); letterVoice.reset(); evaluation.cancel(); motion.cancel();
   activeImageFile = null;
   if (stream) stream.getTracks().forEach(track => track.stop());
   stream = null;
@@ -76,12 +87,12 @@ async function predict(token, staticImage = false, originalFile = null) {
     const blob = originalFile || await frame();
     if (token !== generation) return;
     const data = new FormData(); data.append('image', blob, originalFile ? originalFile.name : 'frame.png');
-    data.append('cutoff', $('cutoff').value);
+    data.append('cutoff', LIVE_CUTOFF);
     const result = await post('/api/predict', data);
     if (token !== generation) return;
     // A control change while a request is in flight must use the latest cutoff.
     if (result.confidence != null) {
-      result.threshold = Number($('cutoff').value) / 100;
+      result.threshold = Number(LIVE_CUTOFF) / 100;
       result.status = result.confidence >= result.threshold ? 'ok' : 'uncertain';
       result.label = result.status === 'ok' ? result.candidate : null;
     }
@@ -89,10 +100,18 @@ async function predict(token, staticImage = false, originalFile = null) {
       history.push(result.label); history = history.slice(-4);
       current = staticImage || (history.length === 4 && history.every(x => x === result.label))
         ? result.label : null;
-    } else reset();
+    } else reset(false);
+    const useAuto = Boolean(AUTO_MOTION_ENABLED && stream && !motion.active && !evaluation.active);
+    autoMotion.observe(result, $('canvas').width / $('canvas').height, useAuto);
+    const motionLetter=useAuto ? autoMotion.current() : null;
+    const readingMotion=useAuto && !motionLetter && autoMotion.reading();
+    if(readingMotion) { current=null;history=[]; }
+    if(motionLetter) current=motionLetter.label;
     drawLandmarks(result.landmarks);
     $('letter').textContent = current || '—';
     letterVoice.observe(current, result.status);
+    evaluation.observe(current, result);
+    if (!staticImage) motion.observe(result, $('canvas').width / $('canvas').height);
     $('state').textContent = result.status === 'ok' && !current
       ? 'Hold steady — confirming sign' : messages[result.status] || result.status;
     if (result.confidence != null) {
@@ -106,14 +125,19 @@ async function predict(token, staticImage = false, originalFile = null) {
       };
       $('score').textContent = hints[result.status] || 'Choose a source to begin.';
     }
+    if(motionLetter) { $('state').textContent='Motion letter recognized (experimental)';$('score').textContent=`${motionLetter.label} · Motion score ${(motionLetter.score*100).toFixed(1)}%`; }
+    else if(readingMotion) {
+      $('state').textContent=autoMotion.phase==='recording'?'Reading motion — static letters paused':autoMotion.phase==='classifying'?'Checking completed motion':'Motion not confirmed';
+      $('score').textContent=autoMotion.feedback();
+    } else if(useAuto && current) $('state').textContent='Static letter recognized';
   } catch (error) {
-    if (token === generation) { reset(); $('state').textContent = error.message; }
+    if (token === generation) { evaluation.cancel(); motion.cancel(); autoMotion.reset(); reset(); $('state').textContent = error.message; }
   }
   if (token === generation && running && !staticImage) {
     if ($('video').ended) {
       running = false; letterVoice.reset(); reset(); $('state').textContent = 'Video finished'; return;
     }
-    setTimeout(() => predict(token), 180);
+    setTimeout(() => predict(token), (motion.active || (AUTO_MOTION_ENABLED && stream)) ? 40 : 180);
   }
 }
 $('camera').onclick = async () => {
@@ -133,7 +157,9 @@ $('upload').onchange = async event => {
   stop(); const token = generation;
   objectURL = URL.createObjectURL(file); $('empty').hidden = true;
   $('source').textContent = file.name;
-  if (file.type.startsWith('image/')) {
+  const isImage = file.type.startsWith('image/') || /\.(png|jpe?g|webp|gif|bmp|avif)$/i.test(file.name);
+  const isVideo = file.type.startsWith('video/') || /\.(mp4|mov|m4v|webm|ogv)$/i.test(file.name);
+  if (isImage) {
     activeImageFile = file;
     $('photo').onload = () => {
       $('canvas').width = $('photo').naturalWidth;
@@ -142,24 +168,29 @@ $('upload').onchange = async event => {
     };
     $('photo').onerror = () => { $('state').textContent = 'Could not decode image'; };
     $('photo').src = objectURL; $('photo').hidden = false;
-  } else if (file.type.startsWith('video/')) {
+  } else if (isVideo) {
     try {
       $('video').src = objectURL; $('video').classList.add('active');
       await $('video').play(); running = true; predict(token);
-    } catch (error) { $('state').textContent = `Video: ${error.message}`; }
+    } catch (error) {
+      $('state').textContent = 'This browser cannot play this video format';
+      $('score').textContent = 'Try an MP4 with H.264 video. Photo Booth MOV files may need conversion. The video is decoded locally; only sampled frames go to the local server.';
+    }
   } else $('state').textContent = 'Choose an image or video';
   event.target.value = '';
 };
-$('append').onclick = () => { if (current) $('text').value += current; };
-$('cutoff').oninput = () => {
-  letterVoice.reset();
-  $('cutoffValue').textContent = `${$('cutoff').value}%`;
-  reset();
+function editMessage(value) { letterVoice.reset(); $('text').value = value; }
+$('append').onclick = () => { if (current) editMessage($('text').value + current); };
+$('space').onclick = () => { const value=$('text').value; if(value && !value.endsWith(' ')) editMessage(value+' '); };
+$('backspace').onclick = () => editMessage(Array.from($('text').value).slice(0,-1).join(''));
+$('speakMessage').onclick = () => letterVoice.speakMessage($('text').value);
+$('stopSpeech').onclick = () => { letterVoice.reset(); $('voiceStatus').textContent='Speech stopped'; };
+$('copyMessage').onclick = async () => {
+  try { await navigator.clipboard.writeText($('text').value); $('messageStatus').textContent='Message copied'; }
+  catch (_) { $('text').focus(); $('text').select(); $('messageStatus').textContent='Text selected — use Copy on your device'; }
 };
-$('cutoff').onchange = () => {
-  if (activeImageFile) predict(generation, true, activeImageFile);
-};
-$('clear').onclick = () => { $('text').value = ''; };
+$('text').addEventListener('input',()=>letterVoice.reset());
+$('clear').onclick = () => editMessage('');
 $('capture').onclick = async () => {
   if (Date.now() - lastCapture < 1000) return;
   lastCapture = Date.now(); $('capture').disabled = true;
@@ -172,6 +203,8 @@ $('capture').onclick = async () => {
   finally { $('capture').disabled = false; }
 };
 fetch('/api/status').then(r => r.json()).then(status => {
-  $('model').textContent = status.trained ? `${status.model} · ${status.labels.length} letters` : 'No trained model';
+  modelReady = status.trained;
+  modelName = status.model || 'Unavailable';
+  $('model').textContent = status.trained ? 'Ready to recognize' : 'Recognition unavailable';
 }).catch(() => { $('model').textContent = 'Server unavailable'; });
 window.addEventListener('beforeunload', stop);

@@ -1,0 +1,37 @@
+{
+  "note": "Fixed C=1/weight=3 before fitting. Original two approved J clips plus selected new Z/background clips are adaptation training. Other user clips excluded from fitting but same-user, already-inspected development comparisons; NOT independent evaluation. Static/voice features untouched.",
+  "adaptation_training_clips": 8,
+  "reserved_comparison": {
+    "before": {
+      "J": {
+        "clips": 2,
+        "correct_decisions": 0
+      },
+      "Z": {
+        "clips": 3,
+        "correct_decisions": 1
+      },
+      "NONE": {
+        "clips": 3,
+        "correct_decisions": 1
+      }
+    },
+    "candidate": {
+      "J": {
+        "clips": 2,
+        "correct_decisions": 2
+      },
+      "Z": {
+        "clips": 3,
+        "correct_decisions": 3
+      },
+      "NONE": {
+        "clips": 3,
+        "correct_decisions": 3
+      }
+    }
+  },
+  "cutoff": 0.7,
+  "independent_accuracy_estimate": null,
+  "static_model_preserved": true
+}

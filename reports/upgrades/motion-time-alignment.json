@@ -1,0 +1,23 @@
+{
+  "note": "Training roles unchanged; development and synthetic timing stress only; similarity scores are heuristic. No independent accuracy claim.",
+  "summary": {
+    "original": {
+      "correct": 8,
+      "total": 8
+    },
+    "start_pause": {
+      "correct": 8,
+      "total": 8
+    },
+    "end_pause": {
+      "correct": 7,
+      "total": 8
+    },
+    "both_pauses": {
+      "correct": 7,
+      "total": 8
+    }
+  },
+  "independent_accuracy": null,
+  "protected_components_unchanged": true
+}

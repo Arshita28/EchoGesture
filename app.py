@@ -11,12 +11,14 @@ from flask import Flask, jsonify, render_template, request
 from PIL import Image, ImageOps, UnidentifiedImageError
 from asl_lab.features import FEATURE_VERSION, HandExtractor, LETTERS
 from asl_lab.predict import classify
+from asl_lab.motion_routes import motion_routes
 
 ROOT = Path(__file__).resolve().parent
 
 
 def create_app():
     app = Flask(__name__)
+    app.register_blueprint(motion_routes(ROOT))
     app.config['MAX_CONTENT_LENGTH'] = 8 * 1024 * 1024
     app.config['TEMPLATES_AUTO_RELOAD'] = True
     lock = threading.Lock()
@@ -52,6 +54,10 @@ def create_app():
 
     @app.get('/')
     def index():
+        return render_template('index.html' if request.args.get('tools') == '1' else 'landing.html', letters=LETTERS)
+
+    @app.get('/sign')
+    def signing():
         return render_template('index.html', letters=LETTERS)
 
     @app.get('/api/status')

@@ -29,3 +29,11 @@ Voice output now prefers a named female English system voice (Samantha on Apple 
 The browser default continued sounding male, so production playback now uses alphabet WAV clips generated locally with the installed macOS Samantha voice. Enable voice previews “Voice enabled” using that same voice. Letter audio uses static/audio/female/; the browser cannot substitute its default voice for these clips. A named-voice speech fallback is allowed only when the HTML Audio API is unavailable; it never chooses an unnamed system default. Script URLs are versioned to replace previously cached voice logic. These clips use Samantha, not Siri's exact voice.
 
 Letter clips were regenerated using explicit spoken letter-name spellings rather than uppercase text, removing macOS's “capital” prefix. Audio and script cache versions were incremented; refresh the page to load the change. The female speech fallback uses the same spoken spellings.
+
+### Current repeat behavior
+
+Speech now follows transitions of the displayed letter. I → blank/uncertain → I speaks I twice, without requiring a different letter or one second of hand removal. Continuous I speaks once. This supersedes the earlier one-second rearming instructions. A stable recognition is still required before a letter is displayed/spoken. Rapid display flicker can therefore repeat speech; this is the user-requested behavior. The regression test covers both uncertain and no-hand gaps using the audio-clip path.
+
+G audio follow-up: user confirmed screen G but audio sounded like C. Regenerated only G with standard spoken text “gee.” at a slightly slower rate, changed fallback spelling from “jee” to “gee”, and incremented cache versions. C audio was hash-checked unchanged. G-to-G audio mapping regression check passes. This is not a classifier change; live audible confirmation remains necessary.
+
+E audio follow-up: regenerated the Samantha E clip from lowercase “e.” rather than the ambiguous “ee” spelling and refreshed clip/script cache versions. E-to-E audio mapping tests pass, but user audible confirmation remains necessary. No classifier weights changed.

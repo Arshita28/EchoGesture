@@ -1,0 +1,39 @@
+{
+  "source": "SignAlphaSet v3, DOI 10.17632/8fmvr9m98w.3, CC BY 4.0",
+  "validation_status": "public_bootstrap_not_independently_validated",
+  "downloaded": 80,
+  "extracted": 76,
+  "classes": {
+    "J": 10,
+    "Z": 10,
+    "NONE": 56
+  },
+  "failures": [
+    {
+      "path": "data/raw/signalpha/ASL_dynamic/D/D_clip1.avi",
+      "reason": "Record 8\u2013120 detected hand frames"
+    },
+    {
+      "path": "data/raw/signalpha/ASL_dynamic/I/I_clip1.avi",
+      "reason": "Record 8\u2013120 detected hand frames"
+    },
+    {
+      "path": "data/raw/signalpha/ASL_dynamic/K/K_clip2.avi",
+      "reason": "Record 8\u2013120 detected hand frames"
+    },
+    {
+      "path": "data/raw/signalpha/ASL_dynamic/S/S_clip2.avi",
+      "reason": "Record 8\u2013120 detected hand frames"
+    }
+  ],
+  "feature_version": "resampled-wrist-origin-v1",
+  "method": "Independent MediaPipe detection; 10fps sampling; longest contiguous detected segment; first-wrist trajectory normalization; 24-step resampling; balanced SVM C=1 fixed before training. All accepted source clips are training data.",
+  "evaluation": "No independent signer/session evaluation possible from supplied metadata. No accuracy estimate is reported. Source labels and sampled motion content need further expert verification; fresh webcam J/Z/background clips must be kept out of fitting for evaluation.",
+  "preservation": {
+    "models/classifier.joblib": true,
+    "static/voice.js": true,
+    "static/app.js": true,
+    "static/audio/female/A.wav": true
+  },
+  "motion_ui_change": "Only experimental-result wording changed in motion.js; static app script unchanged."
+}

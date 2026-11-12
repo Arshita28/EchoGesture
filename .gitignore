@@ -8,3 +8,15 @@ data/*.csv
 models/*.joblib
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Canonical datasets; data/ and processed are compatibility links.
+datasets/raw/**
+datasets/preprocessed/**
+!datasets/processed
+datasets/*.csv
+datasets/inventory/**
+!datasets/raw/.gitkeep
+!datasets/preprocessed/.gitkeep
+
+# Optional reference-derived geometry remains private; public hero has original fallback.
+static/brain-particles.json

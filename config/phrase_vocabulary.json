@@ -1,0 +1,19 @@
+{
+  "language": "ASL",
+  "task": "closed_set_phrase_recognition",
+  "status": "proposed_meanings_pending_fluent_ASL_review_and_data_coverage",
+  "phrases": [
+    {"id": "hello", "english": "Hello."},
+    {"id": "thank_you", "english": "Thank you."},
+    {"id": "please_help", "english": "Please help me."},
+    {"id": "how_are_you", "english": "How are you?"},
+    {"id": "i_am_fine", "english": "I am fine."},
+    {"id": "nice_to_meet_you", "english": "Nice to meet you."},
+    {"id": "please_repeat", "english": "Please repeat that."},
+    {"id": "i_do_not_understand", "english": "I do not understand."},
+    {"id": "i_need_water", "english": "I need water."},
+    {"id": "goodbye", "english": "Goodbye."}
+  ],
+  "rejection_label": "NONE",
+  "note": "English meanings are proposed output labels, not instructions for ASL signing. Do not synthesize phrase training examples by concatenating alphabet or isolated-sign clips."
+}

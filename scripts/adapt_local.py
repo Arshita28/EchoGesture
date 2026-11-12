@@ -15,7 +15,7 @@ from asl_lab.train import load_records
 rows=load_records('data/processed/landmarks.jsonl');tr=[r for r in rows if r['split']=='train'];va=[r for r in rows if r['split']=='validation'];x=np.array([r['features'] for r in tr]);y=np.array([r['label'] for r in tr]);xv=np.array([r['features'] for r in va]);yv=np.array([r['label'] for r in va]);local=[];seen=set();h=HandExtractor()
 try:
  for r in csv.DictReader(open('data/manifest.csv')):
-  if not ((r['group']=='ms_debug' and r['label'] in 'AMS') or r['group']=={'D':'for_d','P':'for_P','E':'for_E','Q':'for_Q','U':'for_U','X':'for_X','G':'for_G','C':'for_C'}.get(r['label'])):continue
+  if not ((r['group']=='ms_debug' and r['label'] in 'AMS') or r['group']=={'D':'for_d','P':'for_P','E':'for_E','Q':'for_Q','U':'for_U','X':'for_X','G':'for_G','C':'for_C','I':'for_I'}.get(r['label'])):continue
   digest=hashlib.sha256((Path('data')/r['path']).read_bytes()).hexdigest()
   if digest in seen:continue
   seen.add(digest)
@@ -27,7 +27,7 @@ totals={label:sum(r['label']==label for r in local) for label in set(r['label'] 
 for r in local:
  n=counts.get(r['label'],0);counts[r['label']]=n+1
  (training if n<min(3,totals[r['label']]-1) else diagnostic).append(r)
-if set(r['label'] for r in training)!=set('AMSDPEQUXGC'):raise ValueError('Need detected examples for all adaptation letters')
+if set(r['label'] for r in training)!=set('AMSDPEQUXGCI'):raise ValueError('Need detected examples for all adaptation letters')
 xa=np.vstack([x,np.array([r['features'] for r in training])]);ya=np.concatenate([y,[r['label'] for r in training]])
 base=joblib.load('models/classifier.joblib');baseline=float(f1_score(yv,base['model'].predict(xv),average='macro'));results=[];fitted=[]
 for weight in [1,3,10]:

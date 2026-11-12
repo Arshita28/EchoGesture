@@ -15,9 +15,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open http://127.0.0.1:8080 and allow browser camera access. The app displays “No trained classifier” until a real model is trained. Do not load joblib files from untrusted sources. The Flask development server binds only to this computer.
+Open http://127.0.0.1:8080 for the landing page; choose **Start signing** to open `/sign` and allow browser camera access. The app displays “No trained classifier” until a real model is trained. Do not load joblib files from untrusted sources. The Flask development server binds only to this computer.
 
-The browser acceptance slider starts at **30%**, as requested during live testing. This is a provisional live setting, not a validated optimum; lower cutoffs can accept more wrong signs. The saved model and published baseline evaluation remain at **70%**. No-hand/multiple-hand rejection and four-frame stability still apply. Webcam reliability is not established by the public-dataset pilot.
+The signing workspace uses a fixed **30%** acceptance setting, as requested during live testing. This is a provisional live setting, not a validated optimum; lower cutoffs can accept more wrong signs. The saved model and published baseline evaluation remain at **70%**. No-hand/multiple-hand rejection and four-frame stability still apply. Webcam reliability is not established by the public-dataset pilot.
 
 The local workspace now includes a genuinely trained 24-class SVM. The public repository contains source and reports, with data/weights reproducible using the steps below. Verified pilot test accuracy: **90.98%** on extracted images from the held-out signer; see [full results and limitations](reports/RESULTS.md). This is not a general webcam accuracy claim. `requirements-lock.txt` records the tested Apple-silicon Python 3.9 environment.
 
@@ -56,3 +56,17 @@ python -m pytest -q
 ```
 
 No full-language translation or interpreter replacement is claimed. Predictions can be wrong, including confident mistakes on unfamiliar gestures.
+
+## Current application and project documentation
+
+The main workspace recognizes static letters and supports manual message composition with spaces, deletion, copying and full-message speech. J/Z remains unreliable and is available only in experimental Development tools (`/sign?tools=1`). The original benchmark does not measure the later personalized model.
+
+- [Project report](docs/PROJECT_REPORT.md)
+- [Demo checklist and viva preparation](docs/DEMO_CHECKLIST.md)
+- [Live evaluation protocol](docs/EVALUATION_MODE.md)
+
+## Organized ML datasets
+
+Start with [datasets/README.md](datasets/README.md) and the [dataset report](datasets/DATASET_REPORT.md) for audited source counts, preprocessing, exclusions and actual training roles. Raw media lives in `datasets/raw/`; derived data in `datasets/preprocessed/`. Historical `data/` paths continue to work through a compatibility link. The local SHA-256 inventory can be verified with `python scripts/verify_dataset_inventory.py`.
+
+The public landing page includes original procedural particle artwork. Optional reference-derived local geometry is ignored by Git; see [frontend provenance](docs/FRONTEND_REFERENCE.md). Private datasets and trained weights are not shipped.
