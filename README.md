@@ -4,7 +4,20 @@ EchoGesture builds on the existing ASL Landmark Lab. **Phase 1** is the 24-lette
 
 **Continuing this project? Read [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) first** for the saved workflow, current state, diagnostic findings and next upgrade steps.
 
-Local ML lab for **24 static ASL fingerspelling letters** (A–Y excluding J; Z also excluded). Webcam, uploaded images and browser-playable videos share the same normalized-landmark classifier. Video processing recognizes isolated static signs in sampled frames, not motion signs, words, or sentences.
+Local ML lab for **24 static ASL fingerspelling letters** (A–Y excluding J; Z also excluded). Webcam, uploaded images and browser-playable videos share the same normalized-landmark classifier. The alphabet workspace recognizes static signs. The separate word workspace processes short temporal video clips.
+
+## Word recognition
+
+The trained five-word recognizer supports **COMPUTER, WHO, DEAF, YEAR, COOL**.
+After starting the server, open **http://127.0.0.1:8080/words**.
+Click **Start camera**, then **Record 3 seconds**, or upload an isolated sign video.
+
+The active checkpoint is included at [models/words-prototype.joblib](models/words-prototype.joblib).
+The interface is [templates/words.html](templates/words.html), with prediction routes in
+[asl_lab/word_routes.py](asl_lab/word_routes.py).
+Recorded web evaluation currently yields 4/10 correct supported signs.
+The separate nine-word benchmark yields 7/13 on held-out signer IDs.
+Broader vocabulary training is in progress. See [current coverage](reports/wlasl-current-coverage.json).
 
 ## Run
 
