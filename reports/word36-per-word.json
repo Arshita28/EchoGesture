@@ -1,0 +1,25 @@
+{
+  "new": {
+    "family": {
+      "correct": 12,
+      "attempted": 12
+    },
+    "wrong": {
+      "correct": 10,
+      "attempted": 12
+    },
+    "man": {
+      "correct": 11,
+      "attempted": 12
+    },
+    "hearing": {
+      "correct": 13,
+      "attempted": 14
+    }
+  },
+  "existing": [
+    282,
+    282,
+    330
+  ]
+}

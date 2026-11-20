@@ -10,3 +10,5 @@
 }
 
 [hidden] { display: none !important; }
+
+.brand-home { color: inherit; text-decoration: none; }

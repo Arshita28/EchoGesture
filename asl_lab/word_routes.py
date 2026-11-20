@@ -12,18 +12,18 @@ from .word_inference import predict
 def word_routes(root):
     import os
     variant = os.environ.get("ECHOGESTURE_WORD_MODEL")
-    candidate = variant in ("word20", "word20-svm", "word24-svm")
+    candidate = variant in ("word20", "word20-svm", "word24-svm", "word60-svm")
     root=Path(root);bp=Blueprint('words',__name__);lock=threading.Lock()
     def load():
         path=root/'models'/('words20-candidate.joblib' if candidate else 'words-prototype.joblib')
         if not path.is_file():return None
         bundle=joblib.load(path)
         if bundle.get('feature_version')!=WORD_FEATURE_VERSION:raise ValueError('Incompatible word model')
-        if variant in ("word20-svm", "word24-svm"):
+        if variant in ("word20-svm", "word24-svm", "word60-svm"):
             from sklearn.preprocessing import FunctionTransformer
             from sklearn.pipeline import make_pipeline
             from .word_svm_features import summarize_batch
-            name = 'word24-wlasl-citizen-svm' if variant == 'word24-svm' else 'word20-citizen-svm'
+            name = {'word24-svm': 'word24-wlasl-citizen-svm', 'word60-svm': 'word60-priority-wlasl-citizen-svm'}.get(variant, 'word20-citizen-svm')
             estimator = joblib.load(root/'models'/(name+'.joblib'))
             bundle.update(name=name, labels=list(estimator.classes_), model=make_pipeline(FunctionTransformer(summarize_batch), estimator))
         return bundle

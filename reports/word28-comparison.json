@@ -1,0 +1,54 @@
+{
+  "added": [
+    "thanksgiving",
+    "hot",
+    "many",
+    "mother",
+    "orange",
+    "table",
+    "finish",
+    "like"
+  ],
+  "new_train_counts": {
+    "like": 18,
+    "hot": 20,
+    "many": 17,
+    "mother": 17,
+    "finish": 18,
+    "thanksgiving": 19,
+    "table": 16,
+    "orange": 17
+  },
+  "val": {
+    "wlasl": [
+      14,
+      14,
+      16
+    ],
+    "citizen": [
+      58,
+      57,
+      59
+    ],
+    "added": [
+      30,
+      34
+    ]
+  },
+  "test": {
+    "wlasl": [
+      14,
+      14,
+      17
+    ],
+    "citizen": [
+      163,
+      161,
+      181
+    ],
+    "added": [
+      86,
+      100
+    ]
+  }
+}

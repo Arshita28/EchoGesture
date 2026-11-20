@@ -1,0 +1,70 @@
+{
+  "added": [
+    "thanksgiving",
+    "hot",
+    "many",
+    "mother",
+    "orange",
+    "table",
+    "finish",
+    "like",
+    "now",
+    "study",
+    "white",
+    "blue",
+    "family",
+    "hearing",
+    "man",
+    "wrong"
+  ],
+  "new_train_counts": {
+    "now": 17,
+    "like": 18,
+    "white": 14,
+    "study": 15,
+    "blue": 15,
+    "hot": 20,
+    "wrong": 12,
+    "many": 17,
+    "mother": 17,
+    "finish": 18,
+    "family": 15,
+    "man": 15,
+    "hearing": 14,
+    "thanksgiving": 19,
+    "table": 16,
+    "orange": 17
+  },
+  "val": {
+    "citizen": [
+      57,
+      55,
+      59
+    ],
+    "wlasl": [
+      14,
+      13,
+      16
+    ],
+    "added": [
+      55,
+      64
+    ]
+  },
+  "test": {
+    "citizen": [
+      157,
+      157,
+      181
+    ],
+    "wlasl": [
+      14,
+      14,
+      17
+    ],
+    "added": [
+      171,
+      198
+    ]
+  }
+}

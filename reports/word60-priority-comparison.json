@@ -1,0 +1,118 @@
+{
+  "added": [
+    "thanksgiving",
+    "hot",
+    "many",
+    "mother",
+    "orange",
+    "table",
+    "finish",
+    "like",
+    "now",
+    "study",
+    "white",
+    "blue",
+    "family",
+    "hearing",
+    "man",
+    "wrong",
+    "graduate",
+    "bird",
+    "school",
+    "apple",
+    "enjoy",
+    "play",
+    "work",
+    "color",
+    "time",
+    "dance",
+    "meet",
+    "change",
+    "later",
+    "brown",
+    "purple",
+    "water",
+    "yellow",
+    "fish",
+    "paper",
+    "pink",
+    "son",
+    "accident",
+    "cow",
+    "medicine"
+  ],
+  "new_train_counts": {
+    "apple": 17,
+    "now": 17,
+    "school": 16,
+    "meet": 16,
+    "like": 18,
+    "enjoy": 15,
+    "change": 13,
+    "white": 14,
+    "study": 15,
+    "medicine": 15,
+    "blue": 15,
+    "yellow": 16,
+    "hot": 20,
+    "brown": 13,
+    "wrong": 12,
+    "cow": 13,
+    "color": 13,
+    "many": 17,
+    "accident": 14,
+    "mother": 17,
+    "work": 14,
+    "dance": 15,
+    "finish": 18,
+    "family": 15,
+    "man": 15,
+    "son": 15,
+    "purple": 14,
+    "pink": 13,
+    "time": 15,
+    "play": 14,
+    "hearing": 14,
+    "thanksgiving": 19,
+    "later": 16,
+    "paper": 14,
+    "bird": 14,
+    "fish": 14,
+    "table": 16,
+    "water": 13,
+    "graduate": 15,
+    "orange": 17
+  },
+  "val": {
+    "wlasl": [
+      13,
+      12,
+      16
+    ],
+    "citizen": [
+      55,
+      55,
+      59
+    ],
+    "added": [
+      131,
+      156
+    ]
+  },
+  "test": {
+    "wlasl": [
+      14,
+      14,
+      17
+    ],
+    "citizen": [
+      157,
+      147,
+      181
+    ],
+    "added": [
+      399,
+      493
+    ]
+  }
+}

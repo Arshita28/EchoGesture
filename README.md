@@ -6,6 +6,21 @@ EchoGesture builds on the existing ASL Landmark Lab. **Phase 1** is the 24-lette
 
 Local ML lab for **24 static ASL fingerspelling letters** (A–Y excluding J; Z also excluded). Webcam, uploaded images and browser-playable videos share the same normalized-landmark classifier. The alphabet workspace recognizes static signs. The separate word workspace processes short temporal video clips.
 
+## Latest local studio
+
+The completed 60-word candidate is included in `models/word60-priority-wlasl-citizen-svm.joblib`.
+After installing the requirements, launch it with:
+
+```sh
+ECHOGESTURE_WORD_MODEL=word60-svm python app.py
+```
+
+Open http://127.0.0.1:8080/words for its current vocabulary or /sign for the alphabet studio.
+The default configuration still loads the earlier five-word prototype.
+Recorded test scores vary by dataset and vocabulary. See the reports directory for measured comparisons.
+Raw videos, derived landmark caches and third-party archives require separate acquisition under their dataset licences.
+The landing-page template licence and required credit links are retained.
+
 ## Word recognition
 
 The trained five-word recognizer supports **COMPUTER, WHO, DEAF, YEAR, COOL**.
