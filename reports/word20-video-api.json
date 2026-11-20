@@ -1,0 +1,104 @@
+[
+  {
+    "id": "17713",
+    "word": "drink",
+    "predicted": "drink",
+    "status": "prototype_match"
+  },
+  {
+    "id": "12320",
+    "word": "computer",
+    "predicted": "computer",
+    "status": "prototype_match"
+  },
+  {
+    "id": "05727",
+    "word": "before",
+    "predicted": "before",
+    "status": "prototype_match"
+  },
+  {
+    "id": "11311",
+    "word": "clothes",
+    "predicted": "clothes",
+    "status": "prototype_match"
+  },
+  {
+    "id": "63226",
+    "word": "who",
+    "predicted": "who",
+    "status": "prototype_match"
+  },
+  {
+    "id": "08915",
+    "word": "candy",
+    "predicted": "who",
+    "status": "prototype_match"
+  },
+  {
+    "id": "13635",
+    "word": "cousin",
+    "predicted": "cousin",
+    "status": "prototype_match"
+  },
+  {
+    "id": "14883",
+    "word": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match"
+  },
+  {
+    "id": "14888",
+    "word": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match"
+  },
+  {
+    "id": "27209",
+    "word": "help",
+    "predicted": "before",
+    "status": "prototype_match"
+  },
+  {
+    "id": "38525",
+    "word": "no",
+    "predicted": "deaf",
+    "status": "prototype_match"
+  },
+  {
+    "id": "57941",
+    "word": "thin",
+    "predicted": "thin",
+    "status": "prototype_match"
+  },
+  {
+    "id": "57943",
+    "word": "thin",
+    "predicted": "book",
+    "status": "prototype_match"
+  },
+  {
+    "id": "62160",
+    "word": "walk",
+    "predicted": "walk",
+    "status": "prototype_match"
+  },
+  {
+    "id": "64210",
+    "word": "year",
+    "predicted": "year",
+    "status": "prototype_match"
+  },
+  {
+    "id": "64209",
+    "word": "year",
+    "predicted": "year",
+    "status": "prototype_match"
+  },
+  {
+    "id": "01986",
+    "word": "all",
+    "predicted": "all",
+    "status": "prototype_match"
+  }
+]

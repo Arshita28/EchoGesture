@@ -1,0 +1,20 @@
+{
+  "validation_baseline": {
+    "wlasl": 10,
+    "citizen": 52
+  },
+  "validation_candidate": {
+    "wlasl": 14,
+    "citizen": 58
+  },
+  "test_candidate": {
+    "wlasl": 14,
+    "citizen": 165
+  },
+  "test_baseline": {
+    "wlasl": 15,
+    "citizen": 144
+  },
+  "C": 100,
+  "gamma": "scale"
+}

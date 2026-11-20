@@ -1,0 +1,44 @@
+[
+  {
+    "label": "book",
+    "source": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/BOOK-418.mp4",
+    "sha256": "66b0c319dff055232b068c2d1d199efc51f42c053c185a85ff788667937bb51a",
+    "prediction": "book",
+    "status": "prototype_match"
+  },
+  {
+    "label": "go",
+    "source": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/GO-469.mp4",
+    "sha256": "28c59686f5ce317b062b06a60490c1b024a609b9c5fc25d79b567d8bb26419a2",
+    "prediction": "go",
+    "status": "prototype_match"
+  },
+  {
+    "label": "chair",
+    "source": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/CHAIR-378.mp4",
+    "sha256": "2cc3b2ece773a526491386b590deee64569880da4030f1e5e0fc40e7849d35cb",
+    "prediction": "chair",
+    "status": "prototype_match"
+  },
+  {
+    "label": "black",
+    "source": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/BLACK-415.mp4",
+    "sha256": "a48feb2911cafb57261aa73851e5d1a8dbf95530b4f23189be63aef665dd79ca",
+    "prediction": "thin",
+    "status": "prototype_match"
+  },
+  {
+    "label": "fine",
+    "source": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/FINE-455.mp4",
+    "sha256": "cc89811c35defa94fa1ed3eae1a0877dfda376d4e24c1d6f767b0e9a015bb5dc",
+    "prediction": "deaf",
+    "status": "prototype_match"
+  },
+  {
+    "label": "yes",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fyes%2Fweb_540.mp4?alt=media",
+    "sha256": "00bea3800358c37a73fdc54d9d129ddc7049e2c943405da01bb84fe0fece5e9f",
+    "prediction": "chair",
+    "status": "prototype_match"
+  }
+]

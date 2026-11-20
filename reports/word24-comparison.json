@@ -1,0 +1,46 @@
+{
+  "added": [
+    "thanksgiving",
+    "hot",
+    "many",
+    "mother"
+  ],
+  "new_train_counts": {
+    "hot": 20,
+    "many": 17,
+    "mother": 17,
+    "thanksgiving": 19
+  },
+  "val": {
+    "wlasl": [
+      14,
+      14,
+      16
+    ],
+    "citizen": [
+      58,
+      58,
+      59
+    ],
+    "added": [
+      15,
+      18
+    ]
+  },
+  "test": {
+    "wlasl": [
+      14,
+      14,
+      17
+    ],
+    "citizen": [
+      165,
+      163,
+      181
+    ],
+    "added": [
+      40,
+      50
+    ]
+  }
+}

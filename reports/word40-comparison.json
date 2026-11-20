@@ -1,0 +1,78 @@
+{
+  "added": [
+    "apple",
+    "close",
+    "address",
+    "brag",
+    "later",
+    "price",
+    "tongue",
+    "hope",
+    "other",
+    "bell",
+    "chop",
+    "expect",
+    "gift",
+    "head",
+    "his",
+    "octopus",
+    "ok",
+    "page",
+    "road",
+    "scream"
+  ],
+  "new_train_counts": {
+    "apple": 17,
+    "expect": 16,
+    "road": 16,
+    "chop": 16,
+    "page": 16,
+    "bell": 16,
+    "ok": 16,
+    "scream": 16,
+    "head": 16,
+    "close": 17,
+    "his": 16,
+    "tongue": 16,
+    "brag": 14,
+    "price": 16,
+    "other": 17,
+    "address": 16,
+    "hope": 17,
+    "later": 16,
+    "gift": 16,
+    "octopus": 16
+  },
+  "val": {
+    "wlasl": [
+      14,
+      14,
+      16
+    ],
+    "citizen": [
+      58,
+      57,
+      59
+    ],
+    "added": [
+      72,
+      83
+    ]
+  },
+  "test": {
+    "wlasl": [
+      14,
+      14,
+      17
+    ],
+    "citizen": [
+      165,
+      152,
+      181
+    ],
+    "added": [
+      171,
+      217
+    ]
+  }
+}

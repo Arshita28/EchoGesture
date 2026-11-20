@@ -1,0 +1,738 @@
+[
+  {
+    "condition": "dim",
+    "clip": "17713.mp4",
+    "expected": "drink",
+    "predicted": "drink",
+    "status": "prototype_match",
+    "ms": 1950.0
+  },
+  {
+    "condition": "dim",
+    "clip": "12320.mp4",
+    "expected": "computer",
+    "predicted": "computer",
+    "status": "prototype_match",
+    "ms": 2205.9
+  },
+  {
+    "condition": "dim",
+    "clip": "05727.mp4",
+    "expected": "before",
+    "predicted": "all",
+    "status": "prototype_match",
+    "ms": 2213.9
+  },
+  {
+    "condition": "dim",
+    "clip": "11311.mp4",
+    "expected": "clothes",
+    "predicted": "clothes",
+    "status": "prototype_match",
+    "ms": 2047.6
+  },
+  {
+    "condition": "dim",
+    "clip": "63226.mp4",
+    "expected": "who",
+    "predicted": "fine",
+    "status": "prototype_match",
+    "ms": 1505.0
+  },
+  {
+    "condition": "dim",
+    "clip": "08915.mp4",
+    "expected": "candy",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 1937.5
+  },
+  {
+    "condition": "dim",
+    "clip": "13635.mp4",
+    "expected": "cousin",
+    "predicted": "cousin",
+    "status": "prototype_match",
+    "ms": 2295.0
+  },
+  {
+    "condition": "dim",
+    "clip": "14883.mp4",
+    "expected": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match",
+    "ms": 882.5
+  },
+  {
+    "condition": "dim",
+    "clip": "14888.mp4",
+    "expected": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match",
+    "ms": 1485.3
+  },
+  {
+    "condition": "dim",
+    "clip": "27209.mp4",
+    "expected": "help",
+    "predicted": "help",
+    "status": "prototype_match",
+    "ms": 1314.0
+  },
+  {
+    "condition": "dim",
+    "clip": "38525.mp4",
+    "expected": "no",
+    "predicted": "no",
+    "status": "prototype_match",
+    "ms": 1478.5
+  },
+  {
+    "condition": "dim",
+    "clip": "57941.mp4",
+    "expected": "thin",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 1187.8
+  },
+  {
+    "condition": "dim",
+    "clip": "57943.mp4",
+    "expected": "thin",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 2585.1
+  },
+  {
+    "condition": "dim",
+    "clip": "62160.mp4",
+    "expected": "walk",
+    "predicted": "walk",
+    "status": "prototype_match",
+    "ms": 1027.5
+  },
+  {
+    "condition": "dim",
+    "clip": "64210.mp4",
+    "expected": "year",
+    "predicted": "year",
+    "status": "prototype_match",
+    "ms": 1798.1
+  },
+  {
+    "condition": "dim",
+    "clip": "64209.mp4",
+    "expected": "year",
+    "predicted": "year",
+    "status": "prototype_match",
+    "ms": 1290.3
+  },
+  {
+    "condition": "dim",
+    "clip": "01986.mp4",
+    "expected": "all",
+    "predicted": "all",
+    "status": "prototype_match",
+    "ms": 2029.0
+  },
+  {
+    "condition": "dim",
+    "clip": "black-a4257a835229.mp4",
+    "expected": "black",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 1179.4
+  },
+  {
+    "condition": "dim",
+    "clip": "book-d61420d7ff0d.mp4",
+    "expected": "book",
+    "predicted": "book",
+    "status": "prototype_match",
+    "ms": 1590.1
+  },
+  {
+    "condition": "dim",
+    "clip": "chair-907aa61fb1f9.mp4",
+    "expected": "chair",
+    "predicted": "chair",
+    "status": "prototype_match",
+    "ms": 1548.4
+  },
+  {
+    "condition": "dim",
+    "clip": "fine-0981b5659e88.mp4",
+    "expected": "fine",
+    "predicted": "fine",
+    "status": "prototype_match",
+    "ms": 1213.4
+  },
+  {
+    "condition": "dim",
+    "clip": "go-094b46e1e100.mp4",
+    "expected": "go",
+    "predicted": "go",
+    "status": "prototype_match",
+    "ms": 1117.5
+  },
+  {
+    "condition": "dim",
+    "clip": "ziggy-yes.mp4",
+    "expected": "yes",
+    "predicted": "yes",
+    "status": "prototype_match",
+    "ms": 2555.8
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "17713.mp4",
+    "expected": "drink",
+    "predicted": "drink",
+    "status": "prototype_match",
+    "ms": 1845.9
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "12320.mp4",
+    "expected": "computer",
+    "predicted": "computer",
+    "status": "prototype_match",
+    "ms": 2363.7
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "05727.mp4",
+    "expected": "before",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 1889.8
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "11311.mp4",
+    "expected": "clothes",
+    "predicted": "clothes",
+    "status": "prototype_match",
+    "ms": 2055.1
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "63226.mp4",
+    "expected": "who",
+    "predicted": null,
+    "status": "insufficient_detection",
+    "ms": 1516.0
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "08915.mp4",
+    "expected": "candy",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 2068.8
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "13635.mp4",
+    "expected": "cousin",
+    "predicted": "cousin",
+    "status": "prototype_match",
+    "ms": 2521.1
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "14883.mp4",
+    "expected": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match",
+    "ms": 630.7
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "14888.mp4",
+    "expected": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match",
+    "ms": 1582.4
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "27209.mp4",
+    "expected": "help",
+    "predicted": "help",
+    "status": "prototype_match",
+    "ms": 1391.7
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "38525.mp4",
+    "expected": "no",
+    "predicted": "no",
+    "status": "prototype_match",
+    "ms": 1561.4
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "57941.mp4",
+    "expected": "thin",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 962.6
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "57943.mp4",
+    "expected": "thin",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 2742.2
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "62160.mp4",
+    "expected": "walk",
+    "predicted": "walk",
+    "status": "prototype_match",
+    "ms": 762.6
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "64210.mp4",
+    "expected": "year",
+    "predicted": "year",
+    "status": "prototype_match",
+    "ms": 1873.2
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "64209.mp4",
+    "expected": "year",
+    "predicted": "year",
+    "status": "prototype_match",
+    "ms": 1439.4
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "01986.mp4",
+    "expected": "all",
+    "predicted": "all",
+    "status": "prototype_match",
+    "ms": 2390.7
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "black-a4257a835229.mp4",
+    "expected": "black",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 1434.4
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "book-d61420d7ff0d.mp4",
+    "expected": "book",
+    "predicted": "book",
+    "status": "prototype_match",
+    "ms": 1775.4
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "chair-907aa61fb1f9.mp4",
+    "expected": "chair",
+    "predicted": "chair",
+    "status": "prototype_match",
+    "ms": 1730.8
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "fine-0981b5659e88.mp4",
+    "expected": "fine",
+    "predicted": "fine",
+    "status": "prototype_match",
+    "ms": 1332.6
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "go-094b46e1e100.mp4",
+    "expected": "go",
+    "predicted": "go",
+    "status": "prototype_match",
+    "ms": 1226.1
+  },
+  {
+    "condition": "low_resolution",
+    "clip": "ziggy-yes.mp4",
+    "expected": "yes",
+    "predicted": "no",
+    "status": "prototype_match",
+    "ms": 2189.7
+  },
+  {
+    "condition": "occlusion",
+    "clip": "17713.mp4",
+    "expected": "drink",
+    "predicted": "drink",
+    "status": "prototype_match",
+    "ms": 2222.6
+  },
+  {
+    "condition": "occlusion",
+    "clip": "12320.mp4",
+    "expected": "computer",
+    "predicted": "computer",
+    "status": "prototype_match",
+    "ms": 2472.3
+  },
+  {
+    "condition": "occlusion",
+    "clip": "05727.mp4",
+    "expected": "before",
+    "predicted": "all",
+    "status": "prototype_match",
+    "ms": 2131.1
+  },
+  {
+    "condition": "occlusion",
+    "clip": "11311.mp4",
+    "expected": "clothes",
+    "predicted": "clothes",
+    "status": "prototype_match",
+    "ms": 1976.8
+  },
+  {
+    "condition": "occlusion",
+    "clip": "63226.mp4",
+    "expected": "who",
+    "predicted": null,
+    "status": "Fewer than eight hand/body-visible observations",
+    "ms": null
+  },
+  {
+    "condition": "occlusion",
+    "clip": "08915.mp4",
+    "expected": "candy",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 1940.4
+  },
+  {
+    "condition": "occlusion",
+    "clip": "13635.mp4",
+    "expected": "cousin",
+    "predicted": "cousin",
+    "status": "prototype_match",
+    "ms": 2246.7
+  },
+  {
+    "condition": "occlusion",
+    "clip": "14883.mp4",
+    "expected": "deaf",
+    "predicted": "cousin",
+    "status": "prototype_match",
+    "ms": 689.7
+  },
+  {
+    "condition": "occlusion",
+    "clip": "14888.mp4",
+    "expected": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match",
+    "ms": 1461.9
+  },
+  {
+    "condition": "occlusion",
+    "clip": "27209.mp4",
+    "expected": "help",
+    "predicted": "help",
+    "status": "prototype_match",
+    "ms": 1332.7
+  },
+  {
+    "condition": "occlusion",
+    "clip": "38525.mp4",
+    "expected": "no",
+    "predicted": "no",
+    "status": "prototype_match",
+    "ms": 1438.4
+  },
+  {
+    "condition": "occlusion",
+    "clip": "57941.mp4",
+    "expected": "thin",
+    "predicted": null,
+    "status": "insufficient_detection",
+    "ms": 946.6
+  },
+  {
+    "condition": "occlusion",
+    "clip": "57943.mp4",
+    "expected": "thin",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 2528.1
+  },
+  {
+    "condition": "occlusion",
+    "clip": "62160.mp4",
+    "expected": "walk",
+    "predicted": "walk",
+    "status": "prototype_match",
+    "ms": 793.9
+  },
+  {
+    "condition": "occlusion",
+    "clip": "64210.mp4",
+    "expected": "year",
+    "predicted": "chair",
+    "status": "prototype_match",
+    "ms": 1739.1
+  },
+  {
+    "condition": "occlusion",
+    "clip": "64209.mp4",
+    "expected": "year",
+    "predicted": "year",
+    "status": "prototype_match",
+    "ms": 1352.5
+  },
+  {
+    "condition": "occlusion",
+    "clip": "01986.mp4",
+    "expected": "all",
+    "predicted": "all",
+    "status": "prototype_match",
+    "ms": 2033.1
+  },
+  {
+    "condition": "occlusion",
+    "clip": "black-a4257a835229.mp4",
+    "expected": "black",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 1238.1
+  },
+  {
+    "condition": "occlusion",
+    "clip": "book-d61420d7ff0d.mp4",
+    "expected": "book",
+    "predicted": "book",
+    "status": "prototype_match",
+    "ms": 1611.2
+  },
+  {
+    "condition": "occlusion",
+    "clip": "chair-907aa61fb1f9.mp4",
+    "expected": "chair",
+    "predicted": "chair",
+    "status": "prototype_match",
+    "ms": 1529.6
+  },
+  {
+    "condition": "occlusion",
+    "clip": "fine-0981b5659e88.mp4",
+    "expected": "fine",
+    "predicted": "fine",
+    "status": "prototype_match",
+    "ms": 1196.9
+  },
+  {
+    "condition": "occlusion",
+    "clip": "go-094b46e1e100.mp4",
+    "expected": "go",
+    "predicted": "go",
+    "status": "prototype_match",
+    "ms": 1083.9
+  },
+  {
+    "condition": "occlusion",
+    "clip": "ziggy-yes.mp4",
+    "expected": "yes",
+    "predicted": "yes",
+    "status": "prototype_match",
+    "ms": 2115.3
+  },
+  {
+    "condition": "holds",
+    "clip": "17713.mp4",
+    "expected": "drink",
+    "predicted": "drink",
+    "status": "prototype_match",
+    "ms": 2720.5
+  },
+  {
+    "condition": "holds",
+    "clip": "12320.mp4",
+    "expected": "computer",
+    "predicted": "computer",
+    "status": "prototype_match",
+    "ms": 2970.8
+  },
+  {
+    "condition": "holds",
+    "clip": "05727.mp4",
+    "expected": "before",
+    "predicted": "all",
+    "status": "prototype_match",
+    "ms": 3239.3
+  },
+  {
+    "condition": "holds",
+    "clip": "11311.mp4",
+    "expected": "clothes",
+    "predicted": "clothes",
+    "status": "prototype_match",
+    "ms": 2759.1
+  },
+  {
+    "condition": "holds",
+    "clip": "63226.mp4",
+    "expected": "who",
+    "predicted": "who",
+    "status": "prototype_match",
+    "ms": 2699.1
+  },
+  {
+    "condition": "holds",
+    "clip": "08915.mp4",
+    "expected": "candy",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 3157.2
+  },
+  {
+    "condition": "holds",
+    "clip": "13635.mp4",
+    "expected": "cousin",
+    "predicted": "cousin",
+    "status": "prototype_match",
+    "ms": 3059.3
+  },
+  {
+    "condition": "holds",
+    "clip": "14883.mp4",
+    "expected": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match",
+    "ms": 2065.7
+  },
+  {
+    "condition": "holds",
+    "clip": "14888.mp4",
+    "expected": "deaf",
+    "predicted": "deaf",
+    "status": "prototype_match",
+    "ms": 2257.4
+  },
+  {
+    "condition": "holds",
+    "clip": "27209.mp4",
+    "expected": "help",
+    "predicted": "help",
+    "status": "prototype_match",
+    "ms": 2085.9
+  },
+  {
+    "condition": "holds",
+    "clip": "38525.mp4",
+    "expected": "no",
+    "predicted": "no",
+    "status": "prototype_match",
+    "ms": 2682.3
+  },
+  {
+    "condition": "holds",
+    "clip": "57941.mp4",
+    "expected": "thin",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 2353.5
+  },
+  {
+    "condition": "holds",
+    "clip": "57943.mp4",
+    "expected": "thin",
+    "predicted": "thin",
+    "status": "prototype_match",
+    "ms": 3281.2
+  },
+  {
+    "condition": "holds",
+    "clip": "62160.mp4",
+    "expected": "walk",
+    "predicted": "walk",
+    "status": "prototype_match",
+    "ms": 2169.9
+  },
+  {
+    "condition": "holds",
+    "clip": "64210.mp4",
+    "expected": "year",
+    "predicted": "year",
+    "status": "prototype_match",
+    "ms": 2898.7
+  },
+  {
+    "condition": "holds",
+    "clip": "64209.mp4",
+    "expected": "year",
+    "predicted": "year",
+    "status": "prototype_match",
+    "ms": 2207.6
+  },
+  {
+    "condition": "holds",
+    "clip": "01986.mp4",
+    "expected": "all",
+    "predicted": "all",
+    "status": "prototype_match",
+    "ms": 3193.0
+  },
+  {
+    "condition": "holds",
+    "clip": "black-a4257a835229.mp4",
+    "expected": "black",
+    "predicted": "black",
+    "status": "prototype_match",
+    "ms": 2362.4
+  },
+  {
+    "condition": "holds",
+    "clip": "book-d61420d7ff0d.mp4",
+    "expected": "book",
+    "predicted": "book",
+    "status": "prototype_match",
+    "ms": 2691.9
+  },
+  {
+    "condition": "holds",
+    "clip": "chair-907aa61fb1f9.mp4",
+    "expected": "chair",
+    "predicted": "chair",
+    "status": "prototype_match",
+    "ms": 2648.9
+  },
+  {
+    "condition": "holds",
+    "clip": "fine-0981b5659e88.mp4",
+    "expected": "fine",
+    "predicted": "fine",
+    "status": "prototype_match",
+    "ms": 2319.6
+  },
+  {
+    "condition": "holds",
+    "clip": "go-094b46e1e100.mp4",
+    "expected": "go",
+    "predicted": "go",
+    "status": "prototype_match",
+    "ms": 2200.0
+  },
+  {
+    "condition": "holds",
+    "clip": "ziggy-yes.mp4",
+    "expected": "yes",
+    "predicted": "no",
+    "status": "prototype_match",
+    "ms": 3601.9
+  }
+]

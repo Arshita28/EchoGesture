@@ -1,0 +1,137 @@
+[
+  {
+    "word": "book",
+    "pred": "book",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fbook%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 291.56920799999995,
+    "setup_ms": 8700.744625000001,
+    "track_ms": 2397.04225,
+    "classify_close_ms": 7.0770839999987345
+  },
+  {
+    "word": "drink",
+    "pred": "drink",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fdrink%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 413.27129100000093,
+    "setup_ms": 12.651249999999337,
+    "track_ms": 3384.2497920000005,
+    "classify_close_ms": 4.25179199999981
+  },
+  {
+    "word": "computer",
+    "pred": "chair",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fcomputer%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 74.98995899999805,
+    "setup_ms": 18.064041000002362,
+    "track_ms": 1195.105709,
+    "classify_close_ms": 3.136249999997176
+  },
+  {
+    "word": "chair",
+    "pred": "chair",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fchair%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 39.569708000001924,
+    "setup_ms": 12.437750000000136,
+    "track_ms": 1971.901416999998,
+    "classify_close_ms": 3.9603750000019033
+  },
+  {
+    "word": "go",
+    "pred": "go",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fgo%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 29.741959000002538,
+    "setup_ms": 12.522457999999403,
+    "track_ms": 1470.6460419999985,
+    "classify_close_ms": 4.006000000000398
+  },
+  {
+    "word": "clothes",
+    "pred": "clothes",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fclothes%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 297.37741699999987,
+    "setup_ms": 12.768458000000038,
+    "track_ms": 2339.191542000002,
+    "classify_close_ms": 4.148707999998891
+  },
+  {
+    "word": "who",
+    "pred": "who",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fwho%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 481.75916600000335,
+    "setup_ms": 13.44649999999703,
+    "track_ms": 4066.975750000001,
+    "classify_close_ms": 4.125417000000908
+  },
+  {
+    "word": "cousin",
+    "pred": "cousin",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fcousin%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 46.295875000001985,
+    "setup_ms": 13.200708999999478,
+    "track_ms": 2265.8653330000006,
+    "classify_close_ms": 4.371374999998068
+  },
+  {
+    "word": "deaf",
+    "pred": "who",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fdeaf%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 46.62612499999952,
+    "setup_ms": 12.69820899999985,
+    "track_ms": 2349.7454580000012,
+    "classify_close_ms": 4.046916999996597
+  },
+  {
+    "word": "fine",
+    "pred": "cousin",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Ffine%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 30.429750000003253,
+    "setup_ms": 15.237291999994795,
+    "track_ms": 1544.9959160000049,
+    "classify_close_ms": 3.4725000000008777
+  },
+  {
+    "word": "help",
+    "pred": "help",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fhelp%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 65.86283300000417,
+    "setup_ms": 18.330041999995217,
+    "track_ms": 1009.0063750000056,
+    "classify_close_ms": 3.6286249999974984
+  },
+  {
+    "word": "no",
+    "pred": "no",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fno%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 19.62224999999762,
+    "setup_ms": 20.43283400000462,
+    "track_ms": 968.2427499999947,
+    "classify_close_ms": 4.0809580000029655
+  },
+  {
+    "word": "walk",
+    "pred": "clothes",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fwalk%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 410.0469170000025,
+    "setup_ms": 15.0461249999978,
+    "track_ms": 3455.756749999999,
+    "classify_close_ms": 4.058000000000561
+  },
+  {
+    "word": "year",
+    "pred": "year",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fyear%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 42.175000000000296,
+    "setup_ms": 15.81949999999921,
+    "track_ms": 2013.5519999999972,
+    "classify_close_ms": 3.93666600000131
+  },
+  {
+    "word": "black",
+    "pred": "black",
+    "source": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fblack%2Fweb_540.mp4?alt=media",
+    "inspect_ms": 307.4917080000006,
+    "setup_ms": 12.965916999995386,
+    "track_ms": 2766.261208000003,
+    "classify_close_ms": 4.167000000002474
+  }
+]

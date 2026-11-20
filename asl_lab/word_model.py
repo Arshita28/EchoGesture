@@ -51,4 +51,4 @@ def classify_word(bundle, features):
     # Raw decision values rank known classes only. They are not probabilities.
     return dict(status='prototype_match',label=str(model.classes_[order[0]]),
         candidates=[dict(label=str(model.classes_[i]),decision_score=float(scores[i])) for i in order if str(model.classes_[i])!='NONE'][:3],
-        quality=quality,scope='Five known words only; unknown signs are not reliably rejected.')
+        quality=quality,scope=f'Known words only; unknown signs are not reliably rejected.')

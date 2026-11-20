@@ -24,7 +24,7 @@ def crop_sequence(features,timestamps):
         dense_frames=len(features),visible_frames=int(visible.sum()),cropped_duration_s=float(timestamps[end-1]-timestamps[start]))
 
 
-def extract_dense(path,extractor,max_duration=10):
+def extract_dense(path,extractor,max_duration=10, tracking_fps=25):
     cap=cv2.VideoCapture(str(path));features=[];times=[]
     try:
         fps=float(cap.get(cv2.CAP_PROP_FPS))
@@ -41,7 +41,7 @@ def extract_dense(path,extractor,max_duration=10):
                 h,w=frame.shape[:2]
                 if max(h,w)>640:frame=cv2.resize(frame,(round(w*640/max(h,w)),round(h*640/max(h,w))))
                 features.append(extractor.extract(cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)))
-                times.append(timestamp);next_time+=1/25
+                times.append(timestamp);next_time+=1/tracking_fps
             index+=1
         return crop_sequence(features,times)
     finally:cap.release()

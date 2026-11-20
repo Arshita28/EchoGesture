@@ -1,0 +1,31 @@
+{
+  "added": {
+    "no": 16,
+    "go": 15,
+    "all": 15,
+    "yes": 14,
+    "thin": 13,
+    "help": 13,
+    "before": 14,
+    "black": 15,
+    "cousin": 14,
+    "year": 15,
+    "who": 13,
+    "clothes": 14,
+    "chair": 14,
+    "computer": 15,
+    "book": 15
+  },
+  "validation": {
+    "citizen": {
+      "baseline": 31,
+      "expanded": 52,
+      "total": 59
+    },
+    "wlasl": {
+      "baseline": 9,
+      "expanded": 10,
+      "total": 16
+    }
+  }
+}

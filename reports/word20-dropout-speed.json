@@ -1,0 +1,542 @@
+[
+  {
+    "label": "chair",
+    "clip": "8765936616476178-CHAIR.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1568.3909170000002,
+    "baseline": "chair",
+    "candidate": "chair"
+  },
+  {
+    "label": "computer",
+    "clip": "8984122870078688-COMPUTER.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1386.5580829999997,
+    "baseline": "computer",
+    "candidate": "computer"
+  },
+  {
+    "label": "book",
+    "clip": "8170605754700684-BOOK.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1509.949958,
+    "baseline": "book",
+    "candidate": "help"
+  },
+  {
+    "label": "thin",
+    "clip": "6618105986400606-THIN.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1441.0286249999995,
+    "baseline": "thin",
+    "candidate": "thin"
+  },
+  {
+    "label": "help",
+    "clip": "23773456898680978-HELP.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1218.2467910000003,
+    "baseline": "help",
+    "candidate": "help"
+  },
+  {
+    "label": "no",
+    "clip": "46074251080029494-NO.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1062.645667,
+    "baseline": "no",
+    "candidate": "no"
+  },
+  {
+    "label": "go",
+    "clip": "26737390960725627-GO.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 926.2866669999994,
+    "baseline": "go",
+    "candidate": "go"
+  },
+  {
+    "label": "all",
+    "clip": "8622188011930683-ALL.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1003.6103750000009,
+    "baseline": "all",
+    "candidate": "all"
+  },
+  {
+    "label": "yes",
+    "clip": "029563612799205163-YES.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1230.0372910000003,
+    "baseline": "yes",
+    "candidate": "yes"
+  },
+  {
+    "label": "black",
+    "clip": "13786429847818238-BLACK.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1213.9519169999992,
+    "baseline": "black",
+    "candidate": "black"
+  },
+  {
+    "label": "cousin",
+    "clip": "7050775098008575-COUSIN.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1110.6696659999998,
+    "baseline": "cousin",
+    "candidate": "cousin"
+  },
+  {
+    "label": "year",
+    "clip": "2724933845029811-YEAR.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1262.8711249999985,
+    "baseline": "year",
+    "candidate": "year"
+  },
+  {
+    "label": "who",
+    "clip": "60520933432529-WHO.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 920.9954590000002,
+    "baseline": "who",
+    "candidate": "who"
+  },
+  {
+    "label": "clothes",
+    "clip": "009420825369894192-CLOTHES.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 1248.4677079999997,
+    "baseline": "clothes",
+    "candidate": "clothes"
+  },
+  {
+    "label": "before",
+    "clip": "2510897626267057-BEFORE.mp4",
+    "masked": false,
+    "fps": 25,
+    "tracking_ms": 813.1357910000006,
+    "baseline": "before",
+    "candidate": "before"
+  },
+  {
+    "label": "chair",
+    "clip": "8765936616476178-CHAIR.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 783.3995000000016,
+    "baseline": "chair",
+    "candidate": "chair"
+  },
+  {
+    "label": "computer",
+    "clip": "8984122870078688-COMPUTER.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 739.8413329999976,
+    "baseline": "computer",
+    "candidate": "computer"
+  },
+  {
+    "label": "book",
+    "clip": "8170605754700684-BOOK.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 795.0636250000009,
+    "baseline": "book",
+    "candidate": "help"
+  },
+  {
+    "label": "thin",
+    "clip": "6618105986400606-THIN.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 745.290040999997,
+    "baseline": "thin",
+    "candidate": "thin"
+  },
+  {
+    "label": "help",
+    "clip": "23773456898680978-HELP.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 642.2113749999987,
+    "baseline": "help",
+    "candidate": "help"
+  },
+  {
+    "label": "no",
+    "clip": "46074251080029494-NO.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 549.6295830000015,
+    "baseline": null,
+    "candidate": null
+  },
+  {
+    "label": "go",
+    "clip": "26737390960725627-GO.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 495.6702499999999,
+    "baseline": "go",
+    "candidate": "go"
+  },
+  {
+    "label": "all",
+    "clip": "8622188011930683-ALL.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 521.1163749999982,
+    "baseline": "all",
+    "candidate": "all"
+  },
+  {
+    "label": "yes",
+    "clip": "029563612799205163-YES.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 634.9731249999984,
+    "baseline": "yes",
+    "candidate": "yes"
+  },
+  {
+    "label": "black",
+    "clip": "13786429847818238-BLACK.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 615.5555419999991,
+    "baseline": "black",
+    "candidate": "black"
+  },
+  {
+    "label": "cousin",
+    "clip": "7050775098008575-COUSIN.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 572.7972920000007,
+    "baseline": "cousin",
+    "candidate": "cousin"
+  },
+  {
+    "label": "year",
+    "clip": "2724933845029811-YEAR.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 647.0124999999989,
+    "baseline": "year",
+    "candidate": "year"
+  },
+  {
+    "label": "who",
+    "clip": "60520933432529-WHO.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 475.8040000000001,
+    "baseline": "who",
+    "candidate": "who"
+  },
+  {
+    "label": "clothes",
+    "clip": "009420825369894192-CLOTHES.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 659.9315829999988,
+    "baseline": "clothes",
+    "candidate": "clothes"
+  },
+  {
+    "label": "before",
+    "clip": "2510897626267057-BEFORE.mp4",
+    "masked": false,
+    "fps": 12,
+    "tracking_ms": 428.0008749999986,
+    "baseline": "before",
+    "candidate": "before"
+  },
+  {
+    "label": "chair",
+    "clip": "8765936616476178-CHAIR.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1598.053874999998,
+    "baseline": "chair",
+    "candidate": "chair"
+  },
+  {
+    "label": "computer",
+    "clip": "8984122870078688-COMPUTER.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1405.0126250000012,
+    "baseline": "computer",
+    "candidate": "computer"
+  },
+  {
+    "label": "book",
+    "clip": "8170605754700684-BOOK.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1578.5397910000008,
+    "baseline": "book",
+    "candidate": "book"
+  },
+  {
+    "label": "thin",
+    "clip": "6618105986400606-THIN.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1454.8514580000003,
+    "baseline": "year",
+    "candidate": "year"
+  },
+  {
+    "label": "help",
+    "clip": "23773456898680978-HELP.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1243.4856670000017,
+    "baseline": "year",
+    "candidate": "help"
+  },
+  {
+    "label": "no",
+    "clip": "46074251080029494-NO.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1068.0406660000017,
+    "baseline": "no",
+    "candidate": "no"
+  },
+  {
+    "label": "go",
+    "clip": "26737390960725627-GO.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 940.8102920000019,
+    "baseline": "go",
+    "candidate": "go"
+  },
+  {
+    "label": "all",
+    "clip": "8622188011930683-ALL.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1010.1712079999957,
+    "baseline": "all",
+    "candidate": "all"
+  },
+  {
+    "label": "yes",
+    "clip": "029563612799205163-YES.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1212.8499579999996,
+    "baseline": "yes",
+    "candidate": "yes"
+  },
+  {
+    "label": "black",
+    "clip": "13786429847818238-BLACK.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1227.5535409999989,
+    "baseline": "black",
+    "candidate": "black"
+  },
+  {
+    "label": "cousin",
+    "clip": "7050775098008575-COUSIN.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1116.3932080000052,
+    "baseline": "cousin",
+    "candidate": "cousin"
+  },
+  {
+    "label": "year",
+    "clip": "2724933845029811-YEAR.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1329.495999999999,
+    "baseline": "year",
+    "candidate": "year"
+  },
+  {
+    "label": "who",
+    "clip": "60520933432529-WHO.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 989.5890840000021,
+    "baseline": "who",
+    "candidate": "who"
+  },
+  {
+    "label": "clothes",
+    "clip": "009420825369894192-CLOTHES.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 1330.2007080000067,
+    "baseline": "clothes",
+    "candidate": "clothes"
+  },
+  {
+    "label": "before",
+    "clip": "2510897626267057-BEFORE.mp4",
+    "masked": true,
+    "fps": 25,
+    "tracking_ms": 818.9108329999967,
+    "baseline": "before",
+    "candidate": "before"
+  },
+  {
+    "label": "chair",
+    "clip": "8765936616476178-CHAIR.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 796.9099159999971,
+    "baseline": "chair",
+    "candidate": "chair"
+  },
+  {
+    "label": "computer",
+    "clip": "8984122870078688-COMPUTER.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 712.0960409999952,
+    "baseline": "computer",
+    "candidate": "computer"
+  },
+  {
+    "label": "book",
+    "clip": "8170605754700684-BOOK.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 832.4709170000019,
+    "baseline": "help",
+    "candidate": "help"
+  },
+  {
+    "label": "thin",
+    "clip": "6618105986400606-THIN.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 740.6764589999995,
+    "baseline": null,
+    "candidate": null
+  },
+  {
+    "label": "help",
+    "clip": "23773456898680978-HELP.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 661.5054159999971,
+    "baseline": null,
+    "candidate": null
+  },
+  {
+    "label": "no",
+    "clip": "46074251080029494-NO.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 553.6204580000046,
+    "baseline": null,
+    "candidate": null
+  },
+  {
+    "label": "go",
+    "clip": "26737390960725627-GO.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 494.616458000003,
+    "baseline": "go",
+    "candidate": "go"
+  },
+  {
+    "label": "all",
+    "clip": "8622188011930683-ALL.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 521.3974169999958,
+    "baseline": "all",
+    "candidate": "all"
+  },
+  {
+    "label": "yes",
+    "clip": "029563612799205163-YES.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 643.029625000004,
+    "baseline": "yes",
+    "candidate": "yes"
+  },
+  {
+    "label": "black",
+    "clip": "13786429847818238-BLACK.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 621.0045830000013,
+    "baseline": "black",
+    "candidate": "black"
+  },
+  {
+    "label": "cousin",
+    "clip": "7050775098008575-COUSIN.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 574.3804170000004,
+    "baseline": "cousin",
+    "candidate": "cousin"
+  },
+  {
+    "label": "year",
+    "clip": "2724933845029811-YEAR.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 684.701167,
+    "baseline": "year",
+    "candidate": "year"
+  },
+  {
+    "label": "who",
+    "clip": "60520933432529-WHO.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 501.9545840000035,
+    "baseline": "who",
+    "candidate": "who"
+  },
+  {
+    "label": "clothes",
+    "clip": "009420825369894192-CLOTHES.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 699.0212500000013,
+    "baseline": "clothes",
+    "candidate": "clothes"
+  },
+  {
+    "label": "before",
+    "clip": "2510897626267057-BEFORE.mp4",
+    "masked": true,
+    "fps": 12,
+    "tracking_ms": 429.2136669999991,
+    "baseline": "before",
+    "candidate": "before"
+  }
+]

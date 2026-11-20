@@ -1,0 +1,13 @@
+[hidden]{display:none!important}
+.viewer img,.viewer canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.viewer canvas{pointer-events:none}
+#empty{position:relative;padding:20px;text-align:center;max-width:320px}
+#source{position:absolute;top:12px;left:12px;padding:4px 9px;border-radius:6px;background:#10241ed9;color:#ecf5ed;font-size:11px;letter-spacing:.06em}
+#letter{font:500 clamp(68px,9vw,110px)/1.15 Georgia,serif}
+.result h3{font:600 20px/1.35 system-ui;margin:14px 0 0}
+#voiceStatus{align-self:center;font-size:14px;color:#495f53;flex:1 1 200px}
+.textrow{display:flex;flex-wrap:wrap;gap:8px}
+.textrow input,.collection input{font:inherit;border:1px solid #bacbbf;border-radius:8px;padding:10px;color:#172e29}
+.textrow input{flex:1 0 100%;min-width:0}
+#append{background:#205640;color:white}
+.collection label{display:grid;gap:4px}

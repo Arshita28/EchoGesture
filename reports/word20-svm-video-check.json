@@ -1,0 +1,140 @@
+[
+  {
+    "expected": "drink",
+    "predicted": "drink",
+    "clip": "17713.mp4",
+    "ms": 1997.1
+  },
+  {
+    "expected": "computer",
+    "predicted": "computer",
+    "clip": "12320.mp4",
+    "ms": 2213.2
+  },
+  {
+    "expected": "before",
+    "predicted": "all",
+    "clip": "05727.mp4",
+    "ms": 2002.3
+  },
+  {
+    "expected": "clothes",
+    "predicted": "clothes",
+    "clip": "11311.mp4",
+    "ms": 2007.8
+  },
+  {
+    "expected": "who",
+    "predicted": "candy",
+    "clip": "63226.mp4",
+    "ms": 1487.7
+  },
+  {
+    "expected": "candy",
+    "predicted": "black",
+    "clip": "08915.mp4",
+    "ms": 2012.9
+  },
+  {
+    "expected": "cousin",
+    "predicted": "cousin",
+    "clip": "13635.mp4",
+    "ms": 2306.7
+  },
+  {
+    "expected": "deaf",
+    "predicted": "deaf",
+    "clip": "14883.mp4",
+    "ms": 711.4
+  },
+  {
+    "expected": "deaf",
+    "predicted": "deaf",
+    "clip": "14888.mp4",
+    "ms": 1503.3
+  },
+  {
+    "expected": "help",
+    "predicted": "help",
+    "clip": "27209.mp4",
+    "ms": 1332.8
+  },
+  {
+    "expected": "no",
+    "predicted": "no",
+    "clip": "38525.mp4",
+    "ms": 1472.6
+  },
+  {
+    "expected": "thin",
+    "predicted": "thin",
+    "clip": "57941.mp4",
+    "ms": 965.0
+  },
+  {
+    "expected": "thin",
+    "predicted": "thin",
+    "clip": "57943.mp4",
+    "ms": 2584.7
+  },
+  {
+    "expected": "walk",
+    "predicted": "walk",
+    "clip": "62160.mp4",
+    "ms": 810.0
+  },
+  {
+    "expected": "year",
+    "predicted": "year",
+    "clip": "64210.mp4",
+    "ms": 1783.1
+  },
+  {
+    "expected": "year",
+    "predicted": "year",
+    "clip": "64209.mp4",
+    "ms": 1319.5
+  },
+  {
+    "expected": "all",
+    "predicted": "all",
+    "clip": "01986.mp4",
+    "ms": 2183.6
+  },
+  {
+    "expected": "black",
+    "predicted": "black",
+    "clip": "black-a4257a835229.mp4",
+    "ms": 1291.0
+  },
+  {
+    "expected": "book",
+    "predicted": "book",
+    "clip": "book-d61420d7ff0d.mp4",
+    "ms": 1655.5
+  },
+  {
+    "expected": "chair",
+    "predicted": "chair",
+    "clip": "chair-907aa61fb1f9.mp4",
+    "ms": 1587.4
+  },
+  {
+    "expected": "fine",
+    "predicted": "fine",
+    "clip": "fine-0981b5659e88.mp4",
+    "ms": 1250.5
+  },
+  {
+    "expected": "go",
+    "predicted": "go",
+    "clip": "go-094b46e1e100.mp4",
+    "ms": 1147.5
+  },
+  {
+    "expected": "yes",
+    "predicted": "yes",
+    "clip": "ziggy-yes.mp4",
+    "ms": 2131.2
+  }
+]
