@@ -1,0 +1,203 @@
+{
+  "train_counts": {
+    "book": 4,
+    "drink": 5,
+    "computer": 11,
+    "before": 9,
+    "chair": 4,
+    "go": 4,
+    "clothes": 3,
+    "who": 8,
+    "candy": 7,
+    "cousin": 5,
+    "deaf": 8,
+    "fine": 5,
+    "help": 3,
+    "no": 6,
+    "thin": 9,
+    "walk": 4,
+    "year": 4,
+    "yes": 7,
+    "all": 3,
+    "black": 5
+  },
+  "evaluation": {
+    "validation": {
+      "correct": 9,
+      "total": 16,
+      "rows": [
+        {
+          "video_id": "12312",
+          "truth": "computer",
+          "prediction": "computer"
+        },
+        {
+          "video_id": "12315",
+          "truth": "computer",
+          "prediction": "computer"
+        },
+        {
+          "video_id": "09851",
+          "truth": "chair",
+          "prediction": "chair"
+        },
+        {
+          "video_id": "24946",
+          "truth": "go",
+          "prediction": "go"
+        },
+        {
+          "video_id": "63229",
+          "truth": "who",
+          "prediction": "candy"
+        },
+        {
+          "video_id": "63230",
+          "truth": "who",
+          "prediction": "who"
+        },
+        {
+          "video_id": "08918",
+          "truth": "candy",
+          "prediction": "candy"
+        },
+        {
+          "video_id": "13633",
+          "truth": "cousin",
+          "prediction": "drink"
+        },
+        {
+          "video_id": "13634",
+          "truth": "cousin",
+          "prediction": "cousin"
+        },
+        {
+          "video_id": "14887",
+          "truth": "deaf",
+          "prediction": "deaf"
+        },
+        {
+          "video_id": "21872",
+          "truth": "fine",
+          "prediction": "thin"
+        },
+        {
+          "video_id": "21874",
+          "truth": "fine",
+          "prediction": "clothes"
+        },
+        {
+          "video_id": "57933",
+          "truth": "thin",
+          "prediction": "book"
+        },
+        {
+          "video_id": "62158",
+          "truth": "walk",
+          "prediction": "chair"
+        },
+        {
+          "video_id": "64211",
+          "truth": "year",
+          "prediction": "year"
+        },
+        {
+          "video_id": "64287",
+          "truth": "yes",
+          "prediction": "deaf"
+        }
+      ]
+    },
+    "test": {
+      "correct": 13,
+      "total": 17,
+      "rows": [
+        {
+          "video_id": "17713",
+          "truth": "drink",
+          "prediction": "drink"
+        },
+        {
+          "video_id": "12320",
+          "truth": "computer",
+          "prediction": "computer"
+        },
+        {
+          "video_id": "05727",
+          "truth": "before",
+          "prediction": "before"
+        },
+        {
+          "video_id": "11311",
+          "truth": "clothes",
+          "prediction": "clothes"
+        },
+        {
+          "video_id": "63226",
+          "truth": "who",
+          "prediction": "who"
+        },
+        {
+          "video_id": "08915",
+          "truth": "candy",
+          "prediction": "who"
+        },
+        {
+          "video_id": "13635",
+          "truth": "cousin",
+          "prediction": "cousin"
+        },
+        {
+          "video_id": "14883",
+          "truth": "deaf",
+          "prediction": "deaf"
+        },
+        {
+          "video_id": "14888",
+          "truth": "deaf",
+          "prediction": "deaf"
+        },
+        {
+          "video_id": "27209",
+          "truth": "help",
+          "prediction": "before"
+        },
+        {
+          "video_id": "38525",
+          "truth": "no",
+          "prediction": "deaf"
+        },
+        {
+          "video_id": "57941",
+          "truth": "thin",
+          "prediction": "thin"
+        },
+        {
+          "video_id": "57943",
+          "truth": "thin",
+          "prediction": "book"
+        },
+        {
+          "video_id": "62160",
+          "truth": "walk",
+          "prediction": "walk"
+        },
+        {
+          "video_id": "64210",
+          "truth": "year",
+          "prediction": "year"
+        },
+        {
+          "video_id": "64209",
+          "truth": "year",
+          "prediction": "year"
+        },
+        {
+          "video_id": "01986",
+          "truth": "all",
+          "prediction": "all"
+        }
+      ]
+    }
+  }
+}

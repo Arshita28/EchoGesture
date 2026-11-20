@@ -38,11 +38,13 @@ def main():
     p.add_argument('--downloader-packages',required=True)
     p.add_argument('--ffmpeg',required=True)
     p.add_argument('--limit',type=int,default=12)
+    p.add_argument('--labels',type=Path,default=Path('config/word_prototype.json'))
+    p.add_argument('--output',type=Path,default=Path('datasets/raw/word-training-extension'))
     a=p.parse_args()
-    root=Path('datasets/raw/word-training-extension');root.mkdir(parents=True,exist_ok=True)
+    root=a.output;root.mkdir(parents=True,exist_ok=True)
     videos=root/'videos';videos.mkdir(exist_ok=True)
     metadata=json.loads(Path('datasets/raw/wlasl/WLASL_v0.3.json').read_text())
-    labels=json.loads(Path('config/word_prototype.json').read_text())['labels']
+    labels=json.loads(a.labels.read_text())['labels']
     external=json.loads(Path('datasets/raw/web-evaluation/sources-segmented.json').read_text())
     forbidden={r['url'] for r in external}
     fresh=Path('datasets/raw/fresh-dictionary/sources.json')
