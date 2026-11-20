@@ -1,0 +1,310 @@
+{
+  "model_sha256": "4d39dfa5071381e01794b1f94c41636599366c94d10f8db54b092292f5836edd",
+  "config_sha256": "874a1c7a9a881a5a3a0e431f272b957e70649a9dbd282632bed9d4653a17311f",
+  "feature_version": "holistic-body-hands-v1",
+  "source_audit": [
+    {
+      "label": "computer",
+      "video_id": "lmb1qYJ8g3Y",
+      "url": "https://www.youtube.com/watch?v=lmb1qYJ8g3Y",
+      "source_page": "https://www.lifeprint.com/asl101/pages-signs/c/computer.htm",
+      "source": "lifeprint",
+      "status": "included",
+      "sha256": "32ba89bd5bc0f0258f03754ebe95b3be6c69b72f3eb3d12cba8576ab7f633af9",
+      "native_frames": 86,
+      "fps": 29.97002997002997
+    },
+    {
+      "label": "who",
+      "video_id": "wKl26BsEAoc",
+      "url": "https://www.youtube.com/watch?v=wKl26BsEAoc",
+      "source_page": "https://www.lifeprint.com/asl101/pages-signs/w/who.htm",
+      "source": "lifeprint",
+      "status": "included",
+      "sha256": "2c19935755babb545d5f7f2a19305db9c0b4d7751fec06ab4eff3cd4d848b1b4",
+      "native_frames": 84,
+      "fps": 29.97002997002997
+    },
+    {
+      "label": "deaf",
+      "video_id": "sP4e9vRUCYM",
+      "url": "https://www.youtube.com/watch?v=sP4e9vRUCYM",
+      "source_page": "https://github.com/dxli94/WLASL",
+      "source": "dictionary",
+      "status": "included",
+      "sha256": "5afddf70110a0cc3f0d11e5ecbfaa087d3f6eeaf844808d55cb774d3fda9c0b0",
+      "native_frames": 75,
+      "fps": 29.97002997002997
+    },
+    {
+      "label": "year",
+      "video_id": "zTIJAgTai40",
+      "url": "https://www.youtube.com/watch?v=zTIJAgTai40",
+      "source_page": "https://www.lifeprint.com/asl101/pages-signs/y/year.htm",
+      "source": "lifeprint",
+      "status": "included",
+      "sha256": "fc404038613ebd0dbc099d7dcf6e3e237cef9b924edd92abccd34dd97c268357",
+      "native_frames": 96,
+      "fps": 29.97002997002997
+    },
+    {
+      "label": "cool",
+      "video_id": "2dMLLV2JWXE",
+      "url": "https://www.youtube.com/watch?v=2dMLLV2JWXE",
+      "source_page": "https://www.lifeprint.com/asl101/pages-signs/c/cool.htm",
+      "source": "lifeprint_temperature",
+      "status": "included",
+      "sha256": "b62436ae39612e5a799c973422a25af7d9d68f7d2256fbea5d13862f9c5efa86",
+      "native_frames": 74,
+      "fps": 25.0
+    },
+    {
+      "label": "computer",
+      "video_id": "PPmQd2zWdP0",
+      "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+      "source_page": "https://github.com/dxli94/WLASL",
+      "source": "wlasl_unacquired",
+      "status": "included",
+      "sha256": "e11cf84cb06e4725eaa34adc221f052f1fbb3ca365bdb5a978e99649c1f7a44a",
+      "native_frames": 60,
+      "fps": 25.0,
+      "segment": {
+        "start_s": 204.84,
+        "duration_s": 2.4,
+        "official_frame_start": 5122,
+        "official_frame_end": 5181,
+        "annotation_fps": 25,
+        "wlasl_video_id": "12306"
+      }
+    },
+    {
+      "label": "who",
+      "video_id": "A5dihMAjeTE",
+      "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+      "source_page": "https://github.com/dxli94/WLASL",
+      "source": "wlasl_unacquired",
+      "status": "included",
+      "sha256": "5243305c54bac2c88eb0fffe6f3e23ec37bae6f3d90f9a8eff5002bf690daca7",
+      "native_frames": 77,
+      "fps": 25.0,
+      "segment": {
+        "start_s": 86.32,
+        "duration_s": 3.08,
+        "official_frame_start": 2159,
+        "official_frame_end": 2235,
+        "annotation_fps": 25,
+        "wlasl_video_id": "63219"
+      }
+    },
+    {
+      "label": "deaf",
+      "video_id": "ChIupJBcxjs",
+      "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+      "source_page": "https://github.com/dxli94/WLASL",
+      "source": "wlasl_unacquired",
+      "status": "included",
+      "sha256": "73676a9f32855546c58e4021647265fb3e9ed53cc6277f58b03d891feb708ff4",
+      "native_frames": 47,
+      "fps": 25.0,
+      "segment": {
+        "start_s": 19.84,
+        "duration_s": 1.88,
+        "official_frame_start": 497,
+        "official_frame_end": 543,
+        "annotation_fps": 25,
+        "wlasl_video_id": "14855"
+      }
+    },
+    {
+      "label": "year",
+      "video_id": "BRO-oYGV224",
+      "url": "https://www.youtube.com/watch?v=BRO-oYGV224",
+      "source_page": "https://github.com/dxli94/WLASL",
+      "source": "wlasl_unacquired",
+      "status": "included",
+      "sha256": "013deb2e263fb26fa450708305b09a9a23b835268a711310a25972cb8a246750",
+      "native_frames": 77,
+      "fps": 25.0,
+      "segment": {
+        "start_s": 0.0,
+        "duration_s": 3.08,
+        "official_frame_start": 1,
+        "official_frame_end": 77,
+        "annotation_fps": 25,
+        "wlasl_video_id": "64201"
+      }
+    },
+    {
+      "label": "cool",
+      "video_id": "WGfiiDgrq1I",
+      "url": "https://www.youtube.com/watch?v=WGfiiDgrq1I",
+      "source_page": "https://github.com/dxli94/WLASL",
+      "source": "wlasl_unacquired",
+      "status": "included",
+      "sha256": "f94fb8f6d716e44eb880bc51661c3d3729f5e68efbe1e09c5f6838a398740381",
+      "native_frames": 177,
+      "fps": 29.97002997002997,
+      "segment": {
+        "start_s": 197.88,
+        "duration_s": 5.92,
+        "official_frame_start": 4948,
+        "official_frame_end": 5095,
+        "annotation_fps": 25,
+        "wlasl_video_id": "70271"
+      }
+    }
+  ],
+  "by_condition": {
+    "original": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 6,
+      "all_attempt_accuracy": 0.6,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 0.6
+    },
+    "dim_55_percent": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 5,
+      "all_attempt_accuracy": 0.5,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 0.5
+    },
+    "low_resolution_160": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 6,
+      "all_attempt_accuracy": 0.6,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 0.6
+    },
+    "zoom_out_70_percent": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 6,
+      "all_attempt_accuracy": 0.6,
+      "detection_abstentions": 1,
+      "match_coverage": 0.9,
+      "accuracy_among_matches": 0.6666666666666666
+    },
+    "shift_right_12_percent": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 5,
+      "all_attempt_accuracy": 0.5,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 0.5
+    },
+    "roll_12_degrees": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 5,
+      "all_attempt_accuracy": 0.5,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 0.5
+    },
+    "leading_hold_1s": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 5,
+      "all_attempt_accuracy": 0.5,
+      "detection_abstentions": 3,
+      "match_coverage": 0.7,
+      "accuracy_among_matches": 0.7142857142857143
+    },
+    "trailing_hold_1s": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 5,
+      "all_attempt_accuracy": 0.5,
+      "detection_abstentions": 4,
+      "match_coverage": 0.6,
+      "accuracy_among_matches": 0.8333333333333334
+    },
+    "both_holds_1s": {
+      "attempted": 10,
+      "processed": 10,
+      "failures": 0,
+      "correct": 2,
+      "all_attempt_accuracy": 0.2,
+      "detection_abstentions": 6,
+      "match_coverage": 0.4,
+      "accuracy_among_matches": 0.5
+    }
+  },
+  "by_word_original": {
+    "computer": {
+      "attempted": 2,
+      "processed": 2,
+      "failures": 0,
+      "correct": 0,
+      "all_attempt_accuracy": 0.0,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 0.0
+    },
+    "who": {
+      "attempted": 2,
+      "processed": 2,
+      "failures": 0,
+      "correct": 2,
+      "all_attempt_accuracy": 1.0,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 1.0
+    },
+    "deaf": {
+      "attempted": 2,
+      "processed": 2,
+      "failures": 0,
+      "correct": 0,
+      "all_attempt_accuracy": 0.0,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 0.0
+    },
+    "year": {
+      "attempted": 2,
+      "processed": 2,
+      "failures": 0,
+      "correct": 2,
+      "all_attempt_accuracy": 1.0,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 1.0
+    },
+    "cool": {
+      "attempted": 2,
+      "processed": 2,
+      "failures": 0,
+      "correct": 2,
+      "all_attempt_accuracy": 1.0,
+      "detection_abstentions": 0,
+      "match_coverage": 1.0,
+      "accuracy_among_matches": 1.0
+    }
+  },
+  "original_confusions": {
+    "computer -> year": 2,
+    "who -> who": 2,
+    "deaf -> who": 2,
+    "year -> year": 2,
+    "cool -> cool": 2
+  },
+  "policy": "Freeze model and feature version. No training, threshold changes or source selection based on predictions. Count detection abstentions as incorrect in all-attempt accuracy. Transformed versions are correlated stress trials, not independent videos or new signers. In-plane roll is not a 3D camera-angle test. Source labels come from dictionary metadata, not inferred predictions.",
+  "limitations": "Convenience web sample with dictionary-provided labels. Sign variants and senses can differ. Exact hashes and known source URLs were checked against all fitting/selection/evaluation clips. Distinct video does not prove distinct signer; no claim of signer-independent sampling. Synthetic conditions share source clips, so do not treat their total as independent sample size. No model fitting or threshold changes. All newly evaluated clips must remain outside future fit data unless explicitly reclassified as development data."
+}

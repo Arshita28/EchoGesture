@@ -1,0 +1,115 @@
+{
+  "selected": "templates",
+  "selection": "Dense validation macro F1 only; historical test inspected only after selection.",
+  "split_counts": {
+    "train": {
+      "computer": 11,
+      "who": 8,
+      "deaf": 8,
+      "year": 4,
+      "cool": 5
+    },
+    "validation": {
+      "computer": 2,
+      "who": 2,
+      "deaf": 1,
+      "year": 1,
+      "cool": 2
+    },
+    "test": {
+      "computer": 1,
+      "who": 1,
+      "deaf": 2,
+      "year": 2,
+      "cool": 2
+    }
+  },
+  "candidates": {
+    "templates": {
+      "validation_macro_f1": 0.8666666666666666,
+      "validation_correct": 7,
+      "validation_total": 8,
+      "shared_validation_correct": 6,
+      "shared_validation_total": 6
+    },
+    "masked": {
+      "validation_macro_f1": 0.49333333333333335,
+      "validation_correct": 4,
+      "validation_total": 8,
+      "shared_validation_correct": 4,
+      "shared_validation_total": 6
+    },
+    "summary_linear_c01": {
+      "validation_macro_f1": 0.7666666666666666,
+      "validation_correct": 6,
+      "validation_total": 8,
+      "shared_validation_correct": 5,
+      "shared_validation_total": 6
+    },
+    "summary_rbf_c1": {
+      "validation_macro_f1": 0.6266666666666667,
+      "validation_correct": 6,
+      "validation_total": 8,
+      "shared_validation_correct": 5,
+      "shared_validation_total": 6
+    },
+    "summary_rbf_c10": {
+      "validation_macro_f1": 0.6266666666666667,
+      "validation_correct": 6,
+      "validation_total": 8,
+      "shared_validation_correct": 5,
+      "shared_validation_total": 6
+    }
+  },
+  "historical_test": {
+    "correct": 7,
+    "total": 8,
+    "predictions": [
+      {
+        "video_id": "12320",
+        "expected": "computer",
+        "predicted": "computer"
+      },
+      {
+        "video_id": "63226",
+        "expected": "who",
+        "predicted": "who"
+      },
+      {
+        "video_id": "14883",
+        "expected": "deaf",
+        "predicted": "deaf"
+      },
+      {
+        "video_id": "14888",
+        "expected": "deaf",
+        "predicted": "deaf"
+      },
+      {
+        "video_id": "64210",
+        "expected": "year",
+        "predicted": "year"
+      },
+      {
+        "video_id": "64209",
+        "expected": "year",
+        "predicted": "year"
+      },
+      {
+        "video_id": "13198",
+        "expected": "cool",
+        "predicted": "who"
+      },
+      {
+        "video_id": "13196",
+        "expected": "cool",
+        "predicted": "cool"
+      }
+    ]
+  },
+  "model_sha256": "8892dcbf0eea3670920e602b1d09510cf9a7d2433b70f9b1ab387004e1931cff",
+  "model_bytes": 711738,
+  "preprocessing": "dense-tracking-visible-crop-v1",
+  "production_replaced": false,
+  "limitations": "Very small validation, overlapping signers, no fresh live evaluation; historical test is not untouched. Extraction success differs from sparse pipeline, so test denominators may differ. No background rejection or edge compliance claim."
+}

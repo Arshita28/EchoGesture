@@ -12,6 +12,7 @@ from PIL import Image, ImageOps, UnidentifiedImageError
 from asl_lab.features import FEATURE_VERSION, HandExtractor, LETTERS
 from asl_lab.predict import classify
 from asl_lab.motion_routes import motion_routes
+from asl_lab.word_routes import word_routes
 
 ROOT = Path(__file__).resolve().parent
 
@@ -19,6 +20,7 @@ ROOT = Path(__file__).resolve().parent
 def create_app():
     app = Flask(__name__)
     app.register_blueprint(motion_routes(ROOT))
+    app.register_blueprint(word_routes(ROOT))
     app.config['MAX_CONTENT_LENGTH'] = 8 * 1024 * 1024
     app.config['TEMPLATES_AUTO_RELOAD'] = True
     lock = threading.Lock()

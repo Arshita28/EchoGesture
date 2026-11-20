@@ -1,0 +1,7 @@
+{
+  "name": "five_word_prototype_v1",
+  "labels": ["computer", "who", "deaf", "year", "cool"],
+  "scope": "Explicit five-word development prototype authorized for initial testing. Not WLASL30 or WLASL100.",
+  "input": "One complete isolated ASL sign per clip; hands, face and shoulders visible.",
+  "unknown_handling": "Detection-quality rejection only. No trained background or unknown-sign rejection. Closed-set matches are experimental."
+}

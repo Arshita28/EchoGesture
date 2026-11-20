@@ -1,0 +1,54 @@
+{
+  "selected": "mirror_False_velocity_1.0",
+  "eligible": false,
+  "baseline_validation": {
+    "known_correct": 7,
+    "known_total": 8,
+    "known_rejected": 1,
+    "other_rejected": 5,
+    "other_total": 8,
+    "balanced_utility": 0.75,
+    "macro_f1": 0.7801587301587302
+  },
+  "candidates": {
+    "mirror_False_velocity_1.0": {
+      "known_correct": 6,
+      "known_total": 8,
+      "known_rejected": 2,
+      "other_rejected": 6,
+      "other_total": 8,
+      "balanced_utility": 0.75,
+      "macro_f1": 0.7638888888888888
+    },
+    "mirror_False_velocity_3.0": {
+      "known_correct": 5,
+      "known_total": 8,
+      "known_rejected": 2,
+      "other_rejected": 4,
+      "other_total": 8,
+      "balanced_utility": 0.5625,
+      "macro_f1": 0.623015873015873
+    },
+    "mirror_True_velocity_0.0": {
+      "known_correct": 7,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 4,
+      "other_total": 8,
+      "balanced_utility": 0.6875,
+      "macro_f1": 0.7081196581196582
+    },
+    "mirror_True_velocity_1.0": {
+      "known_correct": 6,
+      "known_total": 8,
+      "known_rejected": 2,
+      "other_rejected": 5,
+      "other_total": 8,
+      "balanced_utility": 0.6875,
+      "macro_f1": 0.6944444444444443
+    }
+  },
+  "model_sha256": "6ee64f40aadff77326de829313c2e0868ac6bc030b35e850edfd71da589218ad",
+  "production_replaced": false,
+  "note": "Validation-only development; mirror transform is a hypothesis about dominant-hand variants, not proven universal linguistic invariance. No web fitting or selection."
+}

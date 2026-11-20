@@ -1,0 +1,83 @@
+{
+  "selected": "expanded_templates",
+  "selection": "Original known-word validation macro F1 only; web data never fitted or used for selection.",
+  "candidates": {
+    "expanded_templates": {
+      "validation_correct": 4,
+      "validation_total": 6,
+      "validation_macro_f1": 0.6333333333333333
+    },
+    "expanded_masked": {
+      "validation_correct": 3,
+      "validation_total": 6,
+      "validation_macro_f1": 0.4
+    },
+    "expanded_masked_other_words": {
+      "validation_correct": 3,
+      "validation_total": 6,
+      "validation_macro_f1": 0.4444444444444444
+    }
+  },
+  "added_quality_passing_training": 4,
+  "added_quality_rejected_ids": [
+    "70015",
+    "68033",
+    "70306",
+    "13214"
+  ],
+  "known_training_count": 22,
+  "regressions": {
+    "historical_test": {
+      "correct": 5,
+      "total": 7
+    },
+    "both_holds_1s": {
+      "correct": 2,
+      "total": 10,
+      "rejected": 6
+    },
+    "dim_55_percent": {
+      "correct": 6,
+      "total": 10,
+      "rejected": 0
+    },
+    "leading_hold_1s": {
+      "correct": 5,
+      "total": 10,
+      "rejected": 3
+    },
+    "low_resolution_160": {
+      "correct": 6,
+      "total": 10,
+      "rejected": 0
+    },
+    "original": {
+      "correct": 6,
+      "total": 10,
+      "rejected": 0
+    },
+    "roll_12_degrees": {
+      "correct": 6,
+      "total": 10,
+      "rejected": 0
+    },
+    "shift_right_12_percent": {
+      "correct": 6,
+      "total": 10,
+      "rejected": 0
+    },
+    "trailing_hold_1s": {
+      "correct": 5,
+      "total": 10,
+      "rejected": 4
+    },
+    "zoom_out_70_percent": {
+      "correct": 7,
+      "total": 10,
+      "rejected": 1
+    }
+  },
+  "model_sha256": "08ea9affc5ee2b15c648fd8cdedf7d33e47e6444d81998c646ad2e33309d0a86",
+  "production_replaced": false,
+  "note": "Historical test and inspected web clips are development regressions, not fresh accuracy evidence. No automatic promotion. Sparse original validation set and source/signer overlap remain limitations."
+}

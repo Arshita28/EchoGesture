@@ -1,0 +1,187 @@
+{
+  "name": "five_word_prototype_v1",
+  "scope": "Explicit five-word development prototype authorized for initial testing. Not WLASL30 or WLASL100.",
+  "labels": [
+    "computer",
+    "who",
+    "deaf",
+    "year",
+    "cool"
+  ],
+  "selected": "temporal_templates",
+  "selection": "Validation macro F1 only; deterministic candidate-order tie break; no refit on validation or test.",
+  "split_counts": {
+    "train": {
+      "computer": 6,
+      "who": 3,
+      "deaf": 3,
+      "year": 2,
+      "cool": 4
+    },
+    "validation": {
+      "computer": 2,
+      "who": 1,
+      "deaf": 1,
+      "year": 1,
+      "cool": 1
+    },
+    "test": {
+      "computer": 1,
+      "who": 1,
+      "deaf": 2,
+      "year": 2,
+      "cool": 1
+    }
+  },
+  "validation": {
+    "linear_svm_c01": {
+      "accuracy": 0.5,
+      "macro_f1": 0.4333333333333333
+    },
+    "rbf_svm_c1": {
+      "accuracy": 0.5,
+      "macro_f1": 0.26
+    },
+    "rbf_svm_c10": {
+      "accuracy": 0.5,
+      "macro_f1": 0.29333333333333333
+    },
+    "temporal_templates": {
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.6333333333333333
+    }
+  },
+  "test": {
+    "clips": 7,
+    "correct": 5,
+    "accuracy": 0.7142857142857143,
+    "macro_f1": 0.6333333333333333,
+    "classification_report": {
+      "computer": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "who": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1-score": 0.5,
+        "support": 1.0
+      },
+      "deaf": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "year": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "cool": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "accuracy": 0.7142857142857143,
+      "macro avg": {
+        "precision": 0.6666666666666666,
+        "recall": 0.7,
+        "f1-score": 0.6333333333333333,
+        "support": 7.0
+      },
+      "weighted avg": {
+        "precision": 0.7619047619047619,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.6904761904761905,
+        "support": 7.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "predictions": [
+      {
+        "video_id": "12320",
+        "expected": "computer",
+        "predicted": "computer"
+      },
+      {
+        "video_id": "63226",
+        "expected": "who",
+        "predicted": "who"
+      },
+      {
+        "video_id": "14883",
+        "expected": "deaf",
+        "predicted": "deaf"
+      },
+      {
+        "video_id": "14888",
+        "expected": "deaf",
+        "predicted": "who"
+      },
+      {
+        "video_id": "64210",
+        "expected": "year",
+        "predicted": "year"
+      },
+      {
+        "video_id": "64209",
+        "expected": "year",
+        "predicted": "year"
+      },
+      {
+        "video_id": "13198",
+        "expected": "cool",
+        "predicted": "who"
+      }
+    ]
+  },
+  "classifier_batch_ms": 41.984582999999965,
+  "model_bytes": 356404,
+  "model_sha256": "4d39dfa5071381e01794b1f94c41636599366c94d10f8db54b092292f5836edd",
+  "config_sha256": "c3d2a0ffc4faac2f2f29e1149a94f9202234c8a848573ae38f8e87242d06dcf8",
+  "extraction_sha256": "3e81a3bdf102c73dfa41ab17b9fdecd96d3ad286db65d89c531de1053fc320e3",
+  "signer_ids_crossing_partitions": 4,
+  "unknown_handling": "Detection-quality rejection only. No trained background or unknown-sign rejection. Closed-set matches are experimental.",
+  "limitations": "Tiny available-data subset, selected for partition coverage before training. Official splits overlap signers. Metrics cover quality-passing clips only, not all attempted videos or live users. Unquantized desktop prototype, no trained background rejection. No edge latency or accuracy target compliance claim."
+}

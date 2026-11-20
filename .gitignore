@@ -20,3 +20,6 @@ datasets/inventory/**
 
 # Optional reference-derived geometry remains private; public hero has original fallback.
 static/brain-particles.json
+
+# Generated word benchmark artifacts
+models/word-benchmark-*.npz

@@ -1,0 +1,51 @@
+{
+  "verified": true,
+  "checks": {
+    "validation_macro_f1_matches": true,
+    "test_accuracy_matches": true,
+    "test_macro_f1_matches": true
+  },
+  "results": {
+    "validation": {
+      "samples": 1195,
+      "accuracy": 0.8895397489539749,
+      "macro_f1": 0.8886399943854449
+    },
+    "test": {
+      "samples": 1198,
+      "accuracy": 0.9098497495826378,
+      "macro_f1": 0.9028072444200318
+    }
+  },
+  "model_sha256": "22aff4a314180ee3802abc89a57a14992de10c081b8b03c6f7eb58d8f2200220",
+  "feature_sha256": "73f5c001a4faaefe3b5ff181a28e57532127d6fa1e27b0852c4ad4f3c1beb0fe",
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+  ],
+  "model_name": "svm",
+  "threshold": 0.7,
+  "note": "No fitting, threshold changes, or artifact replacement. Reproduction of the historical static public pilot only; not an independent evaluation of the active personalized model or a measurement of live camera performance."
+}

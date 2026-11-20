@@ -1,0 +1,463 @@
+{
+  "base_model_sha256": "8892dcbf0eea3670920e602b1d09510cf9a7d2433b70f9b1ab387004e1931cff",
+  "selected": {
+    "max_distance": 0.18,
+    "min_gap": 0.005,
+    "known_correct_accepted": 6,
+    "known_total": 8,
+    "known_abstained": 2,
+    "unsupported_rejected": 4,
+    "unsupported_total": 8,
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "max_distance": 0.12,
+      "min_gap": 0,
+      "known_correct_accepted": 4,
+      "known_total": 8,
+      "known_abstained": 4,
+      "unsupported_rejected": 6,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.12,
+      "min_gap": 0.005,
+      "known_correct_accepted": 4,
+      "known_total": 8,
+      "known_abstained": 4,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.12,
+      "min_gap": 0.015,
+      "known_correct_accepted": 1,
+      "known_total": 8,
+      "known_abstained": 7,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.12,
+      "min_gap": 0.03,
+      "known_correct_accepted": 0,
+      "known_total": 8,
+      "known_abstained": 8,
+      "unsupported_rejected": 8,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.12,
+      "min_gap": 0.06,
+      "known_correct_accepted": 0,
+      "known_total": 8,
+      "known_abstained": 8,
+      "unsupported_rejected": 8,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.18,
+      "min_gap": 0,
+      "known_correct_accepted": 6,
+      "known_total": 8,
+      "known_abstained": 1,
+      "unsupported_rejected": 2,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.18,
+      "min_gap": 0.005,
+      "known_correct_accepted": 6,
+      "known_total": 8,
+      "known_abstained": 2,
+      "unsupported_rejected": 4,
+      "unsupported_total": 8,
+      "eligible": true
+    },
+    {
+      "max_distance": 0.18,
+      "min_gap": 0.015,
+      "known_correct_accepted": 3,
+      "known_total": 8,
+      "known_abstained": 5,
+      "unsupported_rejected": 5,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.18,
+      "min_gap": 0.03,
+      "known_correct_accepted": 2,
+      "known_total": 8,
+      "known_abstained": 6,
+      "unsupported_rejected": 8,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.18,
+      "min_gap": 0.06,
+      "known_correct_accepted": 1,
+      "known_total": 8,
+      "known_abstained": 7,
+      "unsupported_rejected": 8,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.25,
+      "min_gap": 0,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 0,
+      "unsupported_rejected": 0,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.25,
+      "min_gap": 0.005,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 1,
+      "unsupported_rejected": 3,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.25,
+      "min_gap": 0.015,
+      "known_correct_accepted": 4,
+      "known_total": 8,
+      "known_abstained": 4,
+      "unsupported_rejected": 4,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.25,
+      "min_gap": 0.03,
+      "known_correct_accepted": 2,
+      "known_total": 8,
+      "known_abstained": 6,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.25,
+      "min_gap": 0.06,
+      "known_correct_accepted": 1,
+      "known_total": 8,
+      "known_abstained": 7,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.35,
+      "min_gap": 0,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 0,
+      "unsupported_rejected": 0,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.35,
+      "min_gap": 0.005,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 1,
+      "unsupported_rejected": 3,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.35,
+      "min_gap": 0.015,
+      "known_correct_accepted": 4,
+      "known_total": 8,
+      "known_abstained": 4,
+      "unsupported_rejected": 4,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.35,
+      "min_gap": 0.03,
+      "known_correct_accepted": 2,
+      "known_total": 8,
+      "known_abstained": 6,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.35,
+      "min_gap": 0.06,
+      "known_correct_accepted": 1,
+      "known_total": 8,
+      "known_abstained": 7,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.5,
+      "min_gap": 0,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 0,
+      "unsupported_rejected": 0,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.5,
+      "min_gap": 0.005,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 1,
+      "unsupported_rejected": 3,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.5,
+      "min_gap": 0.015,
+      "known_correct_accepted": 4,
+      "known_total": 8,
+      "known_abstained": 4,
+      "unsupported_rejected": 4,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.5,
+      "min_gap": 0.03,
+      "known_correct_accepted": 2,
+      "known_total": 8,
+      "known_abstained": 6,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 0.5,
+      "min_gap": 0.06,
+      "known_correct_accepted": 1,
+      "known_total": 8,
+      "known_abstained": 7,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 1000000.0,
+      "min_gap": 0,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 0,
+      "unsupported_rejected": 0,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 1000000.0,
+      "min_gap": 0.005,
+      "known_correct_accepted": 7,
+      "known_total": 8,
+      "known_abstained": 1,
+      "unsupported_rejected": 3,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 1000000.0,
+      "min_gap": 0.015,
+      "known_correct_accepted": 4,
+      "known_total": 8,
+      "known_abstained": 4,
+      "unsupported_rejected": 4,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 1000000.0,
+      "min_gap": 0.03,
+      "known_correct_accepted": 2,
+      "known_total": 8,
+      "known_abstained": 6,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    },
+    {
+      "max_distance": 1000000.0,
+      "min_gap": 0.06,
+      "known_correct_accepted": 1,
+      "known_total": 8,
+      "known_abstained": 7,
+      "unsupported_rejected": 7,
+      "unsupported_total": 8,
+      "eligible": false
+    }
+  ],
+  "validation_rows": [
+    {
+      "video_id": "12312",
+      "expected": "computer",
+      "known": true,
+      "predicted": "computer",
+      "distance": 0.1653448895677912,
+      "gap": 0.0875302782748848,
+      "quality_pass": true
+    },
+    {
+      "video_id": "12315",
+      "expected": "computer",
+      "known": true,
+      "predicted": "computer",
+      "distance": 0.16831664171416752,
+      "gap": 0.046954015946075706,
+      "quality_pass": true
+    },
+    {
+      "video_id": "63229",
+      "expected": "who",
+      "known": true,
+      "predicted": "who",
+      "distance": 0.09191399675755715,
+      "gap": 0.014660609886961412,
+      "quality_pass": true
+    },
+    {
+      "video_id": "63230",
+      "expected": "who",
+      "known": true,
+      "predicted": "who",
+      "distance": 0.0596567979629594,
+      "gap": 0.02472419991162559,
+      "quality_pass": true
+    },
+    {
+      "video_id": "14887",
+      "expected": "deaf",
+      "known": true,
+      "predicted": "deaf",
+      "distance": 0.07283502910850466,
+      "gap": 0.006971858247567672,
+      "quality_pass": true
+    },
+    {
+      "video_id": "64211",
+      "expected": "year",
+      "known": true,
+      "predicted": "year",
+      "distance": 0.20601517282886364,
+      "gap": 0.022815395152300716,
+      "quality_pass": true
+    },
+    {
+      "video_id": "13197",
+      "expected": "cool",
+      "known": true,
+      "predicted": "cool",
+      "distance": 0.09675501333628633,
+      "gap": 0.007768456591028261,
+      "quality_pass": true
+    },
+    {
+      "video_id": "13203",
+      "expected": "cool",
+      "known": true,
+      "predicted": "deaf",
+      "distance": 0.12052880477374969,
+      "gap": 0.002362078050887062,
+      "quality_pass": true
+    },
+    {
+      "video_id": "09851",
+      "expected": "chair",
+      "known": false,
+      "predicted": "year",
+      "distance": 0.1641450774665432,
+      "gap": 0.029060000500559235,
+      "quality_pass": true
+    },
+    {
+      "video_id": "24946",
+      "expected": "go",
+      "known": false,
+      "predicted": "deaf",
+      "distance": 0.20428008613785006,
+      "gap": 0.0006004807583337157,
+      "quality_pass": true
+    },
+    {
+      "video_id": "08918",
+      "expected": "candy",
+      "known": false,
+      "predicted": "deaf",
+      "distance": 0.09391871853688252,
+      "gap": 0.017014508234792114,
+      "quality_pass": true
+    },
+    {
+      "video_id": "21874",
+      "expected": "fine",
+      "known": false,
+      "predicted": "year",
+      "distance": 0.19737732402259003,
+      "gap": 0.08151016442088946,
+      "quality_pass": true
+    },
+    {
+      "video_id": "64287",
+      "expected": "yes",
+      "known": false,
+      "predicted": "deaf",
+      "distance": 0.09320666095836783,
+      "gap": 0.0017399787421505386,
+      "quality_pass": true
+    },
+    {
+      "video_id": "28112",
+      "expected": "hot",
+      "known": false,
+      "predicted": "who",
+      "distance": 0.12825938958300165,
+      "gap": 0.006569431470670378,
+      "quality_pass": true
+    },
+    {
+      "video_id": "33268",
+      "expected": "like",
+      "known": false,
+      "predicted": "deaf",
+      "distance": 0.12860673455870145,
+      "gap": 0.002499528617251029,
+      "quality_pass": true
+    },
+    {
+      "video_id": "33270",
+      "expected": "like",
+      "known": false,
+      "predicted": "deaf",
+      "distance": 0.14509282501211462,
+      "gap": 0.028973434430276168,
+      "quality_pass": true
+    }
+  ],
+  "production_replaced": false,
+  "note": "Calibration uses eight known and eight other-word validation clips only. Unknown words are a convenience sample; thresholds are heuristic distances, not probabilities. No idle rejection guarantee and no fresh-web tuning."
+}

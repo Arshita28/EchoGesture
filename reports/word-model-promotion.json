@@ -1,0 +1,73 @@
+{
+  "active_model": "five_word_dense_candidate_v3",
+  "original_backup": "models/words-prototype-v1.joblib",
+  "reason": "Known-word validation improves from 4/6 to 6/6 on shared clips; dense validation 7/8. Inspected web regression improves without fitting web clips.",
+  "training_clips": 36,
+  "validation": {
+    "validation_macro_f1": 0.8666666666666666,
+    "validation_correct": 7,
+    "validation_total": 8,
+    "shared_validation_correct": 6,
+    "shared_validation_total": 6
+  },
+  "historical_test": {
+    "correct": 7,
+    "total": 8,
+    "predictions": [
+      {
+        "video_id": "12320",
+        "expected": "computer",
+        "predicted": "computer"
+      },
+      {
+        "video_id": "63226",
+        "expected": "who",
+        "predicted": "who"
+      },
+      {
+        "video_id": "14883",
+        "expected": "deaf",
+        "predicted": "deaf"
+      },
+      {
+        "video_id": "14888",
+        "expected": "deaf",
+        "predicted": "deaf"
+      },
+      {
+        "video_id": "64210",
+        "expected": "year",
+        "predicted": "year"
+      },
+      {
+        "video_id": "64209",
+        "expected": "year",
+        "predicted": "year"
+      },
+      {
+        "video_id": "13198",
+        "expected": "cool",
+        "predicted": "who"
+      },
+      {
+        "video_id": "13196",
+        "expected": "cool",
+        "predicted": "cool"
+      }
+    ]
+  },
+  "inspected_web_regression": {
+    "original": {
+      "correct": 9,
+      "total": 10,
+      "abstentions": 0
+    },
+    "both_holds_1s": {
+      "correct": 10,
+      "total": 10,
+      "abstentions": 0
+    }
+  },
+  "model_sha256": "8892dcbf0eea3670920e602b1d09510cf9a7d2433b70f9b1ab387004e1931cff",
+  "limitations": "Experimental local prototype. Web results inspected during development, not fresh test. No trained idle/unknown rejection. No continuous camera mode or edge compliance claim."
+}

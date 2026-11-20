@@ -1,0 +1,258 @@
+{
+  "model_sha256": "8892dcbf0eea3670920e602b1d09510cf9a7d2433b70f9b1ab387004e1931cff",
+  "summary": {
+    "original": {
+      "correct": 9,
+      "total": 10,
+      "abstentions": 0
+    },
+    "both_holds_1s": {
+      "correct": 10,
+      "total": 10,
+      "abstentions": 0
+    }
+  },
+  "rows": [
+    {
+      "video_id": "lmb1qYJ8g3Y",
+      "expected": "computer",
+      "condition": "original",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "lmb1qYJ8g3Y",
+      "expected": "computer",
+      "condition": "both_holds_1s",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "wKl26BsEAoc",
+      "expected": "who",
+      "condition": "original",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "wKl26BsEAoc",
+      "expected": "who",
+      "condition": "both_holds_1s",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "sP4e9vRUCYM",
+      "expected": "deaf",
+      "condition": "original",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "sP4e9vRUCYM",
+      "expected": "deaf",
+      "condition": "both_holds_1s",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "zTIJAgTai40",
+      "expected": "year",
+      "condition": "original",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "zTIJAgTai40",
+      "expected": "year",
+      "condition": "both_holds_1s",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "2dMLLV2JWXE",
+      "expected": "cool",
+      "condition": "original",
+      "predicted": "cool",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "2dMLLV2JWXE",
+      "expected": "cool",
+      "condition": "both_holds_1s",
+      "predicted": "cool",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "PPmQd2zWdP0",
+      "expected": "computer",
+      "condition": "original",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "PPmQd2zWdP0",
+      "expected": "computer",
+      "condition": "both_holds_1s",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "A5dihMAjeTE",
+      "expected": "who",
+      "condition": "original",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "A5dihMAjeTE",
+      "expected": "who",
+      "condition": "both_holds_1s",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "ChIupJBcxjs",
+      "expected": "deaf",
+      "condition": "original",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 0.625
+      }
+    },
+    {
+      "video_id": "ChIupJBcxjs",
+      "expected": "deaf",
+      "condition": "both_holds_1s",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 0.78125
+      }
+    },
+    {
+      "video_id": "BRO-oYGV224",
+      "expected": "year",
+      "condition": "original",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "BRO-oYGV224",
+      "expected": "year",
+      "condition": "both_holds_1s",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "WGfiiDgrq1I",
+      "expected": "cool",
+      "condition": "original",
+      "predicted": "cool",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    },
+    {
+      "video_id": "WGfiiDgrq1I",
+      "expected": "cool",
+      "condition": "both_holds_1s",
+      "predicted": "cool",
+      "status": "prototype_match",
+      "correct": true,
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      }
+    }
+  ],
+  "scope": "Inspected web development regression only; not fresh validation or test. No fitting or tuning."
+}

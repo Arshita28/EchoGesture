@@ -1,0 +1,1140 @@
+{
+  "frozen_model_hashes": {
+    "active": "8892dcbf0eea3670920e602b1d09510cf9a7d2433b70f9b1ab387004e1931cff",
+    "rejection_candidate": "f90068c07a4fb433605f7cfce437e1d07f0cf94aaa8ef25054427ef8521b8982"
+  },
+  "summary": {
+    "active": {
+      "original": {
+        "known_correct": 4,
+        "known_total": 9,
+        "known_abstained": 0,
+        "unsupported_rejected": 0,
+        "unsupported_total": 4
+      },
+      "dim_55_percent": {
+        "known_correct": 5,
+        "known_total": 9,
+        "known_abstained": 0,
+        "unsupported_rejected": 0,
+        "unsupported_total": 4
+      },
+      "both_holds_1s": {
+        "known_correct": 4,
+        "known_total": 9,
+        "known_abstained": 0,
+        "unsupported_rejected": 0,
+        "unsupported_total": 4
+      }
+    },
+    "rejection_candidate": {
+      "original": {
+        "known_correct": 3,
+        "known_total": 9,
+        "known_abstained": 6,
+        "unsupported_rejected": 0,
+        "unsupported_total": 4
+      },
+      "dim_55_percent": {
+        "known_correct": 3,
+        "known_total": 9,
+        "known_abstained": 6,
+        "unsupported_rejected": 1,
+        "unsupported_total": 4
+      },
+      "both_holds_1s": {
+        "known_correct": 3,
+        "known_total": 9,
+        "known_abstained": 6,
+        "unsupported_rejected": 0,
+        "unsupported_total": 4
+      }
+    }
+  },
+  "source_count": 13,
+  "sources": [
+    {
+      "label": "computer",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-823.mp4",
+      "source_page": "https://www.signasl.org/sign/computer",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/computer-7676161615a3.mp4",
+      "video_id": "7676161615a3",
+      "status": "downloaded",
+      "sha256": "4167ac28bca30cb060f91251c1615b11fd35fd09dc720b424bba33f307fdc002",
+      "decode": {
+        "decoded_frames": 43,
+        "fps": 23.976023976023978,
+        "duration_s": 1.7934583333333332,
+        "width": 320,
+        "height": 180
+      }
+    },
+    {
+      "label": "computer",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-ARM-791.mp4",
+      "source_page": "https://www.signasl.org/sign/computer",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/computer-fe9a6b004a36.mp4",
+      "video_id": "fe9a6b004a36",
+      "status": "downloaded",
+      "sha256": "eca163e6b5be94fc6c08112f57b60224fdfbb71e8082c2a06b41025abb24d0e2",
+      "decode": {
+        "decoded_frames": 51,
+        "fps": 23.976023976023978,
+        "duration_s": 2.127125,
+        "width": 320,
+        "height": 180
+      }
+    },
+    {
+      "label": "deaf",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-104.mp4",
+      "source_page": "https://www.signasl.org/sign/deaf",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/deaf-c71bbc3f3bf2.mp4",
+      "video_id": "c71bbc3f3bf2",
+      "status": "downloaded",
+      "sha256": "8f877a286b4cc97529a01811eedba69a1fefee298d55a994a7465d399b454fd9",
+      "decode": {
+        "decoded_frames": 62,
+        "fps": 23.976075485966692,
+        "duration_s": 2.585911111111111,
+        "width": 656,
+        "height": 370
+      }
+    },
+    {
+      "label": "deaf",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-103.mp4",
+      "source_page": "https://www.signasl.org/sign/deaf",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/deaf-8b46dbb9393d.mp4",
+      "video_id": "8b46dbb9393d",
+      "status": "downloaded",
+      "sha256": "82382c4301c59246a52db90c1c1f152a5cc6cf78f5c34b28ae79d40dfc3e0f6b",
+      "decode": {
+        "decoded_frames": 52,
+        "fps": 23.976023976023978,
+        "duration_s": 2.168833333333333,
+        "width": 656,
+        "height": 370
+      }
+    },
+    {
+      "label": "year",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/YEAR-656.mp4",
+      "source_page": "https://www.signasl.org/sign/year",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/year-b72473f49bfc.mp4",
+      "video_id": "b72473f49bfc",
+      "status": "downloaded",
+      "sha256": "6be8b988c4785151c9589177751c7ab9755fc8f0b8f89b9a6725368f5f09edac",
+      "decode": {
+        "decoded_frames": 58,
+        "fps": 23.976079038384693,
+        "duration_s": 2.419077777777778,
+        "width": 656,
+        "height": 370
+      }
+    },
+    {
+      "label": "cool",
+      "url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/cool.mp4",
+      "source_page": "https://www.signasl.org/sign/cool",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/cool-7abedf0ed2a1.mp4",
+      "video_id": "7abedf0ed2a1",
+      "status": "downloaded",
+      "sha256": "a2907bf198c21883366b85699a0a2dfb66b18d2a2c26c03e6b2f598f1d154cac",
+      "decode": {
+        "decoded_frames": 74,
+        "fps": 29.97,
+        "duration_s": 2.469135802469136,
+        "width": 640,
+        "height": 354
+      }
+    },
+    {
+      "label": "cool",
+      "url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/cool.mp4",
+      "source_page": "https://www.signasl.org/sign/cool",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/cool-9083dd095f77.mp4",
+      "video_id": "9083dd095f77",
+      "status": "downloaded",
+      "sha256": "f6dac507e43fcd7a4e022c12e10237cf88c2e2dabf44c2fe99cddf5c1e80d9bc",
+      "decode": {
+        "decoded_frames": 77,
+        "fps": 29.97002997002997,
+        "duration_s": 2.5692333333333335,
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "label": "hello",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/hello.mp4",
+      "source_page": "https://www.signasl.org/sign/hello",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/hello-df0c75d759c9.mp4",
+      "video_id": "df0c75d759c9",
+      "status": "downloaded",
+      "sha256": "ce90476fa0c5bede7d7f0a325edacbdbf5358ca0d5e043010080b970766192da",
+      "decode": {
+        "decoded_frames": 78,
+        "fps": 29.97,
+        "duration_s": 2.6026026026026026,
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "label": "hello",
+      "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hello.mp4",
+      "source_page": "https://www.signasl.org/sign/hello",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/hello-796328fe7f5b.mp4",
+      "video_id": "796328fe7f5b",
+      "status": "downloaded",
+      "sha256": "00a277c055237a2c5a3568ce82251679c8d1901adea524c25f541274baba484e",
+      "decode": {
+        "decoded_frames": 104,
+        "fps": 24.0,
+        "duration_s": 4.333333333333333,
+        "width": 320,
+        "height": 180
+      }
+    },
+    {
+      "label": "food",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/food.mp4",
+      "source_page": "https://www.signasl.org/sign/food",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/food-e4e29e92fcf6.mp4",
+      "video_id": "e4e29e92fcf6",
+      "status": "downloaded",
+      "sha256": "a1264018ab676e23d3b8ab7c60e10a79fd9d6d052672911c2679504a79d75f99",
+      "decode": {
+        "decoded_frames": 64,
+        "fps": 29.97,
+        "duration_s": 2.135468802135469,
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "label": "food",
+      "url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/food.mp4",
+      "source_page": "https://www.signasl.org/sign/food",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/food-bc93ac81df88.mp4",
+      "video_id": "bc93ac81df88",
+      "status": "downloaded",
+      "sha256": "905b56ca9b2aa64fad2a8a831e57f7735c11feee177d680e8e46569bb116e187",
+      "decode": {
+        "decoded_frames": 95,
+        "fps": 29.97002997002997,
+        "duration_s": 3.1698333333333335,
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "label": "who",
+      "url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/who.mp4",
+      "source_page": "https://www.signasl.org/sign/who",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/who-2ffab0bc2b8f.mp4",
+      "video_id": "2ffab0bc2b8f",
+      "status": "downloaded",
+      "sha256": "802c39005d7691e034c4e296208989351916148ae8e6c5c4061981739d8a1a8f",
+      "decode": {
+        "decoded_frames": 75,
+        "fps": 29.97002997002997,
+        "duration_s": 2.5025,
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "label": "who",
+      "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/who.mp4",
+      "source_page": "https://www.signasl.org/sign/who",
+      "role": "fresh_evaluation_only",
+      "path": "/Users/mtj/Documents/ChatGPT/sign Language detection/echoGesture/datasets/raw/fresh-dictionary/who-4313b25e08c7.mp4",
+      "video_id": "4313b25e08c7",
+      "status": "downloaded",
+      "sha256": "ec931b8fcdc42da1176906abaca302fd6e385f3926aa74bcdae97ccfcddb48c3",
+      "decode": {
+        "decoded_frames": 103,
+        "fps": 24.0,
+        "duration_s": 4.291666666666667,
+        "width": 320,
+        "height": 180
+      }
+    }
+  ],
+  "excluded": [],
+  "rows": [
+    {
+      "video_id": "7676161615a3",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-823.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "7676161615a3",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-823.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "7676161615a3",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-823.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "7676161615a3",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-823.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "7676161615a3",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-823.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "7676161615a3",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-823.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "fe9a6b004a36",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-ARM-791.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "fe9a6b004a36",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-ARM-791.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "fe9a6b004a36",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-ARM-791.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "fe9a6b004a36",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-ARM-791.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "fe9a6b004a36",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-ARM-791.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "fe9a6b004a36",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/COMPUTER-ARM-791.mp4",
+      "expected": "computer",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "c71bbc3f3bf2",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-104.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "c71bbc3f3bf2",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-104.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "c71bbc3f3bf2",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-104.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "c71bbc3f3bf2",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-104.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "c71bbc3f3bf2",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-104.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "c71bbc3f3bf2",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-104.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "8b46dbb9393d",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-103.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "8b46dbb9393d",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-103.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "8b46dbb9393d",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-103.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "8b46dbb9393d",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-103.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "8b46dbb9393d",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-103.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "8b46dbb9393d",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DEAF-103.mp4",
+      "expected": "deaf",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "b72473f49bfc",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/YEAR-656.mp4",
+      "expected": "year",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "b72473f49bfc",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/YEAR-656.mp4",
+      "expected": "year",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "b72473f49bfc",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/YEAR-656.mp4",
+      "expected": "year",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "b72473f49bfc",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/YEAR-656.mp4",
+      "expected": "year",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "b72473f49bfc",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/YEAR-656.mp4",
+      "expected": "year",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "b72473f49bfc",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/YEAR-656.mp4",
+      "expected": "year",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "7abedf0ed2a1",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "7abedf0ed2a1",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "7abedf0ed2a1",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "7abedf0ed2a1",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "7abedf0ed2a1",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "7abedf0ed2a1",
+      "source_url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "9083dd095f77",
+      "source_url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "9083dd095f77",
+      "source_url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "9083dd095f77",
+      "source_url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "9083dd095f77",
+      "source_url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "9083dd095f77",
+      "source_url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "9083dd095f77",
+      "source_url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/cool.mp4",
+      "expected": "cool",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "df0c75d759c9",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "original",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "df0c75d759c9",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "df0c75d759c9",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "df0c75d759c9",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "df0c75d759c9",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "df0c75d759c9",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "796328fe7f5b",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "original",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "796328fe7f5b",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "796328fe7f5b",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "796328fe7f5b",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "796328fe7f5b",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "796328fe7f5b",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hello.mp4",
+      "expected": "hello",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": "computer",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "e4e29e92fcf6",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "original",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "e4e29e92fcf6",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "e4e29e92fcf6",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "e4e29e92fcf6",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "e4e29e92fcf6",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "e4e29e92fcf6",
+      "source_url": "https://media.signbsl.com/videos/asl/startasl/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "bc93ac81df88",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "original",
+      "model": "active",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "bc93ac81df88",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": "deaf",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "bc93ac81df88",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "cool",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "bc93ac81df88",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": true
+    },
+    {
+      "video_id": "bc93ac81df88",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "cool",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "bc93ac81df88",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/food.mp4",
+      "expected": "food",
+      "known": false,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": "cool",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "2ffab0bc2b8f",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "2ffab0bc2b8f",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "2ffab0bc2b8f",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "2ffab0bc2b8f",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "2ffab0bc2b8f",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "year",
+      "status": "prototype_match",
+      "correct": false
+    },
+    {
+      "video_id": "2ffab0bc2b8f",
+      "source_url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "4313b25e08c7",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "original",
+      "model": "active",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "4313b25e08c7",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "original",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "4313b25e08c7",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "active",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "4313b25e08c7",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "dim_55_percent",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    },
+    {
+      "video_id": "4313b25e08c7",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "active",
+      "predicted": "who",
+      "status": "prototype_match",
+      "correct": true
+    },
+    {
+      "video_id": "4313b25e08c7",
+      "source_url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/who.mp4",
+      "expected": "who",
+      "known": true,
+      "condition": "both_holds_1s",
+      "model": "rejection_candidate",
+      "predicted": null,
+      "status": "uncertain_word",
+      "correct": false
+    }
+  ],
+  "policy": "No fitting or threshold changes on this batch. Candidate calibrated on existing known/other-word validation before these predictions. Dictionary-provided labels and name/hash exclusion, not guaranteed distinct signers or absence of re-encoded duplicates. Synthetic stress trials correlated; do not pool as independent samples. Unsupported probes are signs, not idle video."
+}

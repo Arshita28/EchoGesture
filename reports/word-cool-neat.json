@@ -1,0 +1,80 @@
+{
+  "sha256": {
+    "13205": "6e3f2cf58f73f3ca5364152f20c45adbab9b918f8ac543d80937f6507db1147d",
+    "13206": "a085994c82a9530d7db236a0f55fbc5d021fc57b4fd52a7896db4d66719a40d8",
+    "ziggy-evaluation": "562ec8b9c064814c05af32266d85ec0f555981f03536de2e38ca3511468ef776"
+  },
+  "training_ids": [
+    "13205",
+    "13206"
+  ],
+  "evaluation_source": "https://www.ziggyasl.com/sign/cool",
+  "active": {
+    "validation": {
+      "known_correct": 7,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 5,
+      "other_total": 8,
+      "balanced_utility": 0.75,
+      "macro_f1": 0.7801587301587302
+    },
+    "ziggy": {
+      "status": "prototype_match",
+      "label": "who",
+      "candidates": [
+        {
+          "label": "who",
+          "decision_score": -0.0899954045279306
+        },
+        {
+          "label": "deaf",
+          "decision_score": -0.10184672147161805
+        },
+        {
+          "label": "cool",
+          "decision_score": -0.11201346684229586
+        }
+      ],
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      },
+      "scope": "Five known words only; unknown signs are not reliably rejected."
+    }
+  },
+  "candidate": {
+    "validation": {
+      "known_correct": 6,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 5,
+      "other_total": 8,
+      "balanced_utility": 0.6875,
+      "macro_f1": 0.7023809523809524
+    },
+    "ziggy": {
+      "status": "prototype_match",
+      "label": "who",
+      "candidates": [
+        {
+          "label": "who",
+          "decision_score": -0.0899954045279306
+        },
+        {
+          "label": "deaf",
+          "decision_score": -0.10184672147161805
+        },
+        {
+          "label": "cool",
+          "decision_score": -0.10771914743513729
+        }
+      ],
+      "quality": {
+        "body_coverage": 1.0,
+        "any_hand_coverage": 1.0
+      },
+      "scope": "Five known words only; unknown signs are not reliably rejected."
+    }
+  }
+}

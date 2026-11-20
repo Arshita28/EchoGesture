@@ -1,0 +1,226 @@
+{
+  "validation": {
+    "rows": [
+      {
+        "id": "12312",
+        "truth": "computer",
+        "active": "computer",
+        "candidate": "computer"
+      },
+      {
+        "id": "12315",
+        "truth": "computer",
+        "active": "computer",
+        "candidate": "computer"
+      },
+      {
+        "id": "63229",
+        "truth": "who",
+        "active": "who",
+        "candidate": "who"
+      },
+      {
+        "id": "63230",
+        "truth": "who",
+        "active": "who",
+        "candidate": "who"
+      },
+      {
+        "id": "14887",
+        "truth": "deaf",
+        "active": "deaf",
+        "candidate": "deaf"
+      },
+      {
+        "id": "64211",
+        "truth": "year",
+        "active": "year",
+        "candidate": "year"
+      },
+      {
+        "id": "13197",
+        "truth": "cool",
+        "active": "cool",
+        "candidate": "cool"
+      },
+      {
+        "id": "13203",
+        "truth": "cool",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "09851",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "24946",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "08918",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "21874",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "64287",
+        "truth": "NONE",
+        "active": "deaf",
+        "candidate": "deaf"
+      },
+      {
+        "id": "28112",
+        "truth": "NONE",
+        "active": "who",
+        "candidate": "who"
+      },
+      {
+        "id": "33268",
+        "truth": "NONE",
+        "active": "deaf",
+        "candidate": "deaf"
+      },
+      {
+        "id": "33270",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      }
+    ],
+    "active": {
+      "known_correct": 7,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 5,
+      "other_total": 8,
+      "balanced_utility": 0.75,
+      "macro_f1": 0.7801587301587302
+    },
+    "candidate": {
+      "known_correct": 7,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 5,
+      "other_total": 8,
+      "balanced_utility": 0.75,
+      "macro_f1": 0.7801587301587302
+    }
+  },
+  "regression": {
+    "rows": [
+      {
+        "id": "7676161615a3",
+        "truth": "computer",
+        "active": "computer",
+        "candidate": "computer"
+      },
+      {
+        "id": "fe9a6b004a36",
+        "truth": "computer",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "c71bbc3f3bf2",
+        "truth": "deaf",
+        "active": "computer",
+        "candidate": "computer"
+      },
+      {
+        "id": "8b46dbb9393d",
+        "truth": "deaf",
+        "active": "deaf",
+        "candidate": "deaf"
+      },
+      {
+        "id": "b72473f49bfc",
+        "truth": "year",
+        "active": "year",
+        "candidate": "year"
+      },
+      {
+        "id": "7abedf0ed2a1",
+        "truth": "cool",
+        "active": "who",
+        "candidate": "NONE"
+      },
+      {
+        "id": "9083dd095f77",
+        "truth": "cool",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "df0c75d759c9",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "796328fe7f5b",
+        "truth": "NONE",
+        "active": "computer",
+        "candidate": "computer"
+      },
+      {
+        "id": "e4e29e92fcf6",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "bc93ac81df88",
+        "truth": "NONE",
+        "active": "NONE",
+        "candidate": "NONE"
+      },
+      {
+        "id": "2ffab0bc2b8f",
+        "truth": "who",
+        "active": "year",
+        "candidate": "NONE"
+      },
+      {
+        "id": "4313b25e08c7",
+        "truth": "who",
+        "active": "who",
+        "candidate": "who"
+      },
+      {
+        "id": "ziggy",
+        "truth": "cool",
+        "active": "who",
+        "candidate": "who"
+      }
+    ],
+    "active": {
+      "known_correct": 4,
+      "known_total": 10,
+      "known_rejected": 2,
+      "other_rejected": 3,
+      "other_total": 4,
+      "balanced_utility": 0.575,
+      "macro_f1": 0.4666666666666666
+    },
+    "candidate": {
+      "known_correct": 4,
+      "known_total": 10,
+      "known_rejected": 4,
+      "other_rejected": 3,
+      "other_total": 4,
+      "balanced_utility": 0.575,
+      "macro_f1": 0.5186868686868688
+    }
+  }
+}

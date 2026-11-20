@@ -1,0 +1,16 @@
+{
+  "model": "models/words-prototype.joblib",
+  "sources": "datasets/raw/web-evaluation/sources-segmented.json",
+  "conditions": [
+    "original",
+    "dim_55_percent",
+    "low_resolution_160",
+    "zoom_out_70_percent",
+    "shift_right_12_percent",
+    "roll_12_degrees",
+    "leading_hold_1s",
+    "trailing_hold_1s",
+    "both_holds_1s"
+  ],
+  "policy": "Freeze model and feature version. No training, threshold changes or source selection based on predictions. Count detection abstentions as incorrect in all-attempt accuracy. Transformed versions are correlated stress trials, not independent videos or new signers. In-plane roll is not a 3D camera-angle test. Source labels come from dictionary metadata, not inferred predictions."
+}

@@ -1,0 +1,284 @@
+{
+  "date": "2026-11-16",
+  "metadata_sha256": "31ba5a5c421bdbff87494ee22ca6d4e276a8dfac44f43cc9a58b76ed1c4cd684",
+  "scope": "First 30 official WLASL glosses; direct HTTPS isolated MP4 acquisition only",
+  "official_listed_clips": 709,
+  "direct_https_attempted": 345,
+  "decoded_local_clips": 167,
+  "direct_failures": {
+    "dns_failure": 62,
+    "http_404": 82,
+    "certificate_hostname_mismatch": 34
+  },
+  "skipped": {
+    "requires_http_or_unsupported_scheme": 133,
+    "requires_youtube_downloader": 229,
+    "requires_explicit_source_trimming": 1,
+    "requires_format_conversion": 1
+  },
+  "extraction": {
+    "feature_version": "holistic-body-hands-v1",
+    "frames_per_sequence": 32,
+    "feature_dim": 154,
+    "clips_processed": 167,
+    "quality_passes": 118,
+    "quality_rejections": 49,
+    "quality_thresholds": {
+      "min_body_coverage": 0.7,
+      "min_any_hand_coverage": 0.5
+    }
+  },
+  "coverage": {
+    "labels_with_all_partitions": [
+      "computer",
+      "who",
+      "deaf",
+      "year",
+      "cool"
+    ],
+    "counts": {
+      "book": {
+        "train": 3,
+        "validation": 0,
+        "test": 0
+      },
+      "drink": {
+        "train": 2,
+        "validation": 0,
+        "test": 0
+      },
+      "computer": {
+        "train": 6,
+        "validation": 2,
+        "test": 1
+      },
+      "before": {
+        "train": 7,
+        "validation": 0,
+        "test": 1
+      },
+      "chair": {
+        "train": 3,
+        "validation": 1,
+        "test": 0
+      },
+      "go": {
+        "train": 2,
+        "validation": 1,
+        "test": 0
+      },
+      "clothes": {
+        "train": 0,
+        "validation": 0,
+        "test": 1
+      },
+      "who": {
+        "train": 3,
+        "validation": 1,
+        "test": 1
+      },
+      "candy": {
+        "train": 3,
+        "validation": 1,
+        "test": 0
+      },
+      "cousin": {
+        "train": 2,
+        "validation": 0,
+        "test": 1
+      },
+      "deaf": {
+        "train": 3,
+        "validation": 1,
+        "test": 2
+      },
+      "fine": {
+        "train": 2,
+        "validation": 1,
+        "test": 0
+      },
+      "help": {
+        "train": 3,
+        "validation": 0,
+        "test": 1
+      },
+      "no": {
+        "train": 3,
+        "validation": 0,
+        "test": 1
+      },
+      "thin": {
+        "train": 4,
+        "validation": 0,
+        "test": 1
+      },
+      "walk": {
+        "train": 3,
+        "validation": 0,
+        "test": 1
+      },
+      "year": {
+        "train": 2,
+        "validation": 1,
+        "test": 2
+      },
+      "yes": {
+        "train": 2,
+        "validation": 1,
+        "test": 0
+      },
+      "all": {
+        "train": 2,
+        "validation": 0,
+        "test": 1
+      },
+      "black": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "cool": {
+        "train": 4,
+        "validation": 1,
+        "test": 1
+      },
+      "finish": {
+        "train": 3,
+        "validation": 0,
+        "test": 1
+      },
+      "hot": {
+        "train": 4,
+        "validation": 1,
+        "test": 0
+      },
+      "like": {
+        "train": 3,
+        "validation": 2,
+        "test": 0
+      },
+      "many": {
+        "train": 4,
+        "validation": 0,
+        "test": 0
+      },
+      "mother": {
+        "train": 3,
+        "validation": 0,
+        "test": 0
+      },
+      "now": {
+        "train": 2,
+        "validation": 0,
+        "test": 0
+      },
+      "orange": {
+        "train": 3,
+        "validation": 0,
+        "test": 0
+      },
+      "table": {
+        "train": 2,
+        "validation": 0,
+        "test": 0
+      },
+      "thanksgiving": {
+        "train": 5,
+        "validation": 0,
+        "test": 0
+      }
+    },
+    "missing_partitions": {
+      "book": [
+        "validation",
+        "test"
+      ],
+      "drink": [
+        "validation",
+        "test"
+      ],
+      "before": [
+        "validation"
+      ],
+      "chair": [
+        "test"
+      ],
+      "go": [
+        "test"
+      ],
+      "clothes": [
+        "train",
+        "validation"
+      ],
+      "candy": [
+        "test"
+      ],
+      "cousin": [
+        "validation"
+      ],
+      "fine": [
+        "test"
+      ],
+      "help": [
+        "validation"
+      ],
+      "no": [
+        "validation"
+      ],
+      "thin": [
+        "validation"
+      ],
+      "walk": [
+        "validation"
+      ],
+      "yes": [
+        "test"
+      ],
+      "all": [
+        "validation"
+      ],
+      "black": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "finish": [
+        "validation"
+      ],
+      "hot": [
+        "test"
+      ],
+      "like": [
+        "test"
+      ],
+      "many": [
+        "validation",
+        "test"
+      ],
+      "mother": [
+        "validation",
+        "test"
+      ],
+      "now": [
+        "validation",
+        "test"
+      ],
+      "orange": [
+        "validation",
+        "test"
+      ],
+      "table": [
+        "validation",
+        "test"
+      ],
+      "thanksgiving": [
+        "validation",
+        "test"
+      ]
+    },
+    "integrity_errors": []
+  },
+  "training_performed": false,
+  "tests": "27 Python tests passed",
+  "note": "Decode and feature coverage, not recognition accuracy. No alphabet model changes. Official split labels preserved. Acquisition failures logged without TLS bypass. Source videos and derived features remain local and ignored. The 30-class dataset is not ready for training."
+}

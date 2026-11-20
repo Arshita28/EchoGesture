@@ -1,0 +1,300 @@
+{
+  "quantized_template_test_correct": 7,
+  "template_artifact_bytes": 103132,
+  "desktop_classifier_only_p95_ms": 12.378641400000001,
+  "available": {
+    "computer": {
+      "clips": 14,
+      "signers": 7
+    },
+    "who": {
+      "clips": 11,
+      "signers": 9
+    },
+    "deaf": {
+      "clips": 11,
+      "signers": 9
+    },
+    "year": {
+      "clips": 7,
+      "signers": 6
+    },
+    "cool": {
+      "clips": 9,
+      "signers": 4
+    },
+    "book": {
+      "clips": 3,
+      "signers": 3
+    },
+    "drink": {
+      "clips": 2,
+      "signers": 2
+    },
+    "before": {
+      "clips": 7,
+      "signers": 4
+    },
+    "chair": {
+      "clips": 4,
+      "signers": 4
+    },
+    "go": {
+      "clips": 3,
+      "signers": 3
+    },
+    "candy": {
+      "clips": 4,
+      "signers": 3
+    },
+    "cousin": {
+      "clips": 2,
+      "signers": 1
+    },
+    "fine": {
+      "clips": 3,
+      "signers": 3
+    },
+    "help": {
+      "clips": 3,
+      "signers": 3
+    },
+    "no": {
+      "clips": 3,
+      "signers": 3
+    },
+    "thin": {
+      "clips": 4,
+      "signers": 4
+    },
+    "walk": {
+      "clips": 3,
+      "signers": 3
+    },
+    "yes": {
+      "clips": 3,
+      "signers": 3
+    },
+    "all": {
+      "clips": 2,
+      "signers": 2
+    },
+    "finish": {
+      "clips": 3,
+      "signers": 3
+    },
+    "hot": {
+      "clips": 5,
+      "signers": 5
+    },
+    "like": {
+      "clips": 5,
+      "signers": 4
+    },
+    "many": {
+      "clips": 4,
+      "signers": 3
+    },
+    "mother": {
+      "clips": 3,
+      "signers": 3
+    },
+    "now": {
+      "clips": 2,
+      "signers": 2
+    },
+    "orange": {
+      "clips": 3,
+      "signers": 3
+    },
+    "table": {
+      "clips": 2,
+      "signers": 2
+    },
+    "thanksgiving": {
+      "clips": 5,
+      "signers": 4
+    }
+  },
+  "vocabulary": [
+    "deaf",
+    "who",
+    "computer",
+    "year",
+    "hot",
+    "cool",
+    "like",
+    "thanksgiving",
+    "thin"
+  ],
+  "signer_roles": [
+    [
+      3,
+      5,
+      13,
+      15,
+      32,
+      37,
+      39,
+      42,
+      45,
+      46,
+      47,
+      52,
+      56,
+      59,
+      60,
+      109,
+      121
+    ],
+    [
+      2,
+      4,
+      6,
+      8,
+      31
+    ],
+    [
+      17,
+      21,
+      36,
+      38,
+      111
+    ]
+  ],
+  "video_ids": {
+    "train": [
+      "68028",
+      "12329",
+      "12330",
+      "12331",
+      "12311",
+      "12319",
+      "12320",
+      "63239",
+      "63240",
+      "63230",
+      "63231",
+      "63232",
+      "63225",
+      "70015",
+      "68033",
+      "14883",
+      "14885",
+      "14887",
+      "14888",
+      "14896",
+      "14898",
+      "70306",
+      "64213",
+      "64209",
+      "64221",
+      "13214",
+      "13201",
+      "13202",
+      "57936",
+      "57939",
+      "28109",
+      "28111",
+      "33268",
+      "33269",
+      "33270",
+      "57633",
+      "57634"
+    ],
+    "development": [
+      "12314",
+      "12315",
+      "12316",
+      "12317",
+      "12318",
+      "63227",
+      "63228",
+      "63229",
+      "14884",
+      "14886",
+      "64211",
+      "64212",
+      "13197",
+      "13198",
+      "13199",
+      "13200",
+      "13196",
+      "57940",
+      "28110",
+      "33266",
+      "57632"
+    ],
+    "test": [
+      "12312",
+      "12313",
+      "68183",
+      "63226",
+      "14882",
+      "64210",
+      "13203",
+      "57935",
+      "28108",
+      "28112",
+      "33267",
+      "57630",
+      "57631"
+    ]
+  },
+  "development_correct": {
+    "templates": 12,
+    "quantized_linear_weights": 3
+  },
+  "development_total": 21,
+  "selected": "templates",
+  "test_correct": 7,
+  "test_total": 13,
+  "per_word": {
+    "deaf": {
+      "train": 8,
+      "test": 1,
+      "correct": 1
+    },
+    "who": {
+      "train": 6,
+      "test": 2,
+      "correct": 0
+    },
+    "computer": {
+      "train": 7,
+      "test": 2,
+      "correct": 2
+    },
+    "year": {
+      "train": 4,
+      "test": 1,
+      "correct": 1
+    },
+    "hot": {
+      "train": 2,
+      "test": 2,
+      "correct": 1
+    },
+    "cool": {
+      "train": 3,
+      "test": 1,
+      "correct": 0
+    },
+    "like": {
+      "train": 3,
+      "test": 1,
+      "correct": 1
+    },
+    "thanksgiving": {
+      "train": 2,
+      "test": 2,
+      "correct": 1
+    },
+    "thin": {
+      "train": 2,
+      "test": 1,
+      "correct": 0
+    }
+  },
+  "linear_artifact_bytes": 1246
+}

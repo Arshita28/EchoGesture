@@ -1,0 +1,12 @@
+{
+  "model_sha256": "7d4b102e4c6c2d9e5dc1b1138c4cf723e1fc5729ed13bd663de1d3792f81a2b9",
+  "previous_model_sha256": "8892dcbf0eea3670920e602b1d09510cf9a7d2433b70f9b1ab387004e1931cff",
+  "rollback_model": "models/words-dense-v3.joblib",
+  "rationale": "Known-word validation preserved at 7/8 and negative validation rejection 5/8 versus zero. Inspected dictionary known correctness preserved and negative rejection improves 0/4 to 3/4.",
+  "known_accuracy_limit": "Only 4/9 supported words correct on latest dictionary originals; no live reliability claim.",
+  "evidence_reports": [
+    "reports/word-background-training.json",
+    "reports/word-background-dictionary-regression.json"
+  ],
+  "semantics": "NONE class produces uncertain_word with no displayed word; no calibrated probability or universal unknown rejection."
+}

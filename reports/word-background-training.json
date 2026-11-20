@@ -1,0 +1,81 @@
+{
+  "selected": "dense_templates",
+  "eligible_for_further_evaluation": true,
+  "selection": "Balanced known correctness and negative rejection on original validation only; known >=6/8, other rejected >=4/8 eligibility floor.",
+  "baseline_validation": {
+    "known_correct": 7,
+    "known_total": 8,
+    "known_rejected": 0,
+    "other_rejected": 0,
+    "other_total": 8,
+    "balanced_utility": 0.4375,
+    "macro_f1": 0.5361111111111111
+  },
+  "candidates": {
+    "dense_templates": {
+      "known_correct": 7,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 5,
+      "other_total": 8,
+      "balanced_utility": 0.75,
+      "macro_f1": 0.7801587301587302
+    },
+    "summary_linear_c01": {
+      "known_correct": 6,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 4,
+      "other_total": 8,
+      "balanced_utility": 0.625,
+      "macro_f1": 0.608913308913309
+    },
+    "summary_linear_c1": {
+      "known_correct": 6,
+      "known_total": 8,
+      "known_rejected": 1,
+      "other_rejected": 4,
+      "other_total": 8,
+      "balanced_utility": 0.625,
+      "macro_f1": 0.608913308913309
+    },
+    "summary_rbf_c1": {
+      "known_correct": 5,
+      "known_total": 8,
+      "known_rejected": 2,
+      "other_rejected": 4,
+      "other_total": 8,
+      "balanced_utility": 0.5625,
+      "macro_f1": 0.4952380952380952
+    },
+    "summary_rbf_c10": {
+      "known_correct": 3,
+      "known_total": 8,
+      "known_rejected": 4,
+      "other_rejected": 6,
+      "other_total": 8,
+      "balanced_utility": 0.5625,
+      "macro_f1": 0.3277777777777778
+    }
+  },
+  "training_counts": {
+    "computer": 11,
+    "who": 8,
+    "deaf": 8,
+    "year": 4,
+    "cool": 5,
+    "NONE": 70
+  },
+  "validation_counts": {
+    "computer": 2,
+    "who": 2,
+    "deaf": 1,
+    "year": 1,
+    "cool": 2,
+    "NONE": 8
+  },
+  "model_sha256": "7d4b102e4c6c2d9e5dc1b1138c4cf723e1fc5729ed13bd663de1d3792f81a2b9",
+  "model_bytes": 2093928,
+  "production_replaced": false,
+  "limitations": "Tiny validation repeatedly inspected, overlapping signers and pooled other-word class. No idle training clips. Fresh dictionary set not used in fit/selection. No live accuracy claim."
+}
