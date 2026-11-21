@@ -17,7 +17,10 @@ parser.add_argument('--include-weak-extension', action='store_true')
 parser.add_argument('--expand-to-100', action='store_true')
 parser.add_argument('--expand-to-105', action='store_true')
 parser.add_argument('--repair-ok-his', action='store_true')
+parser.add_argument('--grammar-only', action='store_true')
 args = parser.parse_args()
+if args.grammar_only and any((args.expand_to_100, args.expand_to_105, args.include_weak_extension, args.repair_ok_his)):
+    parser.error('--grammar-only runs the isolated 81-word experiment')
 if args.repair_ok_his and not args.expand_to_105:
     parser.error('--repair-ok-his requires --expand-to-105')
 batch = {'tomato', 'voice', 'grammar', 'impossible', 'vomit'}
@@ -42,6 +45,8 @@ if args.expand_to_100 or args.expand_to_105:
     added.update(('jewelry', 'squeeze'))
 if args.expand_to_105:
     added.update(batch)
+if args.grammar_only:
+    added = {'grammar'}
 if not added <= bank - old or any(counts[w] < 15 for w in added):
     raise ValueError('Expansion training clips or WLASL labels missing')
 with np.load('/tmp/echo80-neural-data.npz') as data:
@@ -62,13 +67,13 @@ if args.include_weak_extension:
             path = Path('datasets/raw/expansion98') / (clip['id'] + '.npy')
             x.append(summarize(np.load(path)))
             y.append(clip['word'])
-if args.expand_to_105:
+if args.expand_to_105 or args.grammar_only:
     folder = Path('datasets/raw/expansion105')
     manifest = json.loads((folder / 'manifest.json').read_text())
     external_hashes = {r['sha256'] for r in manifest if r['available'] and r['split'] != 'train'}
     trained_hashes = set()
     for clip in manifest:
-        if clip['split'] != 'train' or not clip.get('usable'):
+        if clip['word'] not in added or clip['split'] != 'train' or not clip.get('usable'):
             continue
         digest = clip['sha256']
         if digest in external_hashes:
@@ -121,5 +126,7 @@ if args.expand_to_105:
     stem = 'word105-weak-extension' if args.include_weak_extension else 'word105-expansion'
 if args.repair_ok_his:
     stem += '-repairs'
+if args.grammar_only:
+    stem = 'word81-grammar'
 joblib.dump(candidate, f'models/{stem}-candidate.joblib')
 Path(f'reports/{stem}.json').write_text(json.dumps(report, indent=2))

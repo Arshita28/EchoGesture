@@ -12,6 +12,8 @@ from .word_inference import predict
 def word_routes(root):
     import os
     variant = os.environ.get("ECHOGESTURE_WORD_MODEL")
+    if variant is None and (Path(root) / "models/word81-grammar-candidate.joblib").is_file():
+        variant = "word81-svm"
     if variant is None:
         variant = "word80-svm" if (Path(root)/"models/word80-priority-wlasl-citizen-svm.joblib").exists() else "prototype"
     svm_models = {
@@ -19,6 +21,7 @@ def word_routes(root):
         'word24-svm': 'word24-wlasl-citizen-svm',
         'word60-svm': 'word60-priority-wlasl-citizen-svm',
         'word80-svm': 'word80-priority-wlasl-citizen-svm',
+        'word81-svm': 'word81-grammar-candidate',
         'word98-svm': 'word-cached-expansion-candidate',
         'word100-svm': 'word100-weak-extension-candidate',
         'word105-svm': 'word105-weak-extension-candidate',

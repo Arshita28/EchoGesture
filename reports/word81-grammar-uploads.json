@@ -1,0 +1,35 @@
+[
+  {
+    "id": "25371",
+    "url": "https://elementalaslconcepts.weebly.com/uploads/2/4/4/5/24454483/grammar.mov",
+    "provider": "elementalasl",
+    "signer": 19,
+    "http": 200,
+    "predicted": "grammar",
+    "sha256": "504e41a4cd5fb75649ea524464233fb567c0aab728d164d0aa55a7b5246f2ab9"
+  },
+  {
+    "id": "25374",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Grammar-lQdwTrDruss.mp4",
+    "provider": "signschool",
+    "signer": 4,
+    "http": 200,
+    "predicted": "grammar",
+    "sha256": "6e1772ae68b6bce5722ba2e3245f26ac9feea345a9ded816efea6ba53e87d62a"
+  },
+  {
+    "id": "25375",
+    "url": "https://media.asldeafined.com/vocabulary/1513522137.3537.mp4",
+    "provider": "asldeafined",
+    "signer": 15,
+    "http": 200,
+    "predicted": "grammar",
+    "sha256": "ab63845f1dd0220fad548ee30dd79eea3666e2cf9f61f9b01dd081424d878e7c"
+  },
+  {
+    "id": "25376",
+    "url": "https://www.handspeak.com/word/g/grammar.mp4",
+    "provider": "handspeak",
+    "signer": 14
+  }
+]
