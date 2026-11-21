@@ -8,27 +8,27 @@ Local ML lab for **24 static ASL fingerspelling letters** (A–Y excluding J; Z 
 
 ## Latest local studio
 
-The completed 60-word candidate is included in `models/word60-priority-wlasl-citizen-svm.joblib`.
+The completed 80-word candidate is included in `models/word80-priority-wlasl-citizen-svm.joblib`.
 After installing the requirements, launch it with:
 
 ```sh
-ECHOGESTURE_WORD_MODEL=word60-svm python app.py
+ECHOGESTURE_WORD_MODEL=word80-svm python app.py
 ```
 
 Open http://127.0.0.1:8080/words for its current vocabulary or /sign for the alphabet studio.
-The default configuration loads the completed 60-word model.
+The default configuration loads the completed 80-word model.
 Recorded test scores vary by dataset and vocabulary. See the reports directory for measured comparisons.
 Raw videos, derived landmark caches and third-party archives require separate acquisition under their dataset licences.
 The landing-page template licence and required credit links are retained.
 
 ## Word recognition
 
-The default Word Studio loads the trained **60-word model**.
+The default Word Studio loads the trained **80-word model**.
 Run `python app.py`, then open http://127.0.0.1:8080/words.
 The vocabulary shown on the page comes directly from the loaded checkpoint.
 Use **Speak result** to hear a prediction, or enable **Auto voice**.
 
-The 80-word candidate is included as a separate experimental checkpoint.
+The 80-word checkpoint is the default experimental recognizer.
 Evaluation reports record dataset-specific accuracy and limitations.
 The earlier five-word model remains available with `ECHOGESTURE_WORD_MODEL=prototype`.
 
