@@ -1,0 +1,26 @@
+[
+  {
+    "word": "family",
+    "pred": "family"
+  },
+  {
+    "word": "water",
+    "pred": "mother"
+  },
+  {
+    "word": "school",
+    "pred": "school"
+  },
+  {
+    "word": "apple",
+    "pred": "candy"
+  },
+  {
+    "word": "red",
+    "pred": "tell"
+  },
+  {
+    "word": "green",
+    "pred": "purple"
+  }
+]
