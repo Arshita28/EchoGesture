@@ -1,5 +1,5 @@
 Flask>=3.0,<3.2
-mediapipe==0.10.21
+mediapipe==0.10.35
 scikit-learn>=1.5,<1.7
 Pillow>=10,<12
 pytest>=8,<9
