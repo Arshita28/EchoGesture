@@ -18,7 +18,10 @@ parser.add_argument('--expand-to-100', action='store_true')
 parser.add_argument('--expand-to-105', action='store_true')
 parser.add_argument('--repair-ok-his', action='store_true')
 parser.add_argument('--grammar-only', action='store_true')
+parser.add_argument('--four-word-batch', action='store_true')
 args = parser.parse_args()
+if args.four_word_batch and any((args.grammar_only, args.expand_to_100, args.expand_to_105, args.include_weak_extension, args.repair_ok_his)):
+    parser.error('--four-word-batch runs a separate experiment')
 if args.grammar_only and any((args.expand_to_100, args.expand_to_105, args.include_weak_extension, args.repair_ok_his)):
     parser.error('--grammar-only runs the isolated 81-word experiment')
 if args.repair_ok_his and not args.expand_to_105:
@@ -47,6 +50,8 @@ if args.expand_to_105:
     added.update(batch)
 if args.grammar_only:
     added = {'grammar'}
+if args.four_word_batch:
+    added = {'grammar', 'scream', 'other', 'address', 'close'}
 if not added <= bank - old or any(counts[w] < 15 for w in added):
     raise ValueError('Expansion training clips or WLASL labels missing')
 with np.load('/tmp/echo80-neural-data.npz') as data:
@@ -67,7 +72,7 @@ if args.include_weak_extension:
             path = Path('datasets/raw/expansion98') / (clip['id'] + '.npy')
             x.append(summarize(np.load(path)))
             y.append(clip['word'])
-if args.expand_to_105 or args.grammar_only:
+if args.expand_to_105 or args.grammar_only or args.four_word_batch:
     folder = Path('datasets/raw/expansion105')
     manifest = json.loads((folder / 'manifest.json').read_text())
     external_hashes = {r['sha256'] for r in manifest if r['available'] and r['split'] != 'train'}
@@ -128,5 +133,7 @@ if args.repair_ok_his:
     stem += '-repairs'
 if args.grammar_only:
     stem = 'word81-grammar'
+if args.four_word_batch:
+    stem = 'word85-four-additions'
 joblib.dump(candidate, f'models/{stem}-candidate.joblib')
 Path(f'reports/{stem}.json').write_text(json.dumps(report, indent=2))

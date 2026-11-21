@@ -22,6 +22,7 @@ def word_routes(root):
         'word60-svm': 'word60-priority-wlasl-citizen-svm',
         'word80-svm': 'word80-priority-wlasl-citizen-svm',
         'word81-svm': 'word81-grammar-candidate',
+        'word85-svm': 'word85-four-additions-candidate',
         'word98-svm': 'word-cached-expansion-candidate',
         'word100-svm': 'word100-weak-extension-candidate',
         'word105-svm': 'word105-weak-extension-candidate',

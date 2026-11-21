@@ -1,0 +1,26 @@
+[
+  {
+    "word": "close",
+    "id": "11252",
+    "prediction": "close",
+    "http": 200
+  },
+  {
+    "word": "other",
+    "id": "40315",
+    "prediction": "other",
+    "http": 200
+  },
+  {
+    "word": "address",
+    "id": "01011",
+    "prediction": "address",
+    "http": 200
+  },
+  {
+    "word": "scream",
+    "id": "49779",
+    "prediction": "scream",
+    "http": 200
+  }
+]

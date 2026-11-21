@@ -231,3 +231,7 @@ Reserved six further manual tests in mytest: door, teacher, now, language, visit
 Both studios use the landing page's full-width shell and 5vw side gutters. Chrome measured identical content edges on /, /words and /sign at 1710, 1366 and 390 CSS pixels. Word Studio keeps the vocabulary beside the camera on desktop.
 
 Promoted grammar as the 81st word. 19 training clips, ASLC grammar validation 3/3 and test 11/11. Old-label validation 245 vs 246/291 and test 729 vs 729/922. External grammar uploads 3/3 on distinct WLASL signer IDs, including previously inspected 25375; reserve 25371, 25374 and 25375 from future training. Handspeak returned 403. Fresh clone uses local dependencies and excludes raw media, so the example video route needs separately obtained training videos and manifest.
+
+85-word local candidate adds close, other, address, scream. On the existing 81-word ASLC regression subset it scored 739/933 vs active 740/933, validation equal 248/294. Four additions scored 40/43 test, 15/16 validation, 4/4 previously inspected upload regressions. Fresh external signers needed before promotion.
+
+Broad experiment stopped at user request. Active model: 81 words. Cached 100-word baseline and active model each scored 7/16 on reserved WLASL uploads. The pretrained 1,159-label RGB reference scored 4/16. The separate full pose training run never started. Partial datasets stay local.

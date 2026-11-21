@@ -1,0 +1,21 @@
+{
+  "classes": 100,
+  "train": 1485,
+  "descriptor": "cached MediaPipe baseline",
+  "validation_selection": {
+    "linear/1.0": 273,
+    "rbf/0.1": 261,
+    "rbf/1.0": 254
+  },
+  "selected": "linear/1.0",
+  "val": {
+    "correct": 273,
+    "cached_attempts": 384,
+    "official_attempts": 387
+  },
+  "test": {
+    "correct": 774,
+    "cached_attempts": 1174,
+    "official_attempts": 1191
+  }
+}

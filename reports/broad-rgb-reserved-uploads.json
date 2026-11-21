@@ -1,0 +1,203 @@
+{
+  "vocabulary": 1159,
+  "device": "mps",
+  "video_p95_ms": 755.25,
+  "source": "Microsoft ASL-citizen-code checkpoints_v1, I3D",
+  "correct": 4,
+  "top5_correct": 6,
+  "total": 16,
+  "rows": [
+    {
+      "expected": "fish",
+      "id": "22117",
+      "top5": [
+        "cereal",
+        "dry",
+        "fish",
+        "scissors",
+        "dirty"
+      ],
+      "video_ms": 1587.9
+    },
+    {
+      "expected": "language",
+      "id": "32157",
+      "top5": [
+        "canoe",
+        "energy",
+        "destroy",
+        "hop",
+        "rescue"
+      ],
+      "video_ms": 477.7
+    },
+    {
+      "expected": "white",
+      "id": "63201",
+      "top5": [
+        "burp",
+        "hungry",
+        "wish",
+        "swallow",
+        "attitude"
+      ],
+      "video_ms": 404.1
+    },
+    {
+      "expected": "accident",
+      "id": "00625",
+      "top5": [
+        "ugly",
+        "funny",
+        "consume",
+        "precious",
+        "wrong"
+      ],
+      "video_ms": 441.2
+    },
+    {
+      "expected": "bird",
+      "id": "06335",
+      "top5": [
+        "tongue",
+        "dirty",
+        "kid",
+        "funny",
+        "doubt"
+      ],
+      "video_ms": 412.3
+    },
+    {
+      "expected": "change",
+      "id": "09950",
+      "top5": [
+        "change",
+        "single",
+        "each",
+        "friend",
+        "lend"
+      ],
+      "video_ms": 383.4
+    },
+    {
+      "expected": "give",
+      "id": "24636",
+      "top5": [
+        "religion",
+        "queen",
+        "and",
+        "faculty",
+        "squeeze"
+      ],
+      "video_ms": 364.0
+    },
+    {
+      "expected": "last",
+      "id": "32246",
+      "top5": [
+        "last",
+        "cannot",
+        "than",
+        "explode",
+        "most"
+      ],
+      "video_ms": 391.7
+    },
+    {
+      "expected": "meet",
+      "id": "35513",
+      "top5": [
+        "minute",
+        "to",
+        "meet",
+        "hate",
+        "both"
+      ],
+      "video_ms": 410.1
+    },
+    {
+      "expected": "play",
+      "id": "43171",
+      "top5": [
+        "act",
+        "actor",
+        "emotion",
+        "experiment",
+        "popcorn"
+      ],
+      "video_ms": 397.3
+    },
+    {
+      "expected": "secretary",
+      "id": "50041",
+      "top5": [
+        "secretary",
+        "double",
+        "check",
+        "surgeon",
+        "dancer"
+      ],
+      "video_ms": 397.1
+    },
+    {
+      "expected": "work",
+      "id": "63789",
+      "top5": [
+        "work",
+        "hard",
+        "homework",
+        "make",
+        "rock"
+      ],
+      "video_ms": 369.1
+    },
+    {
+      "expected": "tell",
+      "id": "57278",
+      "top5": [
+        "not",
+        "metal",
+        "really",
+        "swallow",
+        "age"
+      ],
+      "video_ms": 406.4
+    },
+    {
+      "expected": "hope",
+      "id": "27922",
+      "top5": [
+        "design",
+        "haircut",
+        "student",
+        "side",
+        "heavy"
+      ],
+      "video_ms": 458.1
+    },
+    {
+      "expected": "chop",
+      "id": "10648",
+      "top5": [
+        "time",
+        "cough",
+        "warn",
+        "robot",
+        "lonely"
+      ],
+      "video_ms": 393.3
+    },
+    {
+      "expected": "road",
+      "id": "48273",
+      "top5": [
+        "gorilla",
+        "myself",
+        "street",
+        "sweetheart",
+        "address"
+      ],
+      "video_ms": 361.3
+    }
+  ]
+}

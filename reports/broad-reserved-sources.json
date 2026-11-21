@@ -1,0 +1,146 @@
+[
+  {
+    "word": "fish",
+    "id": "22117",
+    "url": "https://media.asldeafined.com/vocabulary/1468494686.303.mp4",
+    "provider": "asldeafined",
+    "sha256": "7593aee38b10ba6744542e98a5c0b1b3750e10f850ce3ae2b70b014380d07a4f",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "language",
+    "id": "32157",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Language%204-a0lbU50n0wI.mp4",
+    "provider": "signschool",
+    "sha256": "f25864e8077f193b655067d038d9c1a2b7a56e071033de54ad03a7bdd3235321",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "white",
+    "id": "63201",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/white.mp4",
+    "provider": "startasl",
+    "sha256": "44b16bf9d5f06a09f2d7555525ccd64a2127e0f827572f85fdb8091e70486f49",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "accident",
+    "id": "00625",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Accident%2C%20Accidentally-0F9FseAyJb4.mp4",
+    "provider": "signschool",
+    "sha256": "7f484e8bdea278964032db5f2e526219d5a167243a21b9f6c8ae340ba9e55615",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "bird",
+    "id": "06335",
+    "url": "https://media.asldeafined.com/vocabulary/1466682238.9870.mp4",
+    "provider": "asldeafined",
+    "sha256": "1d9ccebf2f2817afc68b23f6772423252dc6a9320310f02f454bfec9af52a9b9",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "change",
+    "id": "09950",
+    "url": "https://media.spreadthesign.com/video/mp4/13/125921.mp4",
+    "provider": "spreadthesign",
+    "sha256": "d8a884b1680bd4b27300b9a1d80e18b284c631965f2b22e408437fb90830cded",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "give",
+    "id": "24636",
+    "url": "https://media.spreadthesign.com/video/mp4/13/51920.mp4",
+    "provider": "spreadthesign",
+    "sha256": "72bec805eb08b954d9d8a2df557f2d688270139e2b9fce71c5319b16e2268797",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "last",
+    "id": "32246",
+    "url": "https://media.spreadthesign.com/video/mp4/13/91452.mp4",
+    "provider": "spreadthesign",
+    "sha256": "5f79cfe2d3ac3b49ff100b1745883d910e8bc26a282baea0081022de3c525723",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "meet",
+    "id": "35513",
+    "url": "https://media.asldeafined.com/vocabulary/1468714718.3075.mp4",
+    "provider": "asldeafined",
+    "sha256": "914c18f331dda8ab90236b670ec8b7dc092d2a3daea7185e914df21004ff3c2d",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "play",
+    "id": "43171",
+    "url": "https://media.asldeafined.com/vocabulary/1468726677.3753.mp4",
+    "provider": "asldeafined",
+    "sha256": "eb72f120f88885e520c5e3f559576c7f7cd29a2671cb0ac78dcf51e4c59bbe00",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "secretary",
+    "id": "50041",
+    "url": "https://media.asldeafined.com/vocabulary/1468764756.5155.mp4",
+    "provider": "asldeafined",
+    "sha256": "b2999c04a528fc5b9808cddba062aa595bbdbb2e13003e72d15b0ebaeba306ff",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "work",
+    "id": "63789",
+    "url": "https://media.spreadthesign.com/video/mp4/13/244773.mp4",
+    "provider": "spreadthesign",
+    "sha256": "5b4948898e96e9c12fef4d6542fb724343dc2480f1656577700627236f2aa650",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "tell",
+    "id": "57278",
+    "url": "https://media.asldeafined.com/vocabulary/1468943705.2416.mp4",
+    "provider": "asldeafined",
+    "sha256": "e8ed77f16d4daf3dd6e96ba6e100a95362fe2a1f06a7fc6a87930bf998122eb3",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "hope",
+    "id": "27922",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Expect-oMpdybUn-9Y.mp4",
+    "provider": "signschool",
+    "sha256": "41467ae4831e2a1bf84217e3295687860b4ff1e51c79732fc4c881b82987fa6c",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "chop",
+    "id": "10648",
+    "url": "https://media.asldeafined.com/vocabulary/1499870967.7412.mp4",
+    "provider": "asldeafined",
+    "sha256": "a6ae0c4ce2370f56c2342d08c4ec56d3b0d7f89f906e8d92b57228cfe2ef9048",
+    "downloaded": true,
+    "reserved": true
+  },
+  {
+    "word": "road",
+    "id": "48273",
+    "url": "https://media.spreadthesign.com/video/mp4/13/457648.mp4",
+    "provider": "spreadthesign",
+    "sha256": "e5d4f8d591859505d67a04779f699ade24b11bea0ed0ebf0e04294993cffbea3",
+    "downloaded": true,
+    "reserved": true
+  }
+]

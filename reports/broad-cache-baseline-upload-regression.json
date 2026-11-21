@@ -1,0 +1,191 @@
+[
+  {
+    "expected": "all",
+    "sha256": "752455403e5e4c4495ee4d86bf11af6cf98a8923670a60fdaa7d4d40095c2fb4",
+    "file": "all.mp4",
+    "supported": true,
+    "predicted": "all"
+  },
+  {
+    "expected": "paper",
+    "sha256": "d2e40fc55fb6af8f415f66b54905d8e7b037022255287999389bd260538a1ad0",
+    "file": "paper.mp4",
+    "supported": true,
+    "predicted": "paper"
+  },
+  {
+    "expected": "study",
+    "sha256": "2166f407aa9407135f803de0dc71048c7ef5c0aa3ecec5ed6043a7ff46965422",
+    "file": "study.mp4",
+    "supported": true,
+    "predicted": "learn"
+  },
+  {
+    "expected": "wife",
+    "sha256": "bb099349fa32a0841521ca73978ec934b0aadcfab8eac8f8942c34ade9322e48",
+    "file": "wife.mp4",
+    "supported": true,
+    "predicted": "cook"
+  },
+  {
+    "expected": "cook",
+    "sha256": "b60dfc5a1a725bc1fdd61bcbe09d0efea4a46444cfc9285f1f258b78cfe1d0b7",
+    "file": "cook.mp4",
+    "supported": true,
+    "predicted": "chop"
+  },
+  {
+    "expected": "tell",
+    "sha256": "0e89dd6b783f80bb1807916eb25b192b1845ee8eb8e0fa4326943389da80b0ed",
+    "file": "tell.mp4",
+    "supported": true,
+    "predicted": "tell"
+  },
+  {
+    "expected": "graduate",
+    "sha256": "02a9e162e2aa9291ef68d369aeb399edac39fe7f9662930697589e263439e037",
+    "file": "graduate.mp4",
+    "supported": true,
+    "predicted": "graduate"
+  },
+  {
+    "expected": "thursday",
+    "sha256": "fc5751f7ac0d485026895bdcd27e2e088577d7636343a715e5379883c4717f87",
+    "file": "thursday.mp4",
+    "supported": true,
+    "predicted": "thursday"
+  },
+  {
+    "expected": "bird",
+    "sha256": "897a8b9750152a31a64de3649a11ca8776c2c5a0b58d9ffb2d900797e022ff81",
+    "file": "bird.mp4",
+    "supported": true,
+    "predicted": "bird"
+  },
+  {
+    "expected": "help",
+    "sha256": "0b2042e1d6577709681319620a249763844f4a13780adbc8d597a25554cc56ed",
+    "file": "help.mp4",
+    "supported": true,
+    "predicted": "help"
+  },
+  {
+    "expected": "year",
+    "sha256": "d4730d76aa42ad36912187749ce446322f118edb3ab92bbc0b71d2bec6d8129b",
+    "file": "year.mp4",
+    "supported": true,
+    "predicted": "year"
+  },
+  {
+    "expected": "close",
+    "sha256": "dfc2cdf80d6586a5490648c4c938b7c1a1bfe16b988e5747c60d1cb6d472c7f5",
+    "file": "11252.mp4",
+    "supported": true,
+    "predicted": "close"
+  },
+  {
+    "expected": "ok",
+    "sha256": "8d444740731949046cb8cd82083d8ddbdca913197f3bf94cccef09e96f67b301",
+    "file": "39584.mp4",
+    "supported": true,
+    "predicted": "ok"
+  },
+  {
+    "expected": "ok",
+    "sha256": "c9d01556539535c48f83522923664edca18bde20a38bc005e23d50039399f54f",
+    "file": "39585.mp4",
+    "supported": true,
+    "predicted": "ok"
+  },
+  {
+    "expected": "other",
+    "sha256": "aa744814bc24b8de3e44d604d93307ba66f098f637db99972e1f352aa4a1f4e7",
+    "file": "40315.mp4",
+    "supported": true,
+    "predicted": "other"
+  },
+  {
+    "expected": "address",
+    "sha256": "ccf5e0572cbb51d2dcc231e393a502fa82732b6577c95b65c54b2abd521d95cf",
+    "file": "01011.mp4",
+    "supported": true,
+    "predicted": "address"
+  },
+  {
+    "expected": "his",
+    "sha256": "9eed7caacbbc86882255ecaf41e31ebc2edcf73cbc516132d6f036a471cdb76c",
+    "file": "27553.mp4",
+    "supported": true,
+    "predicted": "man"
+  },
+  {
+    "expected": "scream",
+    "sha256": "068330e9c1504ee9b404374aed7190dec93353afe4ebadc60593bbfa019e50d4",
+    "file": "49779.mp4",
+    "supported": true,
+    "predicted": "scream"
+  },
+  {
+    "expected": "squeeze",
+    "sha256": "d42b967eab74fd411dabb69e8e2ae11896be40b20704ab04bf3d1552abed0a62",
+    "file": "54189.mp4",
+    "supported": true,
+    "predicted": "change"
+  },
+  {
+    "expected": "jewelry",
+    "sha256": "b02690262d3f96d61f8aee2db7f60f4df53e0b13a4518b405cd952315b4a2557",
+    "file": "31077.mp4",
+    "supported": true,
+    "predicted": "jewelry"
+  },
+  {
+    "expected": "jewelry",
+    "sha256": "216796fc712d1a5331529a2efcdb48598373a2d2587ddd9e9227567c33057ce4",
+    "file": "31078.mp4",
+    "supported": true,
+    "predicted": "jewelry"
+  },
+  {
+    "expected": "jewelry",
+    "sha256": "d9735d49dcabb0e79ee87925a893a107d05cf66735c1ca0f864fc286aec9ec1f",
+    "file": "31079.mp4",
+    "supported": true,
+    "predicted": "finish"
+  },
+  {
+    "expected": "tomato",
+    "sha256": "b58dcfefbe0552930e34a1dd58879f5ba2b817a5e9cbdca46e25fc7301bfc606",
+    "file": "58785.mp4",
+    "supported": true,
+    "predicted": "tomato"
+  },
+  {
+    "expected": "voice",
+    "sha256": "0a0fa108db1cbbc02b8a8ba7b0270f1d00b931f66d1b535b912c7204d57f7be6",
+    "file": "61916.mp4",
+    "supported": true,
+    "predicted": "voice"
+  },
+  {
+    "expected": "vomit",
+    "sha256": "6aff1958df9c7b7cff6d61618ca1f90671f18a2b04c0fcbf7e03e48ec5969271",
+    "file": "61978.mp4",
+    "supported": true,
+    "predicted": "vomit"
+  },
+  {
+    "expected": "grammar",
+    "sha256": "ab63845f1dd0220fad548ee30dd79eea3666e2cf9f61f9b01dd081424d878e7c",
+    "file": "25375.mp4",
+    "supported": true,
+    "predicted": "grammar"
+  },
+  {
+    "expected": "impossible",
+    "sha256": "1db6054b985c41e93713c1e52eaabe913dd5d0c06f05ce630ce01933d6d243ca",
+    "file": "29088.mp4",
+    "supported": true,
+    "predicted": "school"
+  }
+]
