@@ -23,3 +23,7 @@ static/brain-particles.json
 
 # Generated word benchmark artifacts
 models/word-benchmark-*.npz
+
+# Local development files
+venv/
+backups/
