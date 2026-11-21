@@ -1,0 +1,137 @@
+[
+  {
+    "bbox": [
+      135,
+      0,
+      520,
+      479
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 1,
+    "signer_id": 13,
+    "source": "asldeafined",
+    "split": "train",
+    "url": "https://media.asldeafined.com/vocabulary/1468721247.921.mp4",
+    "variation_id": 0,
+    "video_id": "39589",
+    "word": "ok",
+    "available": true,
+    "sha256": "06f0554248264e87865c0310b918d453bfa5dacbf7fba36526f34ddf1cc64851",
+    "usable": true
+  },
+  {
+    "bbox": [
+      42,
+      0,
+      261,
+      240
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 7,
+    "signer_id": 56,
+    "source": "spreadthesign",
+    "split": "train",
+    "url": "https://media.spreadthesign.com/video/mp4/13/49162.mp4",
+    "variation_id": 0,
+    "video_id": "39583",
+    "word": "ok",
+    "available": true,
+    "sha256": "2ec3c9225cc9367b8bc1cbc15158bcf798af03df13991b2ae80b2d70f4f851eb",
+    "usable": true
+  },
+  {
+    "bbox": [
+      90,
+      0,
+      558,
+      480
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 8,
+    "signer_id": 14,
+    "source": "handspeak",
+    "split": "train",
+    "url": "https://www.handspeak.com/word/o/ok.mp4",
+    "variation_id": 0,
+    "video_id": "39590",
+    "word": "ok",
+    "available": false
+  },
+  {
+    "bbox": [
+      31,
+      0,
+      299,
+      240
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 2,
+    "signer_id": 14,
+    "source": "handspeak",
+    "split": "train",
+    "url": "https://www.handspeak.com/word/h/his2.mp4",
+    "variation_id": 0,
+    "video_id": "27554",
+    "word": "his",
+    "available": false
+  },
+  {
+    "bbox": [
+      24,
+      0,
+      300,
+      240
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 3,
+    "signer_id": 14,
+    "source": "handspeak",
+    "split": "train",
+    "url": "https://www.handspeak.com/word/h/his.mp4",
+    "variation_id": 0,
+    "video_id": "27555",
+    "word": "his",
+    "available": false
+  },
+  {
+    "bbox": [
+      70,
+      13,
+      217,
+      192
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 4,
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "split": "train",
+    "url": "https://www.signingsavvy.com/signs/mp4/7/7201.mp4",
+    "variation_id": 0,
+    "video_id": "27556",
+    "word": "his",
+    "available": false
+  },
+  {
+    "word": "his",
+    "source": "ziggyasl",
+    "source_page": "https://www.ziggyasl.com/sign/his",
+    "url": "https://firebasestorage.googleapis.com/v0/b/asl-app-718bf.firebasestorage.app/o/asl-videos%2Fhis%2Fweb_540.mp4?alt=media",
+    "split": "train",
+    "available": true,
+    "usable": true,
+    "video_id": "ziggy-his",
+    "sha256": "86cfe44d1694030ef6e43df70d03131f31daa1af594f61c3c9d36022d6a90e57"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "word": "all",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/all.mp4",
+    "path": "datasets/raw/weak80-evaluation/all.mp4",
+    "sha256": "752455403e5e4c4495ee4d86bf11af6cf98a8923670a60fdaa7d4d40095c2fb4",
+    "prediction": "all",
+    "status": "prototype_match",
+    "correct": true
+  },
+  {
+    "word": "paper",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/paper.mp4",
+    "path": "datasets/raw/weak80-evaluation/paper.mp4",
+    "sha256": "d2e40fc55fb6af8f415f66b54905d8e7b037022255287999389bd260538a1ad0",
+    "prediction": "school",
+    "status": "prototype_match",
+    "correct": false
+  },
+  {
+    "word": "study",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/study.mp4",
+    "path": "datasets/raw/weak80-evaluation/study.mp4",
+    "sha256": "2166f407aa9407135f803de0dc71048c7ef5c0aa3ecec5ed6043a7ff46965422",
+    "prediction": "school",
+    "status": "prototype_match",
+    "correct": false
+  },
+  {
+    "word": "wife",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/wife.mp4",
+    "path": "datasets/raw/weak80-evaluation/wife.mp4",
+    "sha256": "bb099349fa32a0841521ca73978ec934b0aadcfab8eac8f8942c34ade9322e48",
+    "prediction": "wife",
+    "status": "prototype_match",
+    "correct": true
+  },
+  {
+    "word": "cook",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/cook.mp4",
+    "path": "datasets/raw/weak80-evaluation/cook.mp4",
+    "sha256": "b60dfc5a1a725bc1fdd61bcbe09d0efea4a46444cfc9285f1f258b78cfe1d0b7",
+    "prediction": "cook",
+    "status": "prototype_match",
+    "correct": true
+  },
+  {
+    "word": "tell",
+    "url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/tell.mp4",
+    "path": "datasets/raw/weak80-evaluation/tell.mp4",
+    "sha256": "0e89dd6b783f80bb1807916eb25b192b1845ee8eb8e0fa4326943389da80b0ed",
+    "prediction": "who",
+    "status": "prototype_match",
+    "correct": false
+  },
+  {
+    "word": "graduate",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/graduate.mp4",
+    "path": "datasets/raw/weak80-evaluation/graduate.mp4",
+    "sha256": "02a9e162e2aa9291ef68d369aeb399edac39fe7f9662930697589e263439e037",
+    "prediction": "school",
+    "status": "prototype_match",
+    "correct": false
+  },
+  {
+    "word": "thursday",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/thursday.mp4",
+    "path": "datasets/raw/weak80-evaluation/thursday.mp4",
+    "sha256": "fc5751f7ac0d485026895bdcd27e2e088577d7636343a715e5379883c4717f87",
+    "prediction": "candy",
+    "status": "prototype_match",
+    "correct": false
+  },
+  {
+    "word": "bird",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/bird.mp4",
+    "path": "datasets/raw/weak80-evaluation/bird.mp4",
+    "sha256": "897a8b9750152a31a64de3649a11ca8776c2c5a0b58d9ffb2d900797e022ff81",
+    "prediction": "bird",
+    "status": "prototype_match",
+    "correct": true
+  },
+  {
+    "word": "help",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/help.mp4",
+    "path": "datasets/raw/weak80-evaluation/help.mp4",
+    "sha256": "0b2042e1d6577709681319620a249763844f4a13780adbc8d597a25554cc56ed",
+    "prediction": "help",
+    "status": "prototype_match",
+    "correct": true
+  },
+  {
+    "word": "year",
+    "url": "https://media.signbsl.com/videos/asl/startasl/mp4/year.mp4",
+    "path": "datasets/raw/weak80-evaluation/year.mp4",
+    "sha256": "d4730d76aa42ad36912187749ce446322f118edb3ab92bbc0b71d2bec6d8129b",
+    "prediction": "year",
+    "status": "prototype_match",
+    "correct": true
+  }
+]

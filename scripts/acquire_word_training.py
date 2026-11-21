@@ -48,9 +48,12 @@ def main():
     external=json.loads(Path('datasets/raw/web-evaluation/sources-segmented.json').read_text())
     forbidden={r['url'] for r in external}
     fresh=Path('datasets/raw/fresh-dictionary/sources.json')
+    weak = Path('datasets/raw/weak80-evaluation/sources.json')
+    weak_sources = json.loads(weak.read_text()) if weak.exists() else []
+    forbidden.update(r['url'] for r in weak_sources)
     dictionary_sources = json.loads(fresh.read_text())['sources'] if fresh.exists() else []
     forbidden.update(r['url'] for r in dictionary_sources)
-    reserved_ids = dictionary_mirror_ids(metadata, dictionary_sources)
+    reserved_ids = dictionary_mirror_ids(metadata, dictionary_sources + weak_sources)
     existing=json.loads(Path('datasets/preprocessed/words/extraction.json').read_text())
     existing_ids={r['video_id'] for r in existing['rows']}
     selected=[]

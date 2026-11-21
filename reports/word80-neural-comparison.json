@@ -1,0 +1,328 @@
+{
+  "validation_correct": 262,
+  "validation_total": 302,
+  "test_correct": 725,
+  "test_usable": 921,
+  "per_word": {
+    "accident": {
+      "correct": 10,
+      "total": 11
+    },
+    "all": {
+      "correct": 6,
+      "total": 14
+    },
+    "apple": {
+      "correct": 10,
+      "total": 11
+    },
+    "before": {
+      "correct": 9,
+      "total": 12
+    },
+    "bird": {
+      "correct": 8,
+      "total": 12
+    },
+    "black": {
+      "correct": 11,
+      "total": 12
+    },
+    "blue": {
+      "correct": 9,
+      "total": 12
+    },
+    "book": {
+      "correct": 10,
+      "total": 12
+    },
+    "brown": {
+      "correct": 10,
+      "total": 12
+    },
+    "candy": {
+      "correct": 0,
+      "total": 1
+    },
+    "chair": {
+      "correct": 11,
+      "total": 12
+    },
+    "change": {
+      "correct": 8,
+      "total": 11
+    },
+    "class": {
+      "correct": 8,
+      "total": 13
+    },
+    "clothes": {
+      "correct": 10,
+      "total": 13
+    },
+    "color": {
+      "correct": 11,
+      "total": 13
+    },
+    "computer": {
+      "correct": 12,
+      "total": 12
+    },
+    "cook": {
+      "correct": 6,
+      "total": 12
+    },
+    "cousin": {
+      "correct": 8,
+      "total": 14
+    },
+    "cow": {
+      "correct": 9,
+      "total": 12
+    },
+    "dance": {
+      "correct": 13,
+      "total": 14
+    },
+    "deaf": {
+      "correct": 2,
+      "total": 2
+    },
+    "different": {
+      "correct": 10,
+      "total": 12
+    },
+    "door": {
+      "correct": 14,
+      "total": 14
+    },
+    "drink": {
+      "correct": 1,
+      "total": 1
+    },
+    "enjoy": {
+      "correct": 10,
+      "total": 11
+    },
+    "family": {
+      "correct": 11,
+      "total": 12
+    },
+    "fine": {
+      "correct": 0,
+      "total": 0
+    },
+    "finish": {
+      "correct": 13,
+      "total": 14
+    },
+    "fish": {
+      "correct": 12,
+      "total": 13
+    },
+    "give": {
+      "correct": 10,
+      "total": 10
+    },
+    "go": {
+      "correct": 11,
+      "total": 13
+    },
+    "graduate": {
+      "correct": 5,
+      "total": 12
+    },
+    "green": {
+      "correct": 11,
+      "total": 13
+    },
+    "hearing": {
+      "correct": 14,
+      "total": 14
+    },
+    "help": {
+      "correct": 11,
+      "total": 14
+    },
+    "hot": {
+      "correct": 9,
+      "total": 11
+    },
+    "language": {
+      "correct": 9,
+      "total": 11
+    },
+    "last": {
+      "correct": 7,
+      "total": 13
+    },
+    "later": {
+      "correct": 11,
+      "total": 12
+    },
+    "learn": {
+      "correct": 9,
+      "total": 12
+    },
+    "like": {
+      "correct": 10,
+      "total": 12
+    },
+    "man": {
+      "correct": 9,
+      "total": 12
+    },
+    "many": {
+      "correct": 8,
+      "total": 12
+    },
+    "medicine": {
+      "correct": 7,
+      "total": 13
+    },
+    "meet": {
+      "correct": 9,
+      "total": 10
+    },
+    "mother": {
+      "correct": 10,
+      "total": 15
+    },
+    "need": {
+      "correct": 11,
+      "total": 11
+    },
+    "no": {
+      "correct": 11,
+      "total": 12
+    },
+    "now": {
+      "correct": 12,
+      "total": 12
+    },
+    "orange": {
+      "correct": 11,
+      "total": 13
+    },
+    "paint": {
+      "correct": 8,
+      "total": 10
+    },
+    "paper": {
+      "correct": 6,
+      "total": 12
+    },
+    "pink": {
+      "correct": 10,
+      "total": 11
+    },
+    "play": {
+      "correct": 11,
+      "total": 14
+    },
+    "pull": {
+      "correct": 10,
+      "total": 13
+    },
+    "purple": {
+      "correct": 11,
+      "total": 12
+    },
+    "red": {
+      "correct": 11,
+      "total": 13
+    },
+    "school": {
+      "correct": 2,
+      "total": 11
+    },
+    "secretary": {
+      "correct": 9,
+      "total": 12
+    },
+    "son": {
+      "correct": 12,
+      "total": 12
+    },
+    "study": {
+      "correct": 4,
+      "total": 12
+    },
+    "table": {
+      "correct": 9,
+      "total": 9
+    },
+    "teacher": {
+      "correct": 13,
+      "total": 13
+    },
+    "tell": {
+      "correct": 9,
+      "total": 12
+    },
+    "thanksgiving": {
+      "correct": 8,
+      "total": 12
+    },
+    "thin": {
+      "correct": 12,
+      "total": 15
+    },
+    "thursday": {
+      "correct": 8,
+      "total": 11
+    },
+    "time": {
+      "correct": 10,
+      "total": 12
+    },
+    "visit": {
+      "correct": 10,
+      "total": 11
+    },
+    "wait": {
+      "correct": 10,
+      "total": 13
+    },
+    "walk": {
+      "correct": 0,
+      "total": 1
+    },
+    "water": {
+      "correct": 11,
+      "total": 12
+    },
+    "white": {
+      "correct": 10,
+      "total": 10
+    },
+    "who": {
+      "correct": 11,
+      "total": 15
+    },
+    "wife": {
+      "correct": 4,
+      "total": 10
+    },
+    "work": {
+      "correct": 11,
+      "total": 15
+    },
+    "wrong": {
+      "correct": 10,
+      "total": 12
+    },
+    "year": {
+      "correct": 11,
+      "total": 14
+    },
+    "yellow": {
+      "correct": 10,
+      "total": 12
+    },
+    "yes": {
+      "correct": 7,
+      "total": 9
+    }
+  }
+}

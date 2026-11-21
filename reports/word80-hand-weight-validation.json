@@ -1,0 +1,21 @@
+{
+  "baseline": 260,
+  "weak_baseline": 12,
+  "trials": [
+    {
+      "weight": 0.5,
+      "total": 251,
+      "weak": 8
+    },
+    {
+      "weight": 1,
+      "total": 257,
+      "weak": 11
+    },
+    {
+      "weight": 2,
+      "total": 253,
+      "weak": 10
+    }
+  ]
+}

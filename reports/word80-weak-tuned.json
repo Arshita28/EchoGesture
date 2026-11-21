@@ -1,0 +1,17 @@
+{
+  "added": {
+    "study": 3,
+    "paper": 4,
+    "thursday": 1,
+    "graduate": 2,
+    "tell": 2
+  },
+  "validation_baseline": 260,
+  "validation_candidate": 260,
+  "validation_total": 302,
+  "weak_baseline": 12,
+  "weak_candidate": 12,
+  "weak_total": 18,
+  "C": 100,
+  "gamma": "scale"
+}

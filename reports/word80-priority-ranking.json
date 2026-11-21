@@ -1,0 +1,847 @@
+[
+  {
+    "word": "school",
+    "attempted": 11,
+    "correct": 3,
+    "detection_failures": 0,
+    "confusions": {
+      "paper": 4,
+      "water": 1,
+      "book": 2,
+      "color": 1
+    },
+    "accuracy": 0.2727272727272727
+  },
+  {
+    "word": "all",
+    "attempted": 13,
+    "correct": 5,
+    "detection_failures": 0,
+    "confusions": {
+      "cook": 2,
+      "paper": 1,
+      "study": 2,
+      "wife": 1,
+      "graduate": 1,
+      "family": 1
+    },
+    "accuracy": 0.38461538461538464
+  },
+  {
+    "word": "paper",
+    "attempted": 13,
+    "correct": 5,
+    "detection_failures": 1,
+    "confusions": {
+      "school": 5,
+      "cook": 1,
+      "book": 1
+    },
+    "accuracy": 0.38461538461538464
+  },
+  {
+    "word": "study",
+    "attempted": 12,
+    "correct": 5,
+    "detection_failures": 0,
+    "confusions": {
+      "before": 1,
+      "paint": 3,
+      "fish": 1,
+      "dance": 1,
+      "learn": 1
+    },
+    "accuracy": 0.4166666666666667
+  },
+  {
+    "word": "wife",
+    "attempted": 11,
+    "correct": 5,
+    "detection_failures": 1,
+    "confusions": {
+      "school": 2,
+      "medicine": 1,
+      "graduate": 1,
+      "book": 1
+    },
+    "accuracy": 0.45454545454545453
+  },
+  {
+    "word": "cook",
+    "attempted": 13,
+    "correct": 6,
+    "detection_failures": 1,
+    "confusions": {
+      "visit": 1,
+      "school": 1,
+      "book": 2,
+      "graduate": 1,
+      "help": 1
+    },
+    "accuracy": 0.46153846153846156
+  },
+  {
+    "word": "tell",
+    "attempted": 12,
+    "correct": 6,
+    "detection_failures": 0,
+    "confusions": {
+      "red": 2,
+      "who": 2,
+      "pink": 1,
+      "change": 1
+    },
+    "accuracy": 0.5
+  },
+  {
+    "word": "graduate",
+    "attempted": 12,
+    "correct": 7,
+    "detection_failures": 0,
+    "confusions": {
+      "change": 1,
+      "fish": 1,
+      "all": 1,
+      "school": 1,
+      "cook": 1
+    },
+    "accuracy": 0.5833333333333334
+  },
+  {
+    "word": "thursday",
+    "attempted": 12,
+    "correct": 7,
+    "detection_failures": 1,
+    "confusions": {
+      "green": 1,
+      "need": 1,
+      "apple": 1,
+      "candy": 1
+    },
+    "accuracy": 0.5833333333333334
+  },
+  {
+    "word": "bird",
+    "attempted": 13,
+    "correct": 8,
+    "detection_failures": 1,
+    "confusions": {
+      "need": 1,
+      "work": 1,
+      "deaf": 1,
+      "who": 1
+    },
+    "accuracy": 0.6153846153846154
+  },
+  {
+    "word": "help",
+    "attempted": 13,
+    "correct": 8,
+    "detection_failures": 0,
+    "confusions": {
+      "before": 1,
+      "graduate": 2,
+      "book": 2
+    },
+    "accuracy": 0.6153846153846154
+  },
+  {
+    "word": "last",
+    "attempted": 13,
+    "correct": 8,
+    "detection_failures": 0,
+    "confusions": {
+      "thin": 5
+    },
+    "accuracy": 0.6153846153846154
+  },
+  {
+    "word": "year",
+    "attempted": 12,
+    "correct": 8,
+    "detection_failures": 0,
+    "confusions": {
+      "change": 2,
+      "son": 1,
+      "wife": 1
+    },
+    "accuracy": 0.6666666666666666
+  },
+  {
+    "word": "medicine",
+    "attempted": 13,
+    "correct": 9,
+    "detection_failures": 0,
+    "confusions": {
+      "learn": 1,
+      "chair": 1,
+      "school": 1,
+      "paper": 1
+    },
+    "accuracy": 0.6923076923076923
+  },
+  {
+    "word": "pull",
+    "attempted": 13,
+    "correct": 9,
+    "detection_failures": 0,
+    "confusions": {
+      "help": 1,
+      "wife": 1,
+      "school": 1,
+      "accident": 1
+    },
+    "accuracy": 0.6923076923076923
+  },
+  {
+    "word": "red",
+    "attempted": 14,
+    "correct": 10,
+    "detection_failures": 1,
+    "confusions": {
+      "pink": 2,
+      "who": 1
+    },
+    "accuracy": 0.7142857142857143
+  },
+  {
+    "word": "who",
+    "attempted": 14,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "bird": 1,
+      "fish": 1,
+      "pink": 1,
+      "need": 1
+    },
+    "accuracy": 0.7142857142857143
+  },
+  {
+    "word": "before",
+    "attempted": 11,
+    "correct": 8,
+    "detection_failures": 0,
+    "confusions": {
+      "book": 1,
+      "study": 2
+    },
+    "accuracy": 0.7272727272727273
+  },
+  {
+    "word": "paint",
+    "attempted": 11,
+    "correct": 8,
+    "detection_failures": 1,
+    "confusions": {
+      "last": 1,
+      "paper": 1
+    },
+    "accuracy": 0.7272727272727273
+  },
+  {
+    "word": "mother",
+    "attempted": 15,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "water": 1,
+      "pink": 2,
+      "color": 1
+    },
+    "accuracy": 0.7333333333333333
+  },
+  {
+    "word": "learn",
+    "attempted": 12,
+    "correct": 9,
+    "detection_failures": 0,
+    "confusions": {
+      "dance": 1,
+      "thin": 1,
+      "paper": 1
+    },
+    "accuracy": 0.75
+  },
+  {
+    "word": "thanksgiving",
+    "attempted": 12,
+    "correct": 9,
+    "detection_failures": 0,
+    "confusions": {
+      "water": 1,
+      "go": 2
+    },
+    "accuracy": 0.75
+  },
+  {
+    "word": "time",
+    "attempted": 12,
+    "correct": 9,
+    "detection_failures": 0,
+    "confusions": {
+      "chair": 3
+    },
+    "accuracy": 0.75
+  },
+  {
+    "word": "yellow",
+    "attempted": 12,
+    "correct": 9,
+    "detection_failures": 0,
+    "confusions": {
+      "candy": 1,
+      "green": 1,
+      "cousin": 1
+    },
+    "accuracy": 0.75
+  },
+  {
+    "word": "blue",
+    "attempted": 13,
+    "correct": 10,
+    "detection_failures": 1,
+    "confusions": {
+      "cousin": 1,
+      "give": 1
+    },
+    "accuracy": 0.7692307692307693
+  },
+  {
+    "word": "class",
+    "attempted": 13,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "school": 1,
+      "paint": 1,
+      "computer": 1
+    },
+    "accuracy": 0.7692307692307693
+  },
+  {
+    "word": "cousin",
+    "attempted": 13,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "blue": 3
+    },
+    "accuracy": 0.7692307692307693
+  },
+  {
+    "word": "fish",
+    "attempted": 13,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "man": 1,
+      "change": 1,
+      "who": 1
+    },
+    "accuracy": 0.7692307692307693
+  },
+  {
+    "word": "pink",
+    "attempted": 13,
+    "correct": 10,
+    "detection_failures": 2,
+    "confusions": {
+      "hearing": 1
+    },
+    "accuracy": 0.7692307692307693
+  },
+  {
+    "word": "green",
+    "attempted": 14,
+    "correct": 11,
+    "detection_failures": 1,
+    "confusions": {
+      "need": 1,
+      "candy": 1
+    },
+    "accuracy": 0.7857142857142857
+  },
+  {
+    "word": "play",
+    "attempted": 14,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "now": 1,
+      "secretary": 2
+    },
+    "accuracy": 0.7857142857142857
+  },
+  {
+    "word": "work",
+    "attempted": 15,
+    "correct": 12,
+    "detection_failures": 0,
+    "confusions": {
+      "language": 1,
+      "son": 1,
+      "chair": 1
+    },
+    "accuracy": 0.8
+  },
+  {
+    "word": "yes",
+    "attempted": 10,
+    "correct": 8,
+    "detection_failures": 1,
+    "confusions": {
+      "need": 1
+    },
+    "accuracy": 0.8
+  },
+  {
+    "word": "hot",
+    "attempted": 11,
+    "correct": 9,
+    "detection_failures": 0,
+    "confusions": {
+      "man": 1,
+      "pink": 1
+    },
+    "accuracy": 0.8181818181818182
+  },
+  {
+    "word": "table",
+    "attempted": 11,
+    "correct": 9,
+    "detection_failures": 2,
+    "confusions": {},
+    "accuracy": 0.8181818181818182
+  },
+  {
+    "word": "book",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "help": 1,
+      "paint": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "brown",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "book": 1,
+      "yellow": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "clothes",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "paper": 1,
+      "chair": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "cow",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "last": 1,
+      "learn": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "different",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "year": 1,
+      "language": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "like",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "give": 1,
+      "white": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "man",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "brown": 1,
+      "mother": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "many",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "last": 1,
+      "book": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "wrong",
+    "attempted": 12,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "pink": 1,
+      "mother": 1
+    },
+    "accuracy": 0.8333333333333334
+  },
+  {
+    "word": "color",
+    "attempted": 13,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "blue": 1,
+      "book": 1
+    },
+    "accuracy": 0.8461538461538461
+  },
+  {
+    "word": "go",
+    "attempted": 13,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "change": 1,
+      "meet": 1
+    },
+    "accuracy": 0.8461538461538461
+  },
+  {
+    "word": "purple",
+    "attempted": 13,
+    "correct": 11,
+    "detection_failures": 1,
+    "confusions": {
+      "hearing": 1
+    },
+    "accuracy": 0.8461538461538461
+  },
+  {
+    "word": "wait",
+    "attempted": 13,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "book": 2
+    },
+    "accuracy": 0.8461538461538461
+  },
+  {
+    "word": "dance",
+    "attempted": 14,
+    "correct": 12,
+    "detection_failures": 0,
+    "confusions": {
+      "time": 1,
+      "clothes": 1
+    },
+    "accuracy": 0.8571428571428571
+  },
+  {
+    "word": "accident",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "wife": 1
+    },
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "apple",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "computer": 1
+    },
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "change",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "meet": 1
+    },
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "computer",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "paper": 1
+    },
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "enjoy",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "white": 1
+    },
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "give",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 1,
+    "confusions": {},
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "no",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {
+      "yes": 1
+    },
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "white",
+    "attempted": 11,
+    "correct": 10,
+    "detection_failures": 1,
+    "confusions": {},
+    "accuracy": 0.9090909090909091
+  },
+  {
+    "word": "black",
+    "attempted": 12,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "blue": 1
+    },
+    "accuracy": 0.9166666666666666
+  },
+  {
+    "word": "chair",
+    "attempted": 12,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "time": 1
+    },
+    "accuracy": 0.9166666666666666
+  },
+  {
+    "word": "later",
+    "attempted": 12,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "deaf": 1
+    },
+    "accuracy": 0.9166666666666666
+  },
+  {
+    "word": "need",
+    "attempted": 12,
+    "correct": 11,
+    "detection_failures": 1,
+    "confusions": {},
+    "accuracy": 0.9166666666666666
+  },
+  {
+    "word": "secretary",
+    "attempted": 12,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "book": 1
+    },
+    "accuracy": 0.9166666666666666
+  },
+  {
+    "word": "water",
+    "attempted": 12,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {
+      "book": 1
+    },
+    "accuracy": 0.9166666666666666
+  },
+  {
+    "word": "orange",
+    "attempted": 13,
+    "correct": 12,
+    "detection_failures": 0,
+    "confusions": {
+      "give": 1
+    },
+    "accuracy": 0.9230769230769231
+  },
+  {
+    "word": "thin",
+    "attempted": 13,
+    "correct": 12,
+    "detection_failures": 0,
+    "confusions": {
+      "now": 1
+    },
+    "accuracy": 0.9230769230769231
+  },
+  {
+    "word": "finish",
+    "attempted": 14,
+    "correct": 13,
+    "detection_failures": 0,
+    "confusions": {
+      "study": 1
+    },
+    "accuracy": 0.9285714285714286
+  },
+  {
+    "word": "hearing",
+    "attempted": 14,
+    "correct": 13,
+    "detection_failures": 0,
+    "confusions": {
+      "black": 1
+    },
+    "accuracy": 0.9285714285714286
+  },
+  {
+    "word": "door",
+    "attempted": 14,
+    "correct": 14,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "family",
+    "attempted": 12,
+    "correct": 12,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "language",
+    "attempted": 11,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "meet",
+    "attempted": 10,
+    "correct": 10,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "now",
+    "attempted": 12,
+    "correct": 12,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "son",
+    "attempted": 12,
+    "correct": 12,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "teacher",
+    "attempted": 13,
+    "correct": 13,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "visit",
+    "attempted": 11,
+    "correct": 11,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": 1.0
+  },
+  {
+    "word": "candy",
+    "attempted": 0,
+    "correct": 0,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": null
+  },
+  {
+    "word": "deaf",
+    "attempted": 0,
+    "correct": 0,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": null
+  },
+  {
+    "word": "drink",
+    "attempted": 0,
+    "correct": 0,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": null
+  },
+  {
+    "word": "fine",
+    "attempted": 0,
+    "correct": 0,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": null
+  },
+  {
+    "word": "walk",
+    "attempted": 0,
+    "correct": 0,
+    "detection_failures": 0,
+    "confusions": {},
+    "accuracy": null
+  }
+]

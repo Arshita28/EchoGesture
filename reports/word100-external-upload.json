@@ -1,0 +1,94 @@
+[
+  {
+    "word": "squeeze",
+    "role": "eval",
+    "bbox": [
+      57,
+      17,
+      266,
+      240
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 1,
+    "signer_id": 2,
+    "source": "spreadthesign",
+    "split": "val",
+    "url": "https://media.spreadthesign.com/video/mp4/13/116999.mp4",
+    "variation_id": 0,
+    "video_id": "54189",
+    "available": true,
+    "http": 200,
+    "predicted": "change"
+  },
+  {
+    "bbox": [
+      562,
+      63,
+      1838,
+      1080
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 2,
+    "signer_id": 32,
+    "source": "signschool",
+    "split": "train",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Jewelry%202-1QExxwdFd8s.mp4",
+    "variation_id": 0,
+    "video_id": "31077",
+    "word": "jewelry",
+    "role": "reserved_external_eval",
+    "available": true,
+    "http": 200,
+    "predicted": "learn"
+  },
+  {
+    "bbox": [
+      534,
+      61,
+      1805,
+      1080
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 3,
+    "signer_id": 32,
+    "source": "signschool",
+    "split": "train",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Jewelry-FJPV-IHTwBI.mp4",
+    "variation_id": 0,
+    "video_id": "31078",
+    "word": "jewelry",
+    "role": "reserved_external_eval",
+    "available": true,
+    "http": 200,
+    "predicted": "jewelry"
+  },
+  {
+    "bbox": [
+      97,
+      15,
+      577,
+      480
+    ],
+    "fps": 25,
+    "frame_end": -1,
+    "frame_start": 1,
+    "instance_id": 4,
+    "signer_id": 21,
+    "source": "asldeafined",
+    "split": "train",
+    "url": "https://media.asldeafined.com/vocabulary/1468669184.4289.mp4",
+    "variation_id": 0,
+    "video_id": "31079",
+    "word": "jewelry",
+    "role": "reserved_external_eval",
+    "available": true,
+    "http": 200,
+    "predicted": "paint"
+  }
+]
