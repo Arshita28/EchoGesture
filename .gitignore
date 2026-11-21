@@ -26,3 +26,6 @@ models/word-benchmark-*.npz
 
 # Private reserved upload-test videos
 mytest/
+
+# Private upload-testing reports
+reports/mytest-*.json
