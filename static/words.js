@@ -3,7 +3,18 @@
  const el=id=>document.getElementById(id), camera=el('wordCamera');
  let stream=null,recorder=null,chunks=[],timer=null,busy=false,generation=0,controller=null,recordToken=0,starting=false;
  function controls(){el('wordStart').disabled=busy||starting||!!stream;el('wordRecord').disabled=busy||!stream;el('wordStop').disabled=!stream;el('wordUpload').disabled=busy;}
- function clearResult(){el('wordResult').textContent='—';el('wordDetails').textContent='';el('wordAlternatives').replaceChildren();}
+ let recognizedWord=null,autoVoice=false;
+ function speakResult(){
+  if(!recognizedWord||!window.speechSynthesis)return;
+  speechSynthesis.cancel();
+  const utterance=new SpeechSynthesisUtterance(recognizedWord);utterance.lang='en-US';
+  utterance.onerror=()=>{el('wordVoiceStatus').textContent='Voice playback failed. Try Speak result again.';};
+  speechSynthesis.speak(utterance);
+ }
+ el('wordSpeak').onclick=speakResult;
+ el('wordVoice').onclick=()=>{autoVoice=!autoVoice;el('wordVoice').setAttribute('aria-pressed',String(autoVoice));el('wordVoice').textContent=autoVoice?'Auto voice on':'Auto voice off';if(!autoVoice)window.speechSynthesis?.cancel();};
+ if(!window.speechSynthesis){el('wordVoice').disabled=true;el('wordVoiceStatus').textContent='Speech playback is unavailable in this browser.';}
+ function clearResult(){recognizedWord=null;el('wordSpeak').disabled=true;window.speechSynthesis?.cancel();el('wordResult').textContent='—';el('wordDetails').textContent='';el('wordAlternatives').replaceChildren();}
  async function submit(blob,name){
   if(blob.size>8*1024*1024){busy=false;clearResult();controls();el('wordStatus').textContent='Video is too large. Use a clip under 8 MB.';return;}
   const token=++generation;busy=true;clearResult();controls();controller=new AbortController();
@@ -19,6 +30,7 @@
     el('wordDetails').textContent='No clear supported-word match. The sign may be unsupported or uncertain.';
    }else{
     el('wordResult').textContent=result.label;
+    recognizedWord=result.label;el('wordSpeak').disabled=!window.speechSynthesis;if(autoVoice)speakResult();
     el('wordDetails').textContent='Experimental match. Hand detection '+Math.round(result.quality.any_hand_coverage*100)+'% of sampled frames.';
     for(const candidate of result.candidates){const li=document.createElement('li');li.textContent=candidate.label;el('wordAlternatives').append(li);}
    }
@@ -52,7 +64,7 @@
    timer=setInterval(()=>{remaining--;if(remaining>0)el('wordStatus').textContent='Recording: '+remaining+' seconds…';else{clearInterval(timer);if(recorder.state==='recording')recorder.stop();}},1000);
   }catch(error){busy=false;controls();el('wordStatus').textContent=error.message;}
  };
- function stop(){generation++;recordToken++;clearInterval(timer);controller?.abort();controller=null;
+ function stop(){window.speechSynthesis?.cancel();generation++;recordToken++;clearInterval(timer);controller?.abort();controller=null;
   if(recorder&&recorder.state!=='inactive')recorder.stop();recorder=null;
   if(stream)stream.getTracks().forEach(t=>t.stop());stream=null;camera.srcObject=null;
   busy=false;el('cameraHint').hidden=false;controls();

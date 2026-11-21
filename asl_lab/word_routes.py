@@ -12,6 +12,8 @@ from .word_inference import predict
 def word_routes(root):
     import os
     variant = os.environ.get("ECHOGESTURE_WORD_MODEL")
+    if variant is None:
+        variant = "word60-svm" if (Path(root)/"models/word60-priority-wlasl-citizen-svm.joblib").exists() else "prototype"
     candidate = variant in ("word20", "word20-svm", "word24-svm", "word60-svm")
     root=Path(root);bp=Blueprint('words',__name__);lock=threading.Lock()
     def load():
