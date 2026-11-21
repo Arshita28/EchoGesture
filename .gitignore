@@ -23,3 +23,6 @@ static/brain-particles.json
 
 # Generated word benchmark artifacts
 models/word-benchmark-*.npz
+
+# Private reserved upload-test videos
+mytest/

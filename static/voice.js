@@ -14,7 +14,7 @@ class LetterVoice {
   }
   enable(value) {
     this.reset(); this.enabled = Boolean(value && this.supported);
-    this.notify(this.enabled ? 'Voice on · Samantha (female)' : 'Voice off');
+    this.notify(this.enabled ? 'Voice on' : 'Voice off');
     if (this.enabled && this.audio) this.playClip('enabled');
   }
   playClip(name) {
@@ -35,7 +35,7 @@ class LetterVoice {
     const utterance = new this.Utterance(message);
     utterance.voice = voice; utterance.lang = voice.lang; utterance.rate = .9;
     this.messageSpeaking = true;
-    this.notify('Speaking message · ' + voice.name);
+    this.notify('Speaking');
     utterance.onend = () => { if(job !== this.speechJob) return; this.messageSpeaking = false; this.notify('Message spoken.'); };
     utterance.onerror = () => { if(job !== this.speechJob) return; this.messageSpeaking = false; this.notify('Message speech stopped or unavailable.'); };
     try { this.synth.speak(utterance); return true; }
@@ -48,7 +48,7 @@ class LetterVoice {
     if (letter === this.lastLetter) return;
     this.lastLetter = letter;
     if (this.audio) {
-      if (/^[A-Z]$/.test(letter)) { this.playClip(letter); this.notify('Voice on · Samantha (female)'); }
+      if (/^[A-Z]$/.test(letter)) { this.playClip(letter); this.notify('Voice on'); }
       return;
     }
     this.synth.cancel(); // Replace old speech instead of building a queue.
@@ -67,8 +67,7 @@ class LetterVoice {
     }
     const preferred = Boolean(voice);
     if (!voice) { this.notify('Female voice unavailable — no default fallback used'); return; }
-    this.notify(preferred ? `Voice on · ${voice.name}`
-      : 'Voice on · System fallback (preferred female voice not available)');
+    this.notify('Voice on');
     if (voice) utterance.voice = voice;
     utterance.lang = voice ? voice.lang : 'en-US';
     utterance.rate = .9;

@@ -1,0 +1,56 @@
+[
+  {
+    "word": "family",
+    "predicted": "family",
+    "quality": {
+      "any_hand_coverage": 0.9375,
+      "body_coverage": 1.0
+    },
+    "status": "prototype_match"
+  },
+  {
+    "word": "water",
+    "predicted": "fine",
+    "quality": {
+      "any_hand_coverage": 0.75,
+      "body_coverage": 1.0
+    },
+    "status": "prototype_match"
+  },
+  {
+    "word": "school",
+    "predicted": "school",
+    "quality": {
+      "any_hand_coverage": 0.875,
+      "body_coverage": 1.0
+    },
+    "status": "prototype_match"
+  },
+  {
+    "word": "apple",
+    "predicted": "candy",
+    "quality": {
+      "any_hand_coverage": 0.90625,
+      "body_coverage": 1.0
+    },
+    "status": "prototype_match"
+  },
+  {
+    "word": "red",
+    "predicted": "who",
+    "quality": {
+      "any_hand_coverage": 0.71875,
+      "body_coverage": 1.0
+    },
+    "status": "prototype_match"
+  },
+  {
+    "word": "green",
+    "predicted": "purple",
+    "quality": {
+      "any_hand_coverage": 0.9375,
+      "body_coverage": 1.0
+    },
+    "status": "prototype_match"
+  }
+]
