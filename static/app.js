@@ -105,11 +105,11 @@ async function predict(token, staticImage = false, originalFile = null) {
     autoMotion.observe(result, $('canvas').width / $('canvas').height, useAuto);
     const motionLetter=useAuto ? autoMotion.current() : null;
     const readingMotion=useAuto && !motionLetter && autoMotion.reading();
-    if(readingMotion) { current=null;history=[]; }
+    if(readingMotion) current=null;
     if(motionLetter) current=motionLetter.label;
     drawLandmarks(result.landmarks);
     $('letter').textContent = current || '—';
-    letterVoice.observe(current, motionLetter ? 'ok' : result.status);
+    letterVoice.observe(current, motionLetter ? (motionLetter.accepted ? 'ok' : 'uncertain') : result.status);
     evaluation.observe(current, result);
     if (!staticImage) motion.observe(result, $('canvas').width / $('canvas').height);
     $('state').textContent = result.status === 'ok' && !current
@@ -125,7 +125,12 @@ async function predict(token, staticImage = false, originalFile = null) {
       };
       $('score').textContent = hints[result.status] || 'Choose a source to begin.';
     }
-    if(motionLetter) { $('state').textContent='Motion letter recognized (experimental)';$('score').textContent=`${motionLetter.label} · Motion score ${(motionLetter.score*100).toFixed(1)}%`; }
+    if(motionLetter) {
+      $('state').textContent=motionLetter.accepted?'Motion letter recognized':'Best motion prediction — uncertain';
+      $('score').textContent=motionLetter.method==='trajectory'
+        ? `${motionLetter.label} · Finger shape and completed path matched`
+        : `${motionLetter.label} · Model score ${(motionLetter.score*100).toFixed(1)}%`;
+    }
     else if(readingMotion) {
       $('state').textContent=autoMotion.phase==='recording'?'Reading motion — static letters paused':autoMotion.phase==='classifying'?'Checking completed motion':'Motion not confirmed';
       $('score').textContent=autoMotion.feedback();

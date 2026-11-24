@@ -1,0 +1,346 @@
+{
+  "training_clips": {
+    "NONE": 65,
+    "J": 15,
+    "Z": 16
+  },
+  "templates": 810,
+  "derived_capture_sequences": 39,
+  "rows": [
+    {
+      "expected": "J",
+      "source": "local_development",
+      "before": {
+        "top": "J",
+        "score": 0.9953384291692181,
+        "accepted": "J",
+        "correct": true
+      },
+      "candidate": {
+        "top": "J",
+        "score": 0.9953384291692181,
+        "accepted": "J",
+        "correct": true
+      }
+    },
+    {
+      "expected": "J",
+      "source": "local_development",
+      "before": {
+        "top": "J",
+        "score": 0.9883678859244799,
+        "accepted": "J",
+        "correct": true
+      },
+      "candidate": {
+        "top": "J",
+        "score": 0.9883678859244799,
+        "accepted": "J",
+        "correct": true
+      }
+    },
+    {
+      "expected": "Z",
+      "source": "local_development",
+      "before": {
+        "top": "Z",
+        "score": 0.7607602550233789,
+        "accepted": "Z",
+        "correct": true
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.7607602550233789,
+        "accepted": "Z",
+        "correct": true
+      }
+    },
+    {
+      "expected": "Z",
+      "source": "local_development",
+      "before": {
+        "top": "Z",
+        "score": 0.9682264719316993,
+        "accepted": "Z",
+        "correct": true
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.9682264719316993,
+        "accepted": "Z",
+        "correct": true
+      }
+    },
+    {
+      "expected": "Z",
+      "source": "local_development",
+      "before": {
+        "top": "Z",
+        "score": 0.9490372745941632,
+        "accepted": "Z",
+        "correct": true
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.9490372745941632,
+        "accepted": "Z",
+        "correct": true
+      }
+    },
+    {
+      "expected": "NONE",
+      "source": "local_development",
+      "before": {
+        "top": "NONE",
+        "score": 0.9642373470718125,
+        "accepted": null,
+        "correct": true
+      },
+      "candidate": {
+        "top": "NONE",
+        "score": 0.9642373470718125,
+        "accepted": null,
+        "correct": true
+      }
+    },
+    {
+      "expected": "NONE",
+      "source": "local_development",
+      "before": {
+        "top": "NONE",
+        "score": 0.6611643215693106,
+        "accepted": null,
+        "correct": true
+      },
+      "candidate": {
+        "top": "NONE",
+        "score": 0.6611643215693106,
+        "accepted": null,
+        "correct": true
+      }
+    },
+    {
+      "expected": "NONE",
+      "source": "local_development",
+      "before": {
+        "top": "NONE",
+        "score": 0.6298587735194092,
+        "accepted": null,
+        "correct": true
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.5101773823399662,
+        "accepted": null,
+        "correct": true
+      }
+    },
+    {
+      "expected": "Z",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "NONE",
+        "score": 0.8914479807475667,
+        "accepted": null,
+        "correct": false
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.6697507217101994,
+        "accepted": null,
+        "correct": false
+      }
+    },
+    {
+      "expected": "J",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "NONE",
+        "score": 0.6570808941405964,
+        "accepted": null,
+        "correct": false
+      },
+      "candidate": {
+        "top": "J",
+        "score": 0.6374954018600322,
+        "accepted": null,
+        "correct": false
+      }
+    },
+    {
+      "expected": "NONE",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "NONE",
+        "score": 0.9138360235143899,
+        "accepted": null,
+        "correct": true
+      },
+      "candidate": {
+        "top": "NONE",
+        "score": 0.9138360235143899,
+        "accepted": null,
+        "correct": true
+      }
+    },
+    {
+      "expected": "NONE",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "NONE",
+        "score": 0.5235483292156136,
+        "accepted": null,
+        "correct": true
+      },
+      "candidate": {
+        "top": "NONE",
+        "score": 0.5235483292156136,
+        "accepted": null,
+        "correct": true
+      }
+    },
+    {
+      "expected": "NONE",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "J",
+        "score": 0.6883977688945083,
+        "accepted": null,
+        "correct": true
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.4436635130477331,
+        "accepted": null,
+        "correct": true
+      }
+    },
+    {
+      "expected": "J",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "Z",
+        "score": 0.3700367835891548,
+        "accepted": null,
+        "correct": false
+      },
+      "candidate": {
+        "top": "J",
+        "score": 0.487735434354076,
+        "accepted": null,
+        "correct": false
+      }
+    },
+    {
+      "expected": "J",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "NONE",
+        "score": 0.6088367551923279,
+        "accepted": null,
+        "correct": false
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.7020315361543612,
+        "accepted": null,
+        "correct": false
+      }
+    },
+    {
+      "expected": "Z",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "Z",
+        "score": 0.7910002364117741,
+        "accepted": "Z",
+        "correct": true
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.7910002364117741,
+        "accepted": "Z",
+        "correct": true
+      }
+    },
+    {
+      "expected": "Z",
+      "source": "dictionary_reserved",
+      "before": {
+        "top": "NONE",
+        "score": 0.5536894599897736,
+        "accepted": "Z",
+        "correct": true
+      },
+      "candidate": {
+        "top": "Z",
+        "score": 0.6759284905848965,
+        "accepted": "Z",
+        "correct": true
+      }
+    }
+  ],
+  "limitations": "Dictionary roles fixed before prediction; external signer overlap unverified. Local checks previously inspected. Augmentations are derived training examples.",
+  "summary": {
+    "local_development": {
+      "before": {
+        "J": [
+          2,
+          2
+        ],
+        "Z": [
+          3,
+          3
+        ],
+        "NONE": [
+          3,
+          3
+        ]
+      },
+      "candidate": {
+        "J": [
+          2,
+          2
+        ],
+        "Z": [
+          3,
+          3
+        ],
+        "NONE": [
+          3,
+          3
+        ]
+      }
+    },
+    "dictionary_reserved": {
+      "before": {
+        "J": [
+          0,
+          3
+        ],
+        "Z": [
+          2,
+          3
+        ],
+        "NONE": [
+          3,
+          3
+        ]
+      },
+      "candidate": {
+        "J": [
+          0,
+          3
+        ],
+        "Z": [
+          2,
+          3
+        ],
+        "NONE": [
+          3,
+          3
+        ]
+      }
+    }
+  }
+}

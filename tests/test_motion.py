@@ -75,3 +75,39 @@ def test_time_alignment_tolerates_repeated_pause_samples():
     matcher=TemporalMatcher().fit(x,['Z','NONE','J'])
     assert list(matcher.predict(x))==['Z','NONE','J']
     np.testing.assert_allclose(matcher.predict_proba(x).sum(axis=1),1)
+
+
+def test_short_complete_motion_keeps_same_feature_shape():
+    frames=sequence()[:6]
+    for i,frame in enumerate(frames):frame['time']=i*75
+    assert motion_features(frames).shape==(24*63,)
+    for i,frame in enumerate(frames):frame['time']=i*30
+    with pytest.raises(ValueError):motion_features(frames)
+
+
+def test_motion_specialist_preserves_confirmed_reference_and_recovers_uncertainty():
+    from asl_lab.motion_summary import MotionZSpecialist
+    class Fixed:
+        classes_=np.array(['J','NONE','Z'])
+        def __init__(self,scores):self.scores=np.array(scores)
+        def predict_proba(self,x):return self.scores.copy()
+    reference=Fixed([[.9,.05,.05],[.2,.6,.2],[.2,.6,.2]])
+    specialist=Fixed([[.02,.03,.95],[.05,.05,.9],[.05,.9,.05]])
+    model=MotionZSpecialist(reference,specialist)
+    scores=model.predict_proba(np.zeros((3,1512)))
+    np.testing.assert_allclose(scores[0],reference.scores[0])
+    np.testing.assert_allclose(scores[1],specialist.scores[1])
+    np.testing.assert_allclose(scores[2],reference.scores[2])
+
+
+
+def test_motion_summary_translation_invariance_and_finiteness():
+    from asl_lab.motion_summary import MotionSummary
+    from asl_lab.motion import motion_features
+    x=motion_features(sequence()).reshape(1,-1)
+    transform=MotionSummary()
+    features=transform.transform(x)
+    assert features.shape==(1,302)
+    assert np.isfinite(features).all()
+    shifted=x.reshape(1,24,21,3)+[2.,3.,1.]
+    np.testing.assert_allclose(features,transform.transform(shifted.reshape(1,-1)),atol=1e-10)

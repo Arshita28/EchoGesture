@@ -6,8 +6,8 @@ MOTION_LABELS = ('J', 'Z', 'NONE')
 
 
 def motion_features(frames, steps=24):
-    if not isinstance(frames, list) or not 8 <= len(frames) <= 120:
-        raise ValueError('Record 8–120 detected hand frames')
+    if not isinstance(frames, list) or not 6 <= len(frames) <= 120:
+        raise ValueError('Record 6–120 detected hand frames')
     try:
         points = np.array([f['points'] for f in frames], dtype=float)
         times = np.array([f['time'] for f in frames], dtype=float)
@@ -16,8 +16,8 @@ def motion_features(frames, steps=24):
         raise ValueError('Invalid sequence frame data') from None
     if points.shape != (len(frames),21,3) or not np.isfinite(points).all():
         raise ValueError('Invalid sequence landmarks')
-    if not np.isfinite(times).all() or np.any(np.diff(times) <= 0) or np.any(np.diff(times) > 750) or times[-1]-times[0] < 700:
-        raise ValueError('Sequence must cover at least 0.7 seconds with increasing timestamps')
+    if not np.isfinite(times).all() or np.any(np.diff(times) <= 0) or np.any(np.diff(times) > 750) or times[-1]-times[0] < 350:
+        raise ValueError('Sequence must cover at least 0.35 seconds with increasing timestamps')
     if not np.isfinite(aspects).all() or np.any(aspects <= 0) or np.ptp(aspects) > .01:
         raise ValueError('Keep frame aspect ratio constant while recording')
     points[:,:,1] /= aspects[:,None]

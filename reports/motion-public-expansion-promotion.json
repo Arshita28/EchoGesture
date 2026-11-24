@@ -1,0 +1,42 @@
+{
+  "previous_sha256": "14b0cf775c01bbf010b49e8c23638f9d36e6446ae79d167be8d687a88d7946d0",
+  "active_sha256": "920e164c523365d3b433276418ccaee88c701f66bce61d47a4864fbd51e1cbf8",
+  "training_count": 715,
+  "counts": {
+    "NONE": 283,
+    "J": 216,
+    "Z": 216
+  },
+  "replay_summary": {
+    "before": {
+      "J": [
+        3,
+        5
+      ],
+      "Z": [
+        2,
+        6
+      ],
+      "NONE": [
+        6,
+        6
+      ]
+    },
+    "candidate": {
+      "J": [
+        4,
+        5
+      ],
+      "Z": [
+        3,
+        6
+      ],
+      "NONE": [
+        6,
+        6
+      ]
+    }
+  },
+  "additional_data": "619 raw recordings from one person, including 401 J/Z and218 static sequences",
+  "limitation": "Development recordings already inspected; signer/source overlap unverified. Source capture timing and aspect assumed from publisher configuration. Model scores uncalibrated."
+}

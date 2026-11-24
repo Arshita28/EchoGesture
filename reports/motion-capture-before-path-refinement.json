@@ -1,0 +1,277 @@
+{
+  "rows": [
+    {
+      "path": "datasets/raw/motion-extension/z-0.mp4",
+      "label": "Z",
+      "source_label": "Z",
+      "captured": 1,
+      "phase": "uncertain",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.9942626676583887
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.9942626676583887
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/j-0.mp4",
+      "label": "J",
+      "source_label": "J",
+      "captured": 1,
+      "phase": "uncertain",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.5298316864340061
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.5298316864340061
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/i-0.mp4",
+      "label": "NONE",
+      "source_label": "I",
+      "captured": 1,
+      "phase": "uncertain",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.9798009528691305
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.8011890244557757
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/d-0.mp4",
+      "label": "NONE",
+      "source_label": "D",
+      "captured": 1,
+      "phase": "idle",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.8889131488511406
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.8889131488511406
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/q-0.mp4",
+      "label": "NONE",
+      "source_label": "Q",
+      "captured": 1,
+      "phase": "uncertain",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.4957271652821338
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.4957271652821338
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/j-edf5c4bc.mp4",
+      "label": "J",
+      "source_label": "J",
+      "captured": 1,
+      "phase": "idle",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.551358478903892
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.551358478903892
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/j-51f6ea54.mp4",
+      "label": "J",
+      "source_label": "J",
+      "captured": 1,
+      "phase": "uncertain",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.6320191324738827
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.5610786007033737
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/z-9f3bd0d8.mp4",
+      "label": "Z",
+      "source_label": "Z",
+      "captured": 1,
+      "phase": "uncertain",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.9012315561844617
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.9012315561844617
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/z-0889e087.mp4",
+      "label": "Z",
+      "source_label": "Z",
+      "captured": 1,
+      "phase": "uncertain",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.6549588563661083
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.5815730333885585
+          }
+        ],
+        "correct": false
+      }
+    }
+  ],
+  "summary": {
+    "before": {
+      "J": [
+        0,
+        3
+      ],
+      "Z": [
+        0,
+        3
+      ],
+      "NONE": [
+        3,
+        3
+      ]
+    },
+    "candidate": {
+      "J": [
+        0,
+        3
+      ],
+      "Z": [
+        0,
+        3
+      ],
+      "NONE": [
+        3,
+        3
+      ]
+    }
+  }
+}

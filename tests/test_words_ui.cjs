@@ -8,7 +8,9 @@ const context={document:{getElementById:el,createElement:()=>({})},navigator:{me
  MediaRecorder:Recorder,window:{MediaRecorder:Recorder},Blob,FormData:class{append(){}},AbortController,
  setInterval:fn=>{timer=fn;return 1;},clearInterval(){},clearTimeout(){},addEventListener(){},
  fetch:async()=>{fetchCount++;return response();},console};
-vm.runInNewContext(fs.readFileSync('static/words.js','utf8'),context);
+vm.createContext(context);
+vm.runInContext(fs.readFileSync('static/voice.js','utf8'),context);
+vm.runInContext(fs.readFileSync('static/words.js','utf8'),context);
 const flush=()=>new Promise(r=>setImmediate(r));
 (async()=>{
  assert.equal(el('wordRecord').disabled,true);await el('wordStart').onclick();assert.equal(el('wordRecord').disabled,false);
