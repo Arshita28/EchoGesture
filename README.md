@@ -1,5 +1,9 @@
 # EchoGesture
 
+[Open the college ML showcase in Google Colab](https://colab.research.google.com/github/MTJ19/EchoGesture/blob/main/notebooks/EchoGesture_Showcase.ipynb)
+
+The notebook supports uploaded letter images, J/Z videos, 81-word videos, model inspection, and labelled evaluation. Select the 2026.07 Colab runtime (Python 3.12). Sign into GitHub to access this private repository.
+
 EchoGesture builds on the existing ASL Landmark Lab. **Phase 1** is the 24-letter static recognizer. Further phases add word-sign data, temporal recognition, live captions and measured local inference. The final website or app interface is undecided. See [the development roadmap](docs/EchoGesture_Development_Roadmap.docx) and [continuation notes](docs/ECHOGESTURE_START.md).
 
 **Continuing this project? Read [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) first** for the saved workflow, current state, diagnostic findings and next upgrade steps.
