@@ -1,5 +1,9 @@
 # EchoGesture
 
+[Open the college ML showcase in Google Colab](https://colab.research.google.com/github/MTJ19/EchoGesture/blob/main/notebooks/EchoGesture_Showcase.ipynb)
+
+The notebook supports uploaded letter images, J/Z videos, 81-word videos, model inspection, and labelled evaluation. Select the 2026.07 Colab runtime (Python 3.12). Sign into GitHub to access this private repository.
+
 EchoGesture builds on the existing ASL Landmark Lab. **Phase 1** is the 24-letter static recognizer. Further phases add word-sign data, temporal recognition, live captions and measured local inference. The final website or app interface is undecided. See [the development roadmap](docs/EchoGesture_Development_Roadmap.docx) and [continuation notes](docs/ECHOGESTURE_START.md).
 
 **Continuing this project? Read [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) first** for the saved workflow, current state, diagnostic findings and next upgrade steps.
@@ -8,31 +12,29 @@ Local ML lab for **24 static ASL fingerspelling letters** (A–Y excluding J; Z 
 
 ## Latest local studio
 
-The completed 60-word candidate is included in `models/word60-priority-wlasl-citizen-svm.joblib`.
+The completed 80-word candidate is included in `models/word80-priority-wlasl-citizen-svm.joblib`.
 After installing the requirements, launch it with:
 
 ```sh
-ECHOGESTURE_WORD_MODEL=word60-svm python app.py
+ECHOGESTURE_WORD_MODEL=word80-svm python app.py
 ```
 
 Open http://127.0.0.1:8080/words for its current vocabulary or /sign for the alphabet studio.
-The default configuration still loads the earlier five-word prototype.
+The default configuration loads the completed 80-word model.
 Recorded test scores vary by dataset and vocabulary. See the reports directory for measured comparisons.
 Raw videos, derived landmark caches and third-party archives require separate acquisition under their dataset licences.
 The landing-page template licence and required credit links are retained.
 
 ## Word recognition
 
-The trained five-word recognizer supports **COMPUTER, WHO, DEAF, YEAR, COOL**.
-After starting the server, open **http://127.0.0.1:8080/words**.
-Click **Start camera**, then **Record 3 seconds**, or upload an isolated sign video.
+The default Word Studio loads the trained **80-word model**.
+Run `python app.py`, then open http://127.0.0.1:8080/words.
+The vocabulary shown on the page comes directly from the loaded checkpoint.
+Use **Speak result** to hear a prediction, or enable **Auto voice**.
 
-The active checkpoint is included at [models/words-prototype.joblib](models/words-prototype.joblib).
-The interface is [templates/words.html](templates/words.html), with prediction routes in
-[asl_lab/word_routes.py](asl_lab/word_routes.py).
-Recorded web evaluation currently yields 4/10 correct supported signs.
-The separate nine-word benchmark yields 7/13 on held-out signer IDs.
-Broader vocabulary training is in progress. See [current coverage](reports/wlasl-current-coverage.json).
+The 80-word checkpoint is the default experimental recognizer.
+Evaluation reports record dataset-specific accuracy and limitations.
+The earlier five-word model remains available with `ECHOGESTURE_WORD_MODEL=prototype`.
 
 ## Run
 

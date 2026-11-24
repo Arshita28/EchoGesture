@@ -1,0 +1,70 @@
+{
+  "trials": [
+    {
+      "bins": 8,
+      "C": 10,
+      "correct": 256,
+      "total": 302
+    },
+    {
+      "bins": 8,
+      "C": 100,
+      "correct": 257,
+      "total": 302
+    },
+    {
+      "bins": 8,
+      "C": 1000,
+      "correct": 257,
+      "total": 302
+    },
+    {
+      "bins": 16,
+      "C": 10,
+      "correct": 258,
+      "total": 302
+    },
+    {
+      "bins": 16,
+      "C": 100,
+      "correct": 258,
+      "total": 302
+    },
+    {
+      "bins": 16,
+      "C": 1000,
+      "correct": 258,
+      "total": 302
+    }
+  ],
+  "bins": 16,
+  "C": 10,
+  "test_correct": 727,
+  "test_usable": 921,
+  "regression": [
+    {
+      "word": "family",
+      "prediction": "family"
+    },
+    {
+      "word": "water",
+      "prediction": "fine"
+    },
+    {
+      "word": "school",
+      "prediction": "school"
+    },
+    {
+      "word": "apple",
+      "prediction": "candy"
+    },
+    {
+      "word": "red",
+      "prediction": "tell"
+    },
+    {
+      "word": "green",
+      "prediction": "purple"
+    }
+  ]
+}

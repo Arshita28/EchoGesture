@@ -1,0 +1,140 @@
+{
+  "confusions": {
+    "hope": {
+      "expect": 5,
+      "hope": 3,
+      "secretary": 1,
+      "medicine": 1,
+      "computer": 1
+    },
+    "price": {
+      "visit": 2,
+      "price": 4,
+      "paint": 1,
+      "fish": 1,
+      "year": 1,
+      "study": 1,
+      "road": 1
+    }
+  },
+  "clips": [
+    {
+      "word": "close",
+      "role": "eval",
+      "id": "11252",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/close.mp4",
+      "sha256": "dfc2cdf80d6586a5490648c4c938b7c1a1bfe16b988e5747c60d1cb6d472c7f5",
+      "http": 200,
+      "pred": "close",
+      "status": "prototype_match"
+    },
+    {
+      "word": "hope",
+      "role": "train",
+      "id": "27923",
+      "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Hope%202-W-ZNwgTlrGo.mp4",
+      "sha256": "89d1ea9a5db62d74be930e4226110db355d121c99176aa63012f2a50b51c96bb",
+      "usable": true
+    },
+    {
+      "word": "hope",
+      "role": "train",
+      "id": "27925",
+      "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Hope-ja2Crl0Zpyo.mp4",
+      "sha256": "4cc385c1500c1ede30665536276ec07278173da355aa69f19cd752ff34f5ef69",
+      "usable": true
+    },
+    {
+      "word": "hope",
+      "role": "train",
+      "id": "27926",
+      "url": "https://media.asldeafined.com/vocabulary/1468581776.8100.mp4",
+      "sha256": "3d7cb10c54822c5a28f4c2f8e0e7f717f2e116468b7a4f32ea2186119c6b3597",
+      "usable": true
+    },
+    {
+      "word": "hope",
+      "role": "train",
+      "id": "27920",
+      "url": "https://media.spreadthesign.com/video/mp4/13/91439.mp4",
+      "sha256": "d2a03817689ce49db808f43b592478f0f8ba2aff6ecf74fdcb746a338f476b98",
+      "usable": true
+    },
+    {
+      "word": "hope",
+      "role": "train",
+      "id": "27921",
+      "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Expectation%2C%20Hope-PoYF8CCs1Cg.mp4",
+      "sha256": "d75a6e19c6a7dba677de068ee33ce07bdc040baecfe7d5d4542b858745a2a9e7",
+      "usable": true
+    },
+    {
+      "word": "ok",
+      "role": "eval",
+      "id": "39584",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/ok3.mp4",
+      "sha256": "8d444740731949046cb8cd82083d8ddbdca913197f3bf94cccef09e96f67b301",
+      "http": 200,
+      "pred": "orange",
+      "status": "prototype_match"
+    },
+    {
+      "word": "ok",
+      "role": "eval",
+      "id": "39585",
+      "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20OK-Qb4Pt5lG6ho.mp4",
+      "sha256": "c9d01556539535c48f83522923664edca18bde20a38bc005e23d50039399f54f",
+      "http": 200,
+      "pred": "no",
+      "status": "prototype_match"
+    },
+    {
+      "word": "price",
+      "role": "train",
+      "id": "44471",
+      "url": "https://media.asldeafined.com/vocabulary/1468755795.4278.mp4",
+      "sha256": "7477895963a080797060df451193bc7fa3d314225ec00161c4b4363d1ada4413",
+      "usable": true
+    },
+    {
+      "word": "other",
+      "role": "eval",
+      "id": "40315",
+      "url": "https://media.asldeafined.com/vocabulary/1468722689.8631.mp4",
+      "sha256": "aa744814bc24b8de3e44d604d93307ba66f098f637db99972e1f352aa4a1f4e7",
+      "http": 200,
+      "pred": "other",
+      "status": "prototype_match"
+    },
+    {
+      "word": "address",
+      "role": "eval",
+      "id": "01011",
+      "url": "https://media.spreadthesign.com/video/mp4/13/399293.mp4",
+      "sha256": "ccf5e0572cbb51d2dcc231e393a502fa82732b6577c95b65c54b2abd521d95cf",
+      "http": 200,
+      "pred": "address",
+      "status": "prototype_match"
+    },
+    {
+      "word": "his",
+      "role": "eval",
+      "id": "27553",
+      "url": "https://media.asldeafined.com/vocabulary/1468581179.9488.mp4",
+      "sha256": "9eed7caacbbc86882255ecaf41e31ebc2edcf73cbc516132d6f036a471cdb76c",
+      "http": 200,
+      "pred": "drink",
+      "status": "prototype_match"
+    },
+    {
+      "word": "scream",
+      "role": "eval",
+      "id": "49779",
+      "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Scream%2C%20Yell-ng0LKk5wAPE.mp4",
+      "sha256": "068330e9c1504ee9b404374aed7190dec93353afe4ebadc60593bbfa019e50d4",
+      "http": 200,
+      "pred": "scream",
+      "status": "prototype_match"
+    }
+  ]
+}

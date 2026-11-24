@@ -3,9 +3,9 @@ let stream = null, objectURL = null, generation = 0, running = false;
 let history = [], current = null, lastCapture = 0;
 let activeImageFile = null;
 let modelReady = false;
-// Keep static recognition independent of experimental motion arbitration.
+// Use completed motion gestures alongside static alphabet recognition.
 const LIVE_CUTOFF = 30;
-const AUTO_MOTION_ENABLED = false;
+const AUTO_MOTION_ENABLED = true;
 let modelName = "Unavailable";
 const letterVoice = new LetterVoice(window.speechSynthesis, window.SpeechSynthesisUtterance, text => { $('voiceStatus').textContent = text; });
 if (!letterVoice.supported) { $('voiceToggle').disabled = true; $('voiceStatus').textContent = 'Voice output is unavailable in this browser'; }
@@ -101,7 +101,7 @@ async function predict(token, staticImage = false, originalFile = null) {
       current = staticImage || (history.length === 4 && history.every(x => x === result.label))
         ? result.label : null;
     } else reset(false);
-    const useAuto = Boolean(AUTO_MOTION_ENABLED && stream && !motion.active && !evaluation.active);
+    const useAuto = Boolean(AUTO_MOTION_ENABLED && !staticImage && running && !motion.active && !evaluation.active);
     autoMotion.observe(result, $('canvas').width / $('canvas').height, useAuto);
     const motionLetter=useAuto ? autoMotion.current() : null;
     const readingMotion=useAuto && !motionLetter && autoMotion.reading();
@@ -109,7 +109,7 @@ async function predict(token, staticImage = false, originalFile = null) {
     if(motionLetter) current=motionLetter.label;
     drawLandmarks(result.landmarks);
     $('letter').textContent = current || '—';
-    letterVoice.observe(current, result.status);
+    letterVoice.observe(current, motionLetter ? 'ok' : result.status);
     evaluation.observe(current, result);
     if (!staticImage) motion.observe(result, $('canvas').width / $('canvas').height);
     $('state').textContent = result.status === 'ok' && !current
@@ -137,7 +137,7 @@ async function predict(token, staticImage = false, originalFile = null) {
     if ($('video').ended) {
       running = false; letterVoice.reset(); reset(); $('state').textContent = 'Video finished'; return;
     }
-    setTimeout(() => predict(token), (motion.active || (AUTO_MOTION_ENABLED && stream)) ? 40 : 180);
+    setTimeout(() => predict(token), (motion.active || (AUTO_MOTION_ENABLED && running)) ? 40 : 180);
   }
 }
 $('camera').onclick = async () => {

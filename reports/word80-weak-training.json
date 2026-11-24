@@ -1,0 +1,12 @@
+{
+  "added": {
+    "study": 3,
+    "paper": 4,
+    "thursday": 1,
+    "graduate": 2,
+    "tell": 2
+  },
+  "validation_baseline": 260,
+  "validation_candidate": 260,
+  "validation_total": 302
+}

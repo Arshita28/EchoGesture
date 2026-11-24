@@ -1,0 +1,20 @@
+{
+  "train": {
+    "matched_rows": 16961,
+    "matched_words": 1159,
+    "cached_rows": 1492,
+    "cached_words": 100
+  },
+  "val": {
+    "matched_rows": 4377,
+    "matched_words": 1159,
+    "cached_rows": 384,
+    "cached_words": 100
+  },
+  "test": {
+    "matched_rows": 14121,
+    "matched_words": 1159,
+    "cached_rows": 1174,
+    "cached_words": 100
+  }
+}

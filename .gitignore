@@ -24,6 +24,8 @@ static/brain-particles.json
 # Generated word benchmark artifacts
 models/word-benchmark-*.npz
 
-# Local development files
-venv/
-backups/
+# Private reserved upload-test videos
+mytest/
+
+# Private upload-testing reports
+reports/mytest-*.json

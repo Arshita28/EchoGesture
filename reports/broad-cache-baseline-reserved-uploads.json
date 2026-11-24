@@ -1,0 +1,114 @@
+[
+  {
+    "expected": "fish",
+    "sha256": "7593aee38b10ba6744542e98a5c0b1b3750e10f850ce3ae2b70b014380d07a4f",
+    "file": "22117.mp4",
+    "supported": true,
+    "predicted": "other"
+  },
+  {
+    "expected": "language",
+    "sha256": "f25864e8077f193b655067d038d9c1a2b7a56e071033de54ad03a7bdd3235321",
+    "file": "32157.mp4",
+    "supported": true,
+    "predicted": "grammar"
+  },
+  {
+    "expected": "white",
+    "sha256": "44b16bf9d5f06a09f2d7555525ccd64a2127e0f827572f85fdb8091e70486f49",
+    "file": "63201.mp4",
+    "supported": true,
+    "predicted": "white"
+  },
+  {
+    "expected": "accident",
+    "sha256": "7f484e8bdea278964032db5f2e526219d5a167243a21b9f6c8ae340ba9e55615",
+    "file": "00625.mp4",
+    "supported": true,
+    "predicted": "other"
+  },
+  {
+    "expected": "bird",
+    "sha256": "1d9ccebf2f2817afc68b23f6772423252dc6a9320310f02f454bfec9af52a9b9",
+    "file": "06335.mp4",
+    "supported": true,
+    "predicted": "bird"
+  },
+  {
+    "expected": "change",
+    "sha256": "d8a884b1680bd4b27300b9a1d80e18b284c631965f2b22e408437fb90830cded",
+    "file": "09950.mp4",
+    "supported": true,
+    "predicted": "change"
+  },
+  {
+    "expected": "give",
+    "sha256": "72bec805eb08b954d9d8a2df557f2d688270139e2b9fce71c5319b16e2268797",
+    "file": "24636.mp4",
+    "supported": true,
+    "predicted": "give"
+  },
+  {
+    "expected": "last",
+    "sha256": "5f79cfe2d3ac3b49ff100b1745883d910e8bc26a282baea0081022de3c525723",
+    "file": "32246.mp4",
+    "supported": true,
+    "predicted": "last"
+  },
+  {
+    "expected": "meet",
+    "sha256": "914c18f331dda8ab90236b670ec8b7dc092d2a3daea7185e914df21004ff3c2d",
+    "file": "35513.mp4",
+    "supported": true,
+    "predicted": "meet"
+  },
+  {
+    "expected": "play",
+    "sha256": "eb72f120f88885e520c5e3f559576c7f7cd29a2671cb0ac78dcf51e4c59bbe00",
+    "file": "43171.mp4",
+    "supported": true,
+    "predicted": "work"
+  },
+  {
+    "expected": "secretary",
+    "sha256": "b2999c04a528fc5b9808cddba062aa595bbdbb2e13003e72d15b0ebaeba306ff",
+    "file": "50041.mp4",
+    "supported": true,
+    "predicted": "graduate"
+  },
+  {
+    "expected": "work",
+    "sha256": "5b4948898e96e9c12fef4d6542fb724343dc2480f1656577700627236f2aa650",
+    "file": "63789.mp4",
+    "supported": true,
+    "predicted": "year"
+  },
+  {
+    "expected": "tell",
+    "sha256": "e8ed77f16d4daf3dd6e96ba6e100a95362fe2a1f06a7fc6a87930bf998122eb3",
+    "file": "57278.mp4",
+    "supported": true,
+    "predicted": "tell"
+  },
+  {
+    "expected": "hope",
+    "sha256": "41467ae4831e2a1bf84217e3295687860b4ff1e51c79732fc4c881b82987fa6c",
+    "file": "27922.mp4",
+    "supported": true,
+    "predicted": "grammar"
+  },
+  {
+    "expected": "chop",
+    "sha256": "a6ae0c4ce2370f56c2342d08c4ec56d3b0d7f89f906e8d92b57228cfe2ef9048",
+    "file": "10648.mp4",
+    "supported": true,
+    "predicted": "tomato"
+  },
+  {
+    "expected": "road",
+    "sha256": "e5d4f8d591859505d67a04779f699ade24b11bea0ed0ebf0e04294993cffbea3",
+    "file": "48273.mp4",
+    "supported": true,
+    "predicted": "vomit"
+  }
+]
