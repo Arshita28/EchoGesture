@@ -1,0 +1,18 @@
+{
+  "source": "https://github.com/JordiEncaboBataller/sign-language-cv",
+  "terms": "README advertises MIT; no standalone LICENSE file found",
+  "signer_scope": "Author describes temporal training recordings as one person",
+  "geometry": "Raw normalized MediaPipe coordinates. Aspect4/3 and FPS30 from capture source requested webcam configuration; actual captured dimensions/timestamps absent.",
+  "role": "training only",
+  "files": {
+    "sequences.npy": "98c6591410d421e536aced9e815ed52471cf3c1c8ae7f34f23ba65403c1dc3fb",
+    "labels.npy": "27307b7fa14b440a020b8dd35cad545cb18c77f144e0201d6c313ec66209ceed",
+    "static.npy": "ba4562da6d4dfacda80ef45215c2d316c819a2d47bb3d32ea89ea7b1831da03b",
+    "static_labels.npy": "ab8fd3fd486b469948aff5e3040d0c773493255d0a150b1f386964284cc5284d"
+  },
+  "counts": {
+    "J": 201,
+    "Z": 200,
+    "NONE": 218
+  }
+}

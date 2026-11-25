@@ -13,7 +13,7 @@ def word_routes(root):
     import os
     variant = os.environ.get("ECHOGESTURE_WORD_MODEL")
     if variant is None and (Path(root) / "models/word81-grammar-candidate.joblib").is_file():
-        variant = "word81-svm"
+        variant = "showcase50"
     if variant is None:
         variant = "word80-svm" if (Path(root)/"models/word80-priority-wlasl-citizen-svm.joblib").exists() else "prototype"
     svm_models = {
@@ -21,6 +21,7 @@ def word_routes(root):
         'word24-svm': 'word24-wlasl-citizen-svm',
         'word60-svm': 'word60-priority-wlasl-citizen-svm',
         'word80-svm': 'word80-priority-wlasl-citizen-svm',
+        'showcase50': 'word81-grammar-candidate',
         'word81-svm': 'word81-grammar-candidate',
         'word85-svm': 'word85-four-additions-candidate',
         'word98-svm': 'word-cached-expansion-candidate',
@@ -42,6 +43,11 @@ def word_routes(root):
             name = svm_models[variant]
             estimator = joblib.load(root/'models'/(name+'.joblib'))
             bundle.update(name=name, labels=list(estimator.classes_), model=make_pipeline(FunctionTransformer(summarize_batch), estimator))
+        if variant == "showcase50":
+            words = json.loads((root / "config/showcase50.json").read_text())
+            if len(set(words)) != 50 or not set(words).issubset(bundle["labels"]):
+                raise ValueError("Invalid showcase vocabulary")
+            bundle.update(labels=words, allowed_words=set(words), name="showcase50")
         return bundle
 
     @bp.get('/words')

@@ -1,0 +1,1129 @@
+{
+  "previous_wrong_j": 80,
+  "wrong_j": 0,
+  "displayed_j_candidates": 0,
+  "total": 160,
+  "rows": [
+    {
+      "path": "I-test-0-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-0-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-0-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-0-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-0-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-0-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-0-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-0-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-1-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-2-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-3-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-4-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-5-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-6-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-7-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-8-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-9-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-10-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-11-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-12-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-13-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-14-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-15-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-16-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-17-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-18-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-held",
+      "condition": "held",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-jitter",
+      "condition": "jitter",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-horizontal",
+      "condition": "horizontal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-vertical",
+      "condition": "vertical",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-upward",
+      "condition": "upward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-leftward",
+      "condition": "leftward",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-up_diagonal",
+      "condition": "up_diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    },
+    {
+      "path": "I-test-19-diagonal",
+      "condition": "diagonal",
+      "predicted": null,
+      "candidate": "NONE",
+      "status": "uncertain"
+    }
+  ],
+  "scope": "Synthetic stress trials from20 held-out static I poses,8 movement conditions. These are correlated transformations, not independent video or live accuracy."
+}

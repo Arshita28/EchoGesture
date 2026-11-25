@@ -1,0 +1,202 @@
+{
+  "model": "models/word81-grammar-candidate.joblib",
+  "model_sha256": "cf9a628fd427fe041ea419bd0ad0642e464535a137ce054fc11ad066de2b3d73",
+  "frozen_manifest_sha256": "4830d93d80483a7300b548114530a799a18ff579fff32692bbb8e77a89c74c6d",
+  "selection_policy": "First two downloadable exact-gloss dictionary clips per word after excluding existing URLs, provider/filename matches, local WLASL IDs and SHA256 content. Frozen before any prediction. No fitting. Same signer or reencoded duplicates cannot be conclusively excluded.",
+  "attempted": 19,
+  "planned": 19,
+  "correct": 0,
+  "rows": [
+    {
+      "word": "door",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/door.mp4",
+      "source_page": "https://www.signasl.org/sign/door",
+      "sha256": "a3293ab1d99d926f6685040cfa4de92e239ca29446465621999181201b3bed2c",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "door",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DOOR-116.mp4",
+      "source_page": "https://www.signasl.org/sign/door",
+      "sha256": "75b3ddf68bb4d26d1b723571b8641b0d4c387bf75317277cefcdc8de006e5edf",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "teacher",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/teacher.mp4",
+      "source_page": "https://www.signasl.org/sign/teacher",
+      "sha256": "ad6f492b7c38ba4224074e8a94510f2fe80e54e680b81344658c46c893f5353f",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "teacher",
+      "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/teacher.mp4",
+      "source_page": "https://www.signasl.org/sign/teacher",
+      "sha256": "29c1d55a5a947e141e26258b3224434802c48a270bc78930d27a6689c5634091",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "son",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/son.mp4",
+      "source_page": "https://www.signasl.org/sign/son",
+      "sha256": "76839e3dccb474818df5cb3cccdff04b6b4b36adab9c6e56766f60101e557fa2",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "son",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/SON-1095.mp4",
+      "source_page": "https://www.signasl.org/sign/son",
+      "sha256": "a3103c2aea87964b5a9fb3370eed529aea136279ea5adb6cdc8943bb0b908aff",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "now",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/now.mp4",
+      "source_page": "https://www.signasl.org/sign/now",
+      "sha256": "56147212715b170f4a79a1c6482cef47284abc8d7e64eb4e1793dea3dd424d7e",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "now",
+      "url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/now.mp4",
+      "source_page": "https://www.signasl.org/sign/now",
+      "sha256": "d7dc87f7026025ba44b62f619c66b3054e91a2fde9749b655af683aef71b11fd",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "family",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/FAMILY-1379.mp4",
+      "source_page": "https://www.signasl.org/sign/family",
+      "sha256": "19384259c7a87e70109423a0e2f699b01e5b3bd149bc94aa37f9f5360b73685b",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "family",
+      "url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/family.mp4",
+      "source_page": "https://www.signasl.org/sign/family",
+      "sha256": "0a53782ce9ce3b8db768ea396fc712f61537d0a1db3d6df8f6b35da037d08746",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "visit",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/visit.mp4",
+      "source_page": "https://www.signasl.org/sign/visit",
+      "sha256": "ff31e9a0900b2aaaddc1f389db2c1f77cbfcff7310b55631bcc90d4d37da84cf",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "visit",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/VISIT-2507.mp4",
+      "source_page": "https://www.signasl.org/sign/visit",
+      "sha256": "55951072f6c2be44f50bba382986a85fd1569f9ec0de35b60a5593724babe199",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "grammar",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/GRAMMAR-1864.mp4",
+      "source_page": "https://www.signasl.org/sign/grammar",
+      "sha256": "35c3880a37116d51dfa9aa2df84a8cd5305c42745836f575ea712ce148cf581b",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "grammar",
+      "url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/grammar.mp4",
+      "source_page": "https://www.signasl.org/sign/grammar",
+      "sha256": "2259e71dc8a4ee606aa9d343bf5235df8edc89cff741d172be6334888b652941",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "hearing",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/hearing.mp4",
+      "source_page": "https://www.signasl.org/sign/hearing",
+      "sha256": "eac3f8f0d99d3fb40fc80365e6e4d05a60a0ef636ea8c0dbd48651adf740c59d",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "hearing",
+      "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/HEARING-1773.mp4",
+      "source_page": "https://www.signasl.org/sign/hearing",
+      "sha256": "ca89f6a71699ada77ad0d224bb64ea5ae91201a2e49cbce6c83ec022fe123b4b",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "finish",
+      "url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/finish.mp4",
+      "source_page": "https://www.signasl.org/sign/finish",
+      "sha256": "be82922b2938266e40e0b86dfdd247e2cd986249a4a289b8d3326ce9ec1c09f6",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "need",
+      "url": "https://media.signbsl.com/videos/asl/startasl/mp4/need.mp4",
+      "source_page": "https://www.signasl.org/sign/need",
+      "sha256": "546d6b17fa7ebb5e5f8c18103f6c7563c3e798eabb1032fcef691c4dbc4ba6d3",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    },
+    {
+      "word": "need",
+      "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/need.mp4",
+      "source_page": "https://www.signasl.org/sign/need",
+      "sha256": "f121fc5a5926c4943ce19c7e25b7d6b254b09d577caa3465f18862279c395b01",
+      "http": 500,
+      "prediction": null,
+      "correct": false,
+      "result": {}
+    }
+  ],
+  "complete": true
+}

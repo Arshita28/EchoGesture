@@ -1,0 +1,418 @@
+{
+  "rows": [
+    {
+      "path": "datasets/raw/motion-extension/z-0.mp4",
+      "label": "Z",
+      "source_label": "Z",
+      "captured": 1,
+      "phase": "idle",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [
+          {
+            "label": "Z",
+            "top": "Z",
+            "score": 0.7945876030863618
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.558274573463955
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/j-0.mp4",
+      "label": "J",
+      "source_label": "J",
+      "captured": 0,
+      "phase": "incomplete",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/i-0.mp4",
+      "label": "NONE",
+      "source_label": "I",
+      "captured": 0,
+      "phase": "idle",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/d-0.mp4",
+      "label": "NONE",
+      "source_label": "D",
+      "captured": 1,
+      "phase": "idle",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.8820595120755503
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "NONE",
+            "score": 0.9938484386719206
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/q-0.mp4",
+      "label": "NONE",
+      "source_label": "Q",
+      "captured": 0,
+      "phase": "idle",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/j-edf5c4bc.mp4",
+      "label": "J",
+      "source_label": "J",
+      "captured": 1,
+      "phase": "idle",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [
+          {
+            "label": "J",
+            "top": "J",
+            "score": 0.7845360043865506
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": "J",
+            "top": "Z",
+            "score": 0.6735326035738692
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/j-51f6ea54.mp4",
+      "label": "J",
+      "source_label": "J",
+      "captured": 1,
+      "phase": "idle",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [
+          {
+            "label": "J",
+            "top": "J",
+            "score": 0.8590750314367127
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": "J",
+            "top": "NONE",
+            "score": 0.6627933117044097
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/z-9f3bd0d8.mp4",
+      "label": "Z",
+      "source_label": "Z",
+      "captured": 1,
+      "phase": "uncertain",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.6455855212350442
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.694024661419231
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "datasets/raw/motion-extension/z-0889e087.mp4",
+      "label": "Z",
+      "source_label": "Z",
+      "captured": 1,
+      "phase": "idle",
+      "source": "dictionary_reserved",
+      "before": {
+        "decisions": [
+          {
+            "label": "Z",
+            "top": "Z",
+            "score": 0.7188727630320693
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": "Z",
+            "top": "Z",
+            "score": 0.8609694077165178
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "a4ee67a6a265411e99d8e93feb5f0472.json",
+      "label": "J",
+      "captured": 1,
+      "phase": "uncertain",
+      "source": "local_development",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.9933051515613902
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.7633268306227959
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "f199062f4ca24e719ec20826bd609efb.json",
+      "label": "J",
+      "captured": 1,
+      "phase": "uncertain",
+      "source": "local_development",
+      "before": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.9906166923677603
+          }
+        ],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "J",
+            "score": 0.9486011666636349
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "917d7e52a7e54419a92188741b709bd6.json",
+      "label": "Z",
+      "captured": 1,
+      "phase": "uncertain",
+      "source": "local_development",
+      "before": {
+        "decisions": [
+          {
+            "label": "Z",
+            "top": "Z",
+            "score": 0.7163121135991417
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": null,
+            "top": "Z",
+            "score": 0.6208289357106648
+          }
+        ],
+        "correct": false
+      }
+    },
+    {
+      "path": "6d5275203ae6496390be55ebcad907c7.json",
+      "label": "Z",
+      "captured": 1,
+      "phase": "uncertain",
+      "source": "local_development",
+      "before": {
+        "decisions": [
+          {
+            "label": "Z",
+            "top": "Z",
+            "score": 0.9702280373599933
+          }
+        ],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [
+          {
+            "label": "Z",
+            "top": "Z",
+            "score": 0.9703284657478564
+          }
+        ],
+        "correct": true
+      }
+    },
+    {
+      "path": "72703c402e4f4e658f400097e5e5e000.json",
+      "label": "Z",
+      "captured": 0,
+      "phase": "idle",
+      "source": "local_development",
+      "before": {
+        "decisions": [],
+        "correct": false
+      },
+      "candidate": {
+        "decisions": [],
+        "correct": false
+      }
+    },
+    {
+      "path": "ea6941cda08340b8ae87660c23b166c0.json",
+      "label": "NONE",
+      "captured": 0,
+      "phase": "incomplete",
+      "source": "local_development",
+      "before": {
+        "decisions": [],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [],
+        "correct": true
+      }
+    },
+    {
+      "path": "45da49391dc5488a9784cbcb1b04af0f.json",
+      "label": "NONE",
+      "captured": 0,
+      "phase": "incomplete",
+      "source": "local_development",
+      "before": {
+        "decisions": [],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [],
+        "correct": true
+      }
+    },
+    {
+      "path": "400b6fe033854281b1f5bc0540a0eb24.json",
+      "label": "NONE",
+      "captured": 0,
+      "phase": "incomplete",
+      "source": "local_development",
+      "before": {
+        "decisions": [],
+        "correct": true
+      },
+      "candidate": {
+        "decisions": [],
+        "correct": true
+      }
+    }
+  ],
+  "summary": {
+    "before": {
+      "J": [
+        2,
+        5
+      ],
+      "Z": [
+        4,
+        6
+      ],
+      "NONE": [
+        6,
+        6
+      ]
+    },
+    "candidate": {
+      "J": [
+        2,
+        5
+      ],
+      "Z": [
+        2,
+        6
+      ],
+      "NONE": [
+        6,
+        6
+      ]
+    }
+  }
+}

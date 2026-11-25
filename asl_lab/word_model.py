@@ -38,6 +38,12 @@ def classify_word(bundle, features):
         return dict(status='insufficient_detection',label=None,candidates=[],quality=quality)
     model=bundle['model'];scores=np.asarray(model.decision_function(x.reshape(1,-1)))[0]
     order=np.argsort(scores)[::-1]
+    allowed = bundle.get('allowed_words')
+    if allowed is not None:
+        if str(model.classes_[order[0]]) not in allowed:
+            return dict(status='uncertain_word', label=None, candidates=[], quality=quality,
+                        reason='Best match is outside the showcase vocabulary')
+        order = [i for i in order if str(model.classes_[i]) in allowed]
     if str(model.classes_[order[0]])=='NONE':
         return dict(status='uncertain_word',label=None,candidates=[],quality=quality,
             reason='Other-sign class matched; no supported word emitted')

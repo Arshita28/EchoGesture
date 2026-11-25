@@ -1,0 +1,441 @@
+{
+  "model_sha256": "cf9a628fd427fe041ea419bd0ad0642e464535a137ce054fc11ad066de2b3d73",
+  "correct": 53,
+  "total": 86,
+  "words_with_coverage": 44,
+  "per_word": [
+    {
+      "word": "accident",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "help"
+      ]
+    },
+    {
+      "word": "apple",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "black",
+        "candy"
+      ]
+    },
+    {
+      "word": "before",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "all"
+      ]
+    },
+    {
+      "word": "black",
+      "correct": 0,
+      "total": 0,
+      "category": "not_tested",
+      "misses": []
+    },
+    {
+      "word": "book",
+      "correct": 0,
+      "total": 0,
+      "category": "not_tested",
+      "misses": []
+    },
+    {
+      "word": "brown",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "mother"
+      ]
+    },
+    {
+      "word": "chair",
+      "correct": 0,
+      "total": 0,
+      "category": "not_tested",
+      "misses": []
+    },
+    {
+      "word": "class",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "book"
+      ]
+    },
+    {
+      "word": "clothes",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "color",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "candy"
+      ]
+    },
+    {
+      "word": "computer",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "need"
+      ]
+    },
+    {
+      "word": "cow",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "computer",
+        "computer"
+      ]
+    },
+    {
+      "word": "dance",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "door",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "family"
+      ]
+    },
+    {
+      "word": "enjoy",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "family",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "finish",
+      "correct": 1,
+      "total": 1,
+      "category": "limited_1_of_1",
+      "misses": []
+    },
+    {
+      "word": "go",
+      "correct": 0,
+      "total": 0,
+      "category": "not_tested",
+      "misses": []
+    },
+    {
+      "word": "grammar",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "year"
+      ]
+    },
+    {
+      "word": "green",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "orange",
+        "yellow"
+      ]
+    },
+    {
+      "word": "hearing",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "hot",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "language",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "later",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "paint"
+      ]
+    },
+    {
+      "word": "like",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "man",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "meet",
+      "correct": 1,
+      "total": 1,
+      "category": "limited_1_of_1",
+      "misses": []
+    },
+    {
+      "word": "mother",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "need",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "deaf",
+        "yes"
+      ]
+    },
+    {
+      "word": "no",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "now",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "orange",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "paint",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "pink",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "candy",
+        "who"
+      ]
+    },
+    {
+      "word": "play",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "secretary",
+        "clothes"
+      ]
+    },
+    {
+      "word": "purple",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "hot"
+      ]
+    },
+    {
+      "word": "red",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "who",
+        "who"
+      ]
+    },
+    {
+      "word": "secretary",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "wife",
+        "wife"
+      ]
+    },
+    {
+      "word": "son",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "table",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "teacher",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "thin",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "visit",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "class"
+      ]
+    },
+    {
+      "word": "wait",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "many"
+      ]
+    },
+    {
+      "word": "water",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "computer",
+        "mother"
+      ]
+    },
+    {
+      "word": "white",
+      "correct": 2,
+      "total": 2,
+      "category": "promising_2_of_2",
+      "misses": []
+    },
+    {
+      "word": "work",
+      "correct": 1,
+      "total": 2,
+      "category": "mixed",
+      "misses": [
+        "computer"
+      ]
+    },
+    {
+      "word": "year",
+      "correct": 0,
+      "total": 0,
+      "category": "not_tested",
+      "misses": []
+    },
+    {
+      "word": "yellow",
+      "correct": 0,
+      "total": 2,
+      "category": "failed",
+      "misses": [
+        "hot",
+        "thin"
+      ]
+    },
+    {
+      "word": "yes",
+      "correct": 0,
+      "total": 0,
+      "category": "not_tested",
+      "misses": []
+    }
+  ],
+  "promising": [
+    "clothes",
+    "dance",
+    "enjoy",
+    "family",
+    "hearing",
+    "hot",
+    "language",
+    "like",
+    "man",
+    "mother",
+    "no",
+    "now",
+    "orange",
+    "paint",
+    "son",
+    "table",
+    "teacher",
+    "thin",
+    "white"
+  ],
+  "limitations": [
+    "Two dictionary videos per word are screening evidence, not reliable general accuracy estimates.",
+    "Source and exact-content overlap excluded; signer/reencoded overlap unverified.",
+    "These clips are now inspected evaluation regressions and must never be fitted.",
+    "Original unchanged 81-class model, not a retrained or restricted showcase model."
+  ]
+}

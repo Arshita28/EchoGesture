@@ -3,6 +3,7 @@ from pathlib import Path
 import joblib,numpy as np
 from flask import Blueprint,request,jsonify
 from .motion import motion_features,MOTION_VERSION,MOTION_LABELS
+from .motion_path import path_evidence
 
 
 def motion_routes(root):
@@ -27,6 +28,14 @@ def motion_routes(root):
         bundle=joblib.load(path)
         if bundle['version']!=MOTION_VERSION:raise ValueError('Re-extract/retrain motion features')
         scores=bundle['model'].predict_proba(features.reshape(1,-1))[0];i=int(np.argmax(scores));label=str(bundle['model'].classes_[i]);score=float(scores[i])
-        accepted=score>=bundle['threshold'] and label!='NONE'
+        evidence = path_evidence(frames)
+        if evidence['label']:
+            return jsonify(status='ok',label=evidence['label'],candidate=evidence['label'],
+                           confidence=None,method='trajectory',evidence=evidence,
+                           template_candidate=label,template_score=score)
+        eligible = label in evidence.get('eligible', [])
+        accepted=score>=bundle['threshold'] and eligible
+        if label in ('J','Z') and not eligible:
+            label='NONE'
         return jsonify(status='ok' if accepted else 'uncertain',label=label if accepted else None,confidence=score,candidate=label,threshold=bundle['threshold'])
     return routes

@@ -1,0 +1,35 @@
+[
+  {
+    "file": "1edec77c7927454aaaa2c02a913d45e3.jpg",
+    "tracking": "ok",
+    "prediction": {
+      "status": "ok",
+      "label": "Q",
+      "candidate": "Q",
+      "threshold": 0.3,
+      "confidence": 0.8671506812291853
+    }
+  },
+  {
+    "file": "9d71d11981924b69844611edbb1e4f4b.jpg",
+    "tracking": "ok",
+    "prediction": {
+      "status": "ok",
+      "label": "Q",
+      "candidate": "Q",
+      "threshold": 0.3,
+      "confidence": 0.9027924495045879
+    }
+  },
+  {
+    "file": "2844f303b8aa40b4b89aeb4445fbee8c.jpg",
+    "tracking": "ok",
+    "prediction": {
+      "status": "ok",
+      "label": "Q",
+      "candidate": "Q",
+      "threshold": 0.3,
+      "confidence": 0.7150388006227603
+    }
+  }
+]

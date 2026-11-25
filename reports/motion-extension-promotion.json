@@ -1,0 +1,37 @@
+{
+  "previous_sha256": "1907d62bda4ec7edaf0fd1e8c5f2a86368a5158606243436094bdde779bcd6c9",
+  "active_sha256": "14b0cf775c01bbf010b49e8c23638f9d36e6446ae79d167be8d687a88d7946d0",
+  "training_clips": 96,
+  "captured_replay": {
+    "before": {
+      "J": [
+        1,
+        5
+      ],
+      "Z": [
+        1,
+        6
+      ],
+      "NONE": [
+        6,
+        6
+      ]
+    },
+    "candidate": {
+      "J": [
+        3,
+        5
+      ],
+      "Z": [
+        2,
+        6
+      ],
+      "NONE": [
+        6,
+        6
+      ]
+    }
+  },
+  "limitation": "Inspected development comparisons, correlated captured windows and unverified source/signer independence. No general live accuracy estimate.",
+  "static_model_sha256": "6462c4bb260ee8924d697c7e5830df9ce14a1964597e543f0abc8af4436df951"
+}
