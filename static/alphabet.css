@@ -43,3 +43,18 @@
   .composer .muted { margin-top: 6px; }
   #letter { font-size: 42px; }
 }
+
+.alphabet-reference{margin-top:28px}.reference-heading{display:flex;justify-content:space-between;align-items:center;gap:24px}.reference-heading h2{margin:0 0 8px}.reference-heading p{margin:0;color:#495f53}.reference-heading>a{white-space:nowrap;text-decoration:underline;text-underline-offset:4px;font-size:14px}.alphabet-reference figure{margin:24px 0 0;padding:24px;background:#fff;border:1px solid #d7dfd3;border-radius:12px}.alphabet-reference img{display:block;width:100%;max-width:744px;height:auto;margin:auto}.alphabet-reference figcaption{max-width:744px;margin:20px auto 0;color:#495f53;line-height:1.7}.reference-credit{font-size:12px;color:#495f53;margin-bottom:0}.reference-credit a{text-decoration:underline}@media(max-width:600px){.reference-heading{align-items:flex-start;flex-direction:column;gap:12px}.alphabet-reference figure{padding:10px}.alphabet-reference figcaption{padding:8px;font-size:14px}}
+
+.alphabet-reference summary{cursor:pointer;font-weight:600}.alphabet-reference[open] summary{margin-bottom:18px}
+
+#recognize > .result, #recognize .composer { padding: clamp(22px, 2.3vw, 38px); }
+#letter { font-size: clamp(76px, 7vw, 116px); }
+.result h3, .composer h2 { font-size: clamp(24px, 2vw, 32px); }
+.composer .textrow { gap: 10px; }
+.composer input { font-size: 20px; padding: 14px; }
+.composer button { font-size: 16px; min-height: 46px; padding: 10px 15px; }
+.composer .muted { font-size: 16px; }
+@media (min-width: 820px) {
+  #recognize { grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr); }
+}

@@ -1,0 +1,51 @@
+word,correct,attempted,assessment,wrong_predictions
+accident,1,2,mixed,help
+apple,0,2,failed,"black, candy"
+before,1,2,mixed,all
+black,0,0,not_tested,
+book,0,0,not_tested,
+brown,1,2,mixed,mother
+chair,0,0,not_tested,
+class,1,2,mixed,book
+clothes,2,2,promising_2_of_2,
+color,1,2,mixed,candy
+computer,1,2,mixed,need
+cow,0,2,failed,"computer, computer"
+dance,2,2,promising_2_of_2,
+door,1,2,mixed,family
+enjoy,2,2,promising_2_of_2,
+family,2,2,promising_2_of_2,
+finish,1,1,limited_1_of_1,
+go,0,0,not_tested,
+grammar,1,2,mixed,year
+green,0,2,failed,"orange, yellow"
+hearing,2,2,promising_2_of_2,
+hot,2,2,promising_2_of_2,
+language,2,2,promising_2_of_2,
+later,1,2,mixed,paint
+like,2,2,promising_2_of_2,
+man,2,2,promising_2_of_2,
+meet,1,1,limited_1_of_1,
+mother,2,2,promising_2_of_2,
+need,0,2,failed,"deaf, yes"
+no,2,2,promising_2_of_2,
+now,2,2,promising_2_of_2,
+orange,2,2,promising_2_of_2,
+paint,2,2,promising_2_of_2,
+pink,0,2,failed,"candy, who"
+play,0,2,failed,"secretary, clothes"
+purple,1,2,mixed,hot
+red,0,2,failed,"who, who"
+secretary,0,2,failed,"wife, wife"
+son,2,2,promising_2_of_2,
+table,2,2,promising_2_of_2,
+teacher,2,2,promising_2_of_2,
+thin,2,2,promising_2_of_2,
+visit,1,2,mixed,class
+wait,1,2,mixed,many
+water,0,2,failed,"computer, mother"
+white,2,2,promising_2_of_2,
+work,1,2,mixed,computer
+year,0,0,not_tested,
+yellow,0,2,failed,"hot, thin"
+yes,0,0,not_tested,

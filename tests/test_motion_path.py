@@ -70,3 +70,11 @@ def test_endpoint_rejects_i_even_with_high_j_model_score(tmp_path,monkeypatch):
     assert response.json['candidate']=='NONE'
     valid=client.post('/api/motion',json={'action':'predict','frames':sequence('J')})
     assert valid.json['label']=='J'
+
+def test_large_i_sweep_recognized_in_either_direction():
+    for direction in (-1, 1):
+        frames = sequence('J', moving=False)
+        for index, frame in enumerate(frames):
+            for point in frame['points']:
+                point[0] += direction * 1.4 * min(index / 15, 1)
+        assert path_evidence(frames)['label'] == 'J'

@@ -179,7 +179,7 @@ $('upload').onchange = async event => {
       await $('video').play(); running = true; predict(token);
     } catch (error) {
       $('state').textContent = 'This browser cannot play this video format';
-      $('score').textContent = 'Try an MP4 with H.264 video. Photo Booth MOV files may need conversion. The video is decoded locally; only sampled frames go to the local server.';
+      $('score').textContent = 'Try an MP4 with H.264 video. Photo Booth MOV files may need conversion. Try uploading the converted video again.';
     }
   } else $('state').textContent = 'Choose an image or video';
   event.target.value = '';

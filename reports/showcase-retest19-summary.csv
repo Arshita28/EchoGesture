@@ -1,0 +1,20 @@
+word,first_correct,first_total,retest_correct,retest_total,combined_correct,combined_total,wrong_predictions
+clothes,2,2,0,0,2,2,
+dance,2,2,1,2,3,4,secretary
+enjoy,2,2,0,0,2,2,
+family,2,2,1,2,3,4,book
+hearing,2,2,0,1,2,3,like
+hot,2,2,0,2,2,4,"who, table"
+language,2,2,2,2,4,4,
+like,2,2,1,2,3,4,color
+man,2,2,0,2,2,4,"mother, cousin"
+mother,2,2,0,0,2,2,
+no,2,2,1,2,3,4,teacher
+now,2,2,0,2,2,4,"need, wait"
+orange,2,2,2,2,4,4,
+paint,2,2,1,2,3,4,insufficient_detection
+son,2,2,2,2,4,4,
+table,2,2,1,1,3,3,
+teacher,2,2,1,1,3,3,
+thin,2,2,0,1,2,3,clothes
+white,2,2,1,2,3,4,enjoy

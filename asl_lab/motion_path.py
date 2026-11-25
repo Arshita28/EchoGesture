@@ -58,6 +58,11 @@ def path_evidence(frames):
                 if zigzag and downward and horizontal:
                     return {'label':'Z','reason':'Index handshape and three-stroke zigzag'}
         if label == 'J':
+            # Measure displacement in hand lengths so camera distance and
+            # repeated small jitters do not inflate the movement estimate.
+            displacement = np.linalg.norm(path[-1] - path[0])
+            if displacement >= 1.1:
+                return {'label': 'J', 'reason': 'I handshape moved more than one hand length'}
             j_curve=hook_turn(path)
             if j_curve:
                 return {'label':'J','reason':'Little-finger handshape and completed downward hook'}

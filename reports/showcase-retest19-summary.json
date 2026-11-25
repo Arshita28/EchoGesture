@@ -1,0 +1,331 @@
+{
+  "model_sha256": "cf9a628fd427fe041ea419bd0ad0642e464535a137ce054fc11ad066de2b3d73",
+  "retest_correct": 14,
+  "retest_total": 28,
+  "words_retested": 16,
+  "per_word": [
+    {
+      "word": "clothes",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 0,
+      "combined_correct": 2,
+      "combined_total": 2,
+      "remains_perfect_with_new_evidence": false,
+      "misses": []
+    },
+    {
+      "word": "dance",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 2,
+      "combined_correct": 3,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "secretary",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/DANCE-STEP-1208.mp4"
+        }
+      ]
+    },
+    {
+      "word": "enjoy",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 0,
+      "combined_correct": 2,
+      "combined_total": 2,
+      "remains_perfect_with_new_evidence": false,
+      "misses": []
+    },
+    {
+      "word": "family",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 2,
+      "combined_correct": 3,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "book",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/family.mp4"
+        }
+      ]
+    },
+    {
+      "word": "hearing",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 1,
+      "combined_correct": 2,
+      "combined_total": 3,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "like",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/hearing.mp4"
+        }
+      ]
+    },
+    {
+      "word": "hot",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 2,
+      "combined_correct": 2,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "who",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/hot.mp4"
+        },
+        {
+          "prediction": "table",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/aslbricks/mp4/hot.mp4"
+        }
+      ]
+    },
+    {
+      "word": "language",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 2,
+      "retest_total": 2,
+      "combined_correct": 4,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": true,
+      "misses": []
+    },
+    {
+      "word": "like",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 2,
+      "combined_correct": 3,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "color",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/like.mp4"
+        }
+      ]
+    },
+    {
+      "word": "man",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 2,
+      "combined_correct": 2,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "mother",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/MAN-503.mp4"
+        },
+        {
+          "prediction": "cousin",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/aslsignbank/mp4/MAN-2000.mp4"
+        }
+      ]
+    },
+    {
+      "word": "mother",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 0,
+      "combined_correct": 2,
+      "combined_total": 2,
+      "remains_perfect_with_new_evidence": false,
+      "misses": []
+    },
+    {
+      "word": "no",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 2,
+      "combined_correct": 3,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "teacher",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/no2.mp4"
+        }
+      ]
+    },
+    {
+      "word": "now",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 2,
+      "combined_correct": 2,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "need",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/aslsearch/mp4/now2.mp4"
+        },
+        {
+          "prediction": "wait",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/elementalaslconcepts/mp4/now.mp4"
+        }
+      ]
+    },
+    {
+      "word": "orange",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 2,
+      "retest_total": 2,
+      "combined_correct": 4,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": true,
+      "misses": []
+    },
+    {
+      "word": "paint",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 2,
+      "combined_correct": 3,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": null,
+          "status": "insufficient_detection",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/mariekatzenbachschool/mp4/paint.mp4"
+        }
+      ]
+    },
+    {
+      "word": "son",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 2,
+      "retest_total": 2,
+      "combined_correct": 4,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": true,
+      "misses": []
+    },
+    {
+      "word": "table",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 1,
+      "combined_correct": 3,
+      "combined_total": 3,
+      "remains_perfect_with_new_evidence": true,
+      "misses": []
+    },
+    {
+      "word": "teacher",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 1,
+      "combined_correct": 3,
+      "combined_total": 3,
+      "remains_perfect_with_new_evidence": true,
+      "misses": []
+    },
+    {
+      "word": "thin",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 0,
+      "retest_total": 1,
+      "combined_correct": 2,
+      "combined_total": 3,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "clothes",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/mariekatzenbachschool/mp4/thin.mp4"
+        }
+      ]
+    },
+    {
+      "word": "white",
+      "first_correct": 2,
+      "first_total": 2,
+      "retest_correct": 1,
+      "retest_total": 2,
+      "combined_correct": 3,
+      "combined_total": 4,
+      "remains_perfect_with_new_evidence": false,
+      "misses": [
+        {
+          "prediction": "enjoy",
+          "status": "prototype_match",
+          "http": 200,
+          "url": "https://media.signbsl.com/videos/asl/signlanguagestudent/mp4/white.mp4"
+        }
+      ]
+    }
+  ],
+  "still_perfect": [
+    "language",
+    "orange",
+    "son",
+    "table",
+    "teacher"
+  ],
+  "not_retested": [
+    "clothes",
+    "enjoy",
+    "mother"
+  ],
+  "limitations": [
+    "Retest selected words based on earlier inspected outcomes.",
+    "Exact-content/source exclusions applied; unfamiliar signers and reencoded duplicates cannot be guaranteed.",
+    "Only one or two additional dictionary clips per word; not proof of flawless live accuracy.",
+    "Model and runtime vocabulary unchanged.",
+    "One dance clip is named DANCE-STEP; exact-gloss validity requires ASL review. Frozen-batch count retained."
+  ]
+}
